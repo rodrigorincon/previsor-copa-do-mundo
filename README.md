@@ -6,7 +6,7 @@ Este projeto de IA busca criar diversos modelos de machine learning para prever 
 
 O projeto usa a biblioteca `Penaltyblog`, criada especialmente para machine learning para futebol. O modelo escolhido foi o Dixon-Coles, uma variação da distribuição de Poisson que aumenta ainda mais o peso para os valores mais baixos (especificamente os valores 0-0, 0-1, 1-0 e 1-1). O projeto é levemente inspirado no [Hashtag Programação](https://www.hashtagtreinamentos.com/previsao-da-copa-2026-com-python).
 
-Para treinamento dos modelos é usado todos os jogos entre seleções dos últimos 21 anos, parando pouco antes da copa do mundo analisada.
+Para treinamento dos modelos é usado todos os jogos entre seleções dos últimos 24 anos, parando pouco antes da copa do mundo analisada.
 
 ## Os Modelos
 
@@ -115,3 +115,7 @@ Para avaliar é medido tanto métricas de regressão (para saber o tamanho do er
 - **F1-Score e Acurácia** pouco mudaram ao variar K. Porém ao desligar os pesos tivemos uma melhora tímida e ao desligar o Elo as métricas subiram um pouco mais.
   - O pricipal motivo dos valores baixos é a dificuldade do modelo em prever empates, sendo a categoria com menor precisão e por uma larga vantagem. Mais especificamente o campo recall que fica próximo de 0 na maioria dos modelos. Isso ocorre porque o modelo quase nunca define um empate.
 - **Placares exatos**: cai conforme aumenta K e alcança seus maiores valores ao desligar o Elo
+
+### Correções feitas
+
+A partir dessa análise a fórmula do peso dos jogos foi alterado para decair de forma mais gradual, tornando jogos antigos mais valiosos. Isso melhorou todas as métricas, superando os modelos com peso desabilitado.

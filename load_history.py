@@ -12,17 +12,17 @@ def calcula_peso_tempo(date):
   current_year = datetime.now().year
   diferenca = current_year - date.year
   expoente = diferenca // 3
-  return (1/2.0)**(expoente)
+  return (3/4.0)**(expoente)
 
 # adiciona peso por tempo e pelo tipo de campeonato aos jogos usados para treino
 def regra_peso(df):
-  # peso por tempo: quanto mais antiga menos peso tem. Partidas até 3 anos atrás (2023) tem peso 1 e a cada 3 anos cai pela metade
-  # ou seja, entre 4 e 6 anos pesam 0.5, entre 7 e 9 pesam 0.25, entre 10 e 12 anos pesam 0.125 até o peso mínimo de 0.015. 
-  # O que vier após isso (21 anos) será deletado
+  # peso por tempo: quanto mais antiga menos peso tem. Partidas até 3 anos atrás (2023) tem peso 1 e a cada 3 anos cai 3/4
+  # ou seja, entre 4 e 6 anos pesam 0.75, entre 7 e 9 pesam 0.56, entre 10 e 12 anos pesam 0.42 até o peso mínimo de 0.13. 
+  # O que vier após isso (24 anos) será deletado
   current_year = datetime.now().year
 
   # remove os antigos
-  least_date = datetime(current_year - 21, 1, 1)
+  least_date = datetime(current_year - 24, 1, 1)
   df = df[df.date >= least_date]
   df['peso-tempo'] = df.date.apply(calcula_peso_tempo)
   return df
