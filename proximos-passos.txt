@@ -1,7 +1,4 @@
-criar os modelos
-deixar as classes customizaveis
-criar classe de teste (definir os criterios de teste)
+inserir metodos de validação e monte carlo
 fazer fase de mata-mata
-rodar todos os modelos e ver as metricas de cada um
 fazer modelos por palpite
-escrever no readme "Comparação dos modelos" e "Resultado dos modelos"
+escrever no readme "Resultado dos modelos"

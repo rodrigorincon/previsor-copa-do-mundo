@@ -4,7 +4,7 @@ Este projeto de IA busca criar diversos modelos de machine learning para prever 
 
 ## Base do Projeto
 
-O projeto usa a biblioteca `Penaltyblog`, criada especialmente para machine learning para futebol. O modelo escolhido foi o Dixon-Coles, uma variação da distribuição de Poisson que aumenta ainda mais o peso para os valores mais baixos (0-0, 0-1, 1-0 e 1-1). O projeto é levemente inspirado no [Hashtag Programação](https://www.hashtagtreinamentos.com/previsao-da-copa-2026-com-python).
+O projeto usa a biblioteca `Penaltyblog`, criada especialmente para machine learning para futebol. O modelo escolhido foi o Dixon-Coles, uma variação da distribuição de Poisson que aumenta ainda mais o peso para os valores mais baixos (especificamente os valores 0-0, 0-1, 1-0 e 1-1). O projeto é levemente inspirado no [Hashtag Programação](https://www.hashtagtreinamentos.com/previsao-da-copa-2026-com-python).
 
 Para treinamento dos modelos é usado todos os jogos entre seleções dos últimos 21 anos, parando pouco antes da copa do mundo analisada.
 
@@ -22,7 +22,7 @@ Os pontos que variam entre eles são:
   - Vencedor mais provável
 - **Simulação de Monte Carlo**: habilita ou desabilita o uso de simulações de Monte Carlo para definir o vencedor de cada jogo
 
-Os modelos usados podem ser encontrados na pasta `modelos`, todos herdando da interface pai `Predictor`.
+Os modelos usados podem ser encontrados na pasta `modelos`, todos herdando da interface pai `DixonColesPred` em `train_model`.
 
 ## Estrutura
 
@@ -32,11 +32,30 @@ Os dados de treino são todo o histórico de jogos até antes da copa do mundo d
 
 ### Módulos de apoio
 
-Para facilitar a legibilidade do código e permitir o reuso dentre os diferentes modelos, sua lógica foi dividida em alguns arquivos. Cada arquivo na pasta raiz é responsável por uma parte específica do projeto. `Load_history` carrega os dados de teste e faz o processamento inicial dos mesmos, `world_cup_groups` define os times e grupos, etc.
+Para facilitar a legibilidade do código e permitir o reuso dentre os diferentes modelos, sua lógica foi dividida em alguns arquivos. Cada arquivo na pasta raiz é responsável por uma parte específica do projeto. `Load_history` carrega os dados de teste e faz o processamento inicial dos mesmos, `world_cup_groups` define os times e grupos, `metrics` calcula as métricas para cada modelo, etc.
 
 > Comece pelo arquivo `run.py` que é onde o sistema começa.
 
-### Comparação dos modelos
+### Métricas
+
+Para comparar os modelos é usado tanto métricas de regressão (para comparar o tamanho do erro nos placares) quanto de classificação (se acertou o vencedor). As métricas usadas para comparar estão no arquivo `metrics`.
+
+1. Métricas de regressão
+
+Foca em dizer o quanto erramos o placar e medir o tamanho desses erros.
+
+- **MAE e RMSE**: medem o quanto nossas previsões de gol erraram. Nos dão a noção se erramos o placar por poucos gol ou não. Foram escolhidas por funcionarem bem no contexto de muitos placares com 0 gols (MAPE por exeplo quebra com resultados zero).
+- **Pontuação de precisão**: calcula o total de gols errados de nossa previção. Subtrai os gols previstos por cada time em cada partida pelo que realmente fizeram.
+- **Placares exatos**: calcula quantos jogos acertamos o placar exato.
+
+2. Métricas de classificação
+
+Foca em dizer se acertamos o vencedor (ou empate) sem se importar com o placar. Temos 3 categorias (vitória, empate e derrota) e como a proporção entre esses grupos é diferente, usamos a **média macro** para medir essas métricas. A título de informação, na fase de grupos quase metade dos jogos foi vitória do time 1 e aproximadamente 25% de vitória do time 2 e 25% de empate.
+
+Essa discrepância nas proporções das categorias levou ao uso da média macro como forma de comparar o acerto da categoria. Isso evita que acertar muito a categoria mais comum (vitória do time 1) ofuscasse o erro nas duas outras categorias.
+
+- **F1-Score**: é a principal métrica por ser ideal quando as categorias são desproporcionais. Mede o grau de acerto em cada categoria sem deixar a categoria principal eclipsar as demais.
+- **Acurácia**: métrica de apoio para nos dar quantos porcento dos jogos acertamos o vencedor. Ela só faz sentido se o F1-Score for alto.
 
 ### Peso dos jogos
 
@@ -54,7 +73,7 @@ Importante ressaltar que o ranking Elo é atualizado usando dados de treino, por
 
 ### Definindo o vencedor
 
-O vencedor pode ser definido das seguintes formas:
+O vencedor pode ser definido das formas abaixo. Cada um deles é uma classe filho do modelo base.
 
 1. **Placar mais provável**
 
@@ -68,7 +87,7 @@ Nesse caso o time que soma maior probabilidade de vencer será escolhido como re
 
 Nesse caso 50 mil simulações de cada jogo são feitas, usando o mesmo modelo que define as probabilidades dos anteriores. A diferença está em não definir o vencedor apenas por ser o mais provável, mas sim repetindo milhares de vezes os jogos e com isso simular a aleatoriedade natural do esporte. Ao fim o placar mais repetido é escolhido como o que acontecerá.
 
-## Área de testes
+## Se familiarizando com a biblioteca
 
 Para quem nunca usou a biblioteca ou fez previsões esportivas, a pasta `exemplos-basicos` fornece alguns exemplos mais simples para facilitar o entendimento do que está acontecendo. Eles trazem um cenário infinitamente menor e mais simples, aonde podemos visualizar cada passo e entender o que está acontecendo. Ele também permite conhecer a biblioteca usada e suas funções. `Primeiro-exemplo` mostra a estrutura básica e como usar a biblioteca. `Exemplo-elo` adiciona o ranking Elo e `copa-1-jogo` adiciona os dados reais, porém faz a previsão apenas do primeiro jogo da copa.
 
@@ -76,6 +95,23 @@ Para quem nunca usou a biblioteca ou fez previsões esportivas, a pasta `exemplo
 
 Um segundo projeto está presente na pasta `modelo-por-palpite`, aonde ao invés de usar dados históricos de partidas é usado apenas os palpites feitos pelas pessoas nos jogos da própria copa do mundo. Para tanto a base de treino é outra, usando os palpites feitos em uma casa de apostas. Também é usado os palpites feitos em um bolão privado e comparado os resultados com os modelos tradicionais e entre si (com milhares de pessoas palpitando o placar e com poucas dezenas).
 
-Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média dos palpites será usada como placar escolhido pelo modelo.
+Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média, moda e mediana dos palpites serão usadas como placar escolhido pelo modelo. Portanto para esse tipo de avaliação o que foi discutido antes de peso e Elo não se aplica. O modelo usado é muito mais simples por se basear em um conceito muito mais direto e com poucos detalhes.
+
+### Modelos Usados
+
+- **Média**: retira a média dos gols para cada time independentemente em cada partida. Portanto no jogo AxB os palpites de gols feitos por A não interferem no cálculo da média de gols palpitados para o time B. A média é arredondada para cima a partir de $\ge 0.5$.
+- **Mediana**: retira a mediana dos gols de cada time, seguindo a mesma suposição de independência da média.
+- **Moda**: usa o palpite mais repetido para dada time.
+
+Esses valores são calculado tanto da lista de palpites da casa de apostas usada de exemplo quanto do bolão com pouco mais de 30 pessoas participando. O que nos permite comparar a precisão de modelos com poucas e muitas pessoas palpitando.
+
+### Métrcas dos modelos de palpite
+
+Para avaliar é medido tanto métricas de regressão (para saber o tamanho do erro do palpite) quanto de classificação (para saber se acertou o vencedor). As métricas são as mesmas dos modelos usando histórico.
 
 # Resultado dos modelos
+
+- **MAE, RMSE e Pontuação de precisão** quase não mudaram entre os modelos treinados com o histórico. Todos erravam quantos gols cada time faria mais ou menos na mesma quantidade.
+- **F1-Score e Acurácia** pouco mudaram ao variar K. Porém ao desligar os pesos tivemos uma melhora tímida e ao desligar o Elo as métricas subiram um pouco mais.
+  - O pricipal motivo dos valores baixos é a dificuldade do modelo em prever empates, sendo a categoria com menor precisão e por uma larga vantagem. Mais especificamente o campo recall que fica próximo de 0 na maioria dos modelos. Isso ocorre porque o modelo quase nunca define um empate.
+- **Placares exatos**: cai conforme aumenta K e alcança seus maiores valores ao desligar o Elo

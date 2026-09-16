@@ -7,6 +7,8 @@ def sort_group(grupo):
 def groups():
   return [ groupA(), groupB(), groupC(), groupD(), groupE(), groupF(), groupG(), groupH(), groupI(), groupJ(), groupK(), groupL() ]
 
+# retorna o indice do 1º time, o indice do 2º, o país aonde aconteceu e uma tupla com o placar final
+# o placar final está na ordem dos índices
 def group_match(grupo_idx, rodada):
   match grupo_idx:
     case 0:
@@ -45,11 +47,11 @@ def groupA():
 def groupA_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'Mexico'),(2,3,'Mexico')]
+      return [(0,1,'Mexico',(2,0)),(2,3,'Mexico',(2,1))]
     case 1:
-      return [(3,1,'Mexico'),(0,2,'Mexico')]
+      return [(3,1,'Mexico',(1,1)),(0,2,'Mexico',(1,0))]
     case 2:
-      return [(1,2,'Mexico'),(3,0,'Mexico')]
+      return [(1,2,'Mexico',(1,0)),(3,0,'Mexico',(0,3))]
     case _:
       return []
 
@@ -64,11 +66,11 @@ def groupB():
 def groupB_matches(rodada):
   match rodada:
     case 0:
-      return [(0,2,'Canada'),(1,3,'Canada')]
+      return [(0,2,'Canada',(1,1)),(1,3,'Canada',(1,1))]
     case 1:
-      return [(1,2,'Canada'),(0,3,'Canada')]
+      return [(1,2,'Canada',(4,1)),(0,3,'Canada',(6,0))]
     case 2:
-      return [(1,0,'Canada'),(2,3,'Canada')]
+      return [(1,0,'Canada',(2,1)),(2,3,'Canada',(3,1))]
     case _:
       return []
 
@@ -83,11 +85,11 @@ def groupC():
 def groupC_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'United States'),(3,2,'United States')]
+      return [(0,1,'United States',(1,1)),(3,2,'United States',(0,1))]
     case 1:
-      return [(2,1,'United States'),(0,3,'United States')]
+      return [(2,1,'United States',(0,1)),(0,3,'United States',(3,0))]
     case 2:
-      return [(1,3,'United States'),(2,0,'United States')]
+      return [(1,3,'United States',(4,2)),(2,0,'United States',(0,3))]
     case _:
       return []
 
@@ -102,11 +104,11 @@ def groupD():
 def groupD_matches(rodada):
   match rodada:
     case 0:
-      return [(0,2,'United States'),(1,3,'United States')]
+      return [(0,2,'United States',(4,1)),(1,3,'United States',(2,0))]
     case 1:
-      return [(0,1,'United States'),(3,2,'United States')]
+      return [(0,1,'United States',(2,0)),(3,2,'United States',(0,1))]
     case 2:
-      return [(3,0,'United States'),(2,1,'United States')]
+      return [(3,0,'United States',(3,2)),(2,1,'United States',(0,0))]
     case _:
       return []
 
@@ -121,11 +123,11 @@ def groupE():
 def groupE_matches(rodada):
   match rodada:
     case 0:
-      return [(0,3,'United States'),(1,2,'United States')]
+      return [(0,3,'United States',(7,1)),(1,2,'United States',(1,0))]
     case 1:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(2,1)),(2,3,'United States',(0,0))]
     case 2:
-      return [(3,1,'United States'),(2,0,'United States')]
+      return [(3,1,'United States',(0,2)),(2,0,'United States',(2,1))]
     case _:
       return []
 
@@ -140,11 +142,11 @@ def groupF():
 def groupF_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(2,2)),(2,3,'United States',(5,1))]
     case 1:
-      return [(0,2,'United States'),(3,1,'United States')]
+      return [(0,2,'United States',(5,1)),(3,1,'United States',(0,4))]
     case 2:
-      return [(3,0,'United States'),(1,2,'United States')]
+      return [(3,0,'United States',(1,3)),(1,2,'United States',(1,1))]
     case _:
       return []
 
@@ -159,11 +161,11 @@ def groupG():
 def groupG_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(1,1)),(2,3,'United States',(2,2))]
     case 1:
-      return [(0,2,'United States'),(3,1,'United States')]
+      return [(0,2,'United States',(0,0)),(3,1,'United States',(1,3))]
     case 2:
-      return [(3,0,'United States'),(1,2,'United States')]
+      return [(3,0,'United States',(1,5)),(1,2,'United States',(1,1))]
     case _:
       return []
 
@@ -178,11 +180,11 @@ def groupH():
 def groupH_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(0,0)),(2,3,'United States',(1,1))]
     case 1:
-      return [(0,3,'United States'),(1,2,'United States')]
+      return [(0,3,'United States',(4,0)),(1,2,'United States',(2,2))]
     case 2:
-      return [(0,2,'United States'),(1,3,'United States')]
+      return [(0,2,'United States',(1,0)),(1,3,'United States',(0,0))]
     case _:
       return []
 
@@ -197,11 +199,11 @@ def groupI():
 def groupI_matches(rodada):
   match rodada:
     case 0:
-      return [(0,2,'United States'),(3,1,'United States')]
+      return [(0,2,'United States',(3,1)),(3,1,'United States',(1,4))]
     case 1:
-      return [(0,3,'United States'),(1,2,'United States')]
+      return [(0,3,'United States',(3,0)),(1,2,'United States',(3,2))]
     case 2:
-      return [(1,0,'United States'),(2,3,'United States')]
+      return [(1,0,'United States',(1,4)),(2,3,'United States',(5,0))]
     case _:
       return []
 
@@ -216,11 +218,11 @@ def groupJ():
 def groupJ_matches(rodada):
   match rodada:
     case 0:
-      return [(0,2,'United States'),(1,3,'United States')]
+      return [(0,2,'United States',(3,0)),(1,3,'United States',(3,1))]
     case 1:
-      return [(0,1,'United States'),(3,2,'United States')]
+      return [(0,1,'United States',(2,0)),(3,2,'United States',(1,2))]
     case 2:
-      return [(2,1,'United States'),(3,0,'United States')]
+      return [(2,1,'United States',(3,3)),(3,0,'United States',(1,3))]
     case _:
       return []
 
@@ -235,11 +237,11 @@ def groupK():
 def groupK_matches(rodada):
   match rodada:
     case 0:
-      return [(3,0,'United States'),(1,2,'United States')]
+      return [(3,0,'United States',(1,3)),(1,2,'United States',(1,1))]
     case 1:
-      return [(1,3,'United States'),(0,2,'United States')]
+      return [(1,3,'United States',(5,0)),(0,2,'United States',(1,0))]
     case 2:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(0,0)),(2,3,'United States',(3,1))]
     case _:
       return []
 
@@ -254,10 +256,10 @@ def groupL():
 def groupL_matches(rodada):
   match rodada:
     case 0:
-      return [(0,1,'United States'),(2,3,'United States')]
+      return [(0,1,'United States',(4,2)),(2,3,'United States',(1,0))]
     case 1:
-      return [(0,2,'United States'),(3,1,'United States')]
+      return [(0,2,'United States',(0,0)),(3,1,'United States',(0,1))]
     case 2:
-      return [(3,0,'United States'),(1,2,'United States')]
+      return [(3,0,'United States',(0,2)),(1,2,'United States',(2,1))]
     case _:
       return []

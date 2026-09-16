@@ -1,3 +1,4 @@
+from typing import List, Tuple
 import pandas as pd
 import numpy as np
 from penaltyblog.models import DixonColesGoalModel
@@ -14,10 +15,11 @@ class DixonColesPred:
   vantagem_mandante: float
   elo: Elo = None
 
-  def __init__(self, df):
+  def __init__(self, df, use_elo: bool, k_elo: int|None= None):
     self.df = df
+    if(use_elo): self.configure_elo(k_elo)
 
-  def create_model(self):
+  def create_model(self)->None:
     # treina o modelo usando o peso com vários fatores que inventamos
     self.modelo = DixonColesGoalModel(
       self.df["home_score"].to_numpy(copy=True),
@@ -52,10 +54,11 @@ class DixonColesPred:
     if(tournament == 'Friendly'): return 20
     return 30
 
-  def configure_elo(self):
+  def configure_elo(self, k_param: int|None= None):
+    k_final = k_param or self.set_k()
     # por default todo mundo começa com 1500 e vai mudando a cada jogo do dataset
     # home_field_advantage é o quanto adicionamos de vantagem pro mandante da casa
-    self.elo = Elo(k=self.set_k(), home_field_advantage=75)
+    self.elo = Elo(k=k_final, home_field_advantage=75)
 
     # atualiza o ELO apos cada jogo
     diff_elo_jogos_neutros = []
@@ -109,7 +112,9 @@ class DixonColesPred:
 
     return expect_gols_time1, expect_gols_time2
 
-  def predict(self):
+  def predict(self)-> Tuple[List[Tuple[int,int]],List[Tuple[int,int]]]:
+    real_scores = []
+    pred_scores = []
     all_groups = wpg.groups()
     for group_idx, group in enumerate(all_groups):
       for rodada in range(3):
@@ -125,5 +130,7 @@ class DixonColesPred:
           matriz_placar = previsao.grid
 
           gols_time1, gols_time2 = np.unravel_index(np.argmax(matriz_placar), matriz_placar.shape)
+          real_scores.append(jogo[3])
+          pred_scores.append( (gols_time1, gols_time2) )
 
-          print(f"Placar mais provável: {time1_name} {gols_time1} x {time2_name} {gols_time2}")
+    return real_scores, pred_scores
