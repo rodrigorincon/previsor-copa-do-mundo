@@ -2,7 +2,10 @@ import pandas as pd
 import numpy as np
 from penaltyblog.models import DixonColesGoalModel
 from penaltyblog.ratings import Elo
+from penaltyblog.models import create_dixon_coles_grid
+import world_cup_groups as wpg
 
+MAX_GOLS = 7
 class DixonColesPred:
   df: pd.DataFrame
   modelo: DixonColesGoalModel
@@ -82,16 +85,17 @@ class DixonColesPred:
     expect_gols_time1 = np.exp( atk_time1 + def_time2)
     expect_gols_time2 = np.exp( atk_time2 + def_time1)
 
-    elo_time1 = self.elo.get_team_rating(time1_name)
-    elo_time2 = self.elo.get_team_rating(time2_name)
-    diff_abs = abs(elo_time1 - elo_time2)
-    if(diff_abs < 0.5): diff_abs = 1 # para evitar log de valores muito baixos, que tendem ao -infinito (log(1) = 0, então zera o lado do elo)
-    diff_time1_signal = 1 if elo_time1 >= elo_time2 else -1
-    diff_time2_signal = 1 if elo_time2 >= elo_time1 else -1
+    if(self.elo):
+      elo_time1 = self.elo.get_team_rating(time1_name)
+      elo_time2 = self.elo.get_team_rating(time2_name)
+      diff_abs = abs(elo_time1 - elo_time2)
+      if(diff_abs < 0.5): diff_abs = 1 # para evitar log de valores muito baixos, que tendem ao -infinito (log(1) = 0, então zera o lado do elo)
+      diff_time1_signal = 1 if elo_time1 >= elo_time2 else -1
+      diff_time2_signal = 1 if elo_time2 >= elo_time1 else -1
 
-    # Peso jogo: 80% dixon-coles e 20% ELO
-    expect_gols_time1 = 0.8 * expect_gols_time1  + 0.2 * diff_time1_signal * np.log(diff_abs)
-    expect_gols_time2 = 0.8 * expect_gols_time2  + 0.2 * diff_time2_signal * np.log(diff_abs)
+      # Peso jogo: 80% dixon-coles e 20% ELO
+      expect_gols_time1 = 0.8 * expect_gols_time1  + 0.2 * diff_time1_signal * np.log(diff_abs)
+      expect_gols_time2 = 0.8 * expect_gols_time2  + 0.2 * diff_time2_signal * np.log(diff_abs)
 
     # como lambda representa os gols esperados, ñ pode ser negativo. Portanto vamos considerar o menor valor como 0.05 (proximo de 0, mas com alguma chance de fazer gol ainda)
     expect_gols_time1 = max(expect_gols_time1, 0.05)
@@ -104,3 +108,22 @@ class DixonColesPred:
       expect_gols_time2 *= np.exp(self.vantagem_mandante)
 
     return expect_gols_time1, expect_gols_time2
+
+  def predict(self):
+    all_groups = wpg.groups()
+    for group_idx, group in enumerate(all_groups):
+      for rodada in range(3):
+        jogos = wpg.group_match(group_idx, rodada)
+        for jogo in jogos:
+          time1_name = group.iloc[jogo[0]]['time']
+          time2_name = group.iloc[jogo[1]]['time']
+          expect_goals_time1, expect_goals_time2 = self.calc_expect_goals(time1_name, time2_name, jogo[2])
+
+          # retorna o mesmo objeto do predict, portanto esse método faz a mesma função do predict 
+          # para quando vc já tem a previsão de gols vindas de algum lugar (como um bolão ou bet) ou quando quer dar seus proprios pesos a chance de gols
+          previsao = create_dixon_coles_grid(expect_goals_time1, expect_goals_time2, self.rho, max_goals=MAX_GOLS)
+          matriz_placar = previsao.grid
+
+          gols_time1, gols_time2 = np.unravel_index(np.argmax(matriz_placar), matriz_placar.shape)
+
+          print(f"Placar mais provável: {time1_name} {gols_time1} x {time2_name} {gols_time2}")
