@@ -1,4 +1,3 @@
-inserir metodos de validação e monte carlo
 fazer fase de mata-mata
 fazer modelos por palpite
 escrever no readme "Resultado dos modelos"

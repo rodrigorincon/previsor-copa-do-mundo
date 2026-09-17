@@ -3,7 +3,7 @@ from metrics import analise
 from modelos.train_model import DixonColesPred
 
 
-class ModelBuilder:
+class ModelController:
   modelo: DixonColesPred
   usa_elo: bool
   k: int|None

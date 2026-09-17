@@ -8,21 +8,17 @@ O projeto usa a biblioteca `Penaltyblog`, criada especialmente para machine lear
 
 Para treinamento dos modelos é usado todos os jogos entre seleções dos últimos 24 anos, parando pouco antes da copa do mundo analisada.
 
-## Os Modelos
+## O Modelo
 
-Alguns modelos foram criados, todos com base no modelo Dixon-Coles fornecido pela biblioteca. Cada um varia um hiper-parâmetro ou desliga algumas configurações para podermos comparar os modelos e ver quais combinações dão os melhores resultados.
+O modelo criado usa como base o modelo Dixon-Coles fornecido pela biblioteca. Nosso modelo pode ser encontrado na pasta `modelos` no arquivo `train_model`. Ele possui os seguintes hiper-parâmetros que permitem customizar e comparar os modelos e ver quais combinações dão os melhores resultados.
 
-Os pontos que variam entre eles são:
+Os hiper-parâmetros são:
 
 - **Valor K**: hiper-parâmetro usado no cálculo do ranking Elo
 - **Ranking Elo**: habilita ou desabilita o uso do eanking Elo no modelo
 - **Peso dos jogos**: habilita ou desabilita o uso de pesos nos jogos usados na base de treino
-- **Método de seleção do vencedor**: hiper-parâmetro que definir qual método usado para definir o vencedor de cada jogo
-  - Placar mais provável
-  - Vencedor mais provável
-- **Simulação de Monte Carlo**: habilita ou desabilita o uso de simulações de Monte Carlo para definir o vencedor de cada jogo
 
-Os modelos usados podem ser encontrados na pasta `modelos`, todos herdando da interface pai `DixonColesPred` em `train_model`.
+Para inicializar diversos modelos com ligeiras diferenças temos a classe `ModelController` que cria um modelo com as configurações desejadas, o nomeia para o identificar, o executa e faz sua análise. O controlador encapsula o modelo ao criá-lo e dar uma função única para executá-los e analisar seu desempenho. A classe `ModelFactory` é uma fábrita de controladores, permitindo criar dezenas de modelos ao mesmo tempo, fazendo todas as combinações dos hiper-parâmetros desejados.
 
 ## Estrutura
 
@@ -71,22 +67,6 @@ Nos modelos em que essa função está ligada, o ranking Elo age como mais um pe
 
 Importante ressaltar que o ranking Elo é atualizado usando dados de treino, porém ele não afeta o treinamento do modelo. Habilitá-lo não afeta os resultados do treino e só impactará na previsão dos novos resultados.
 
-### Definindo o vencedor
-
-O vencedor pode ser definido das formas abaixo. Cada um deles é uma classe filho do modelo base.
-
-1. **Placar mais provável**
-
-Nesse caso o resultado com maior probabilidade será escolhido como resultado do modelo. Ele permite calcular os pontos, saldo de gols e gols feitos de cada seleção.
-
-2. **Vencedor mais provável**
-
-Nesse caso o time que soma maior probabilidade de vencer será escolhido como resultado do modelo. Ele difere do anterior pois o placar mais provável pode ser para o time A ou empate, mas a soma de todas as probabilidades em que o placar dá vitória para B ser maior que a soma das probabilidades de A. Apesar de improvável, pode acontecer.  Esse método não pode permite calcular os saldo de gols e gols feitos de cada seleção.
-
-3. **Simulações de Monte Carlo**
-
-Nesse caso 50 mil simulações de cada jogo são feitas, usando o mesmo modelo que define as probabilidades dos anteriores. A diferença está em não definir o vencedor apenas por ser o mais provável, mas sim repetindo milhares de vezes os jogos e com isso simular a aleatoriedade natural do esporte. Ao fim o placar mais repetido é escolhido como o que acontecerá.
-
 ## Se familiarizando com a biblioteca
 
 Para quem nunca usou a biblioteca ou fez previsões esportivas, a pasta `exemplos-basicos` fornece alguns exemplos mais simples para facilitar o entendimento do que está acontecendo. Eles trazem um cenário infinitamente menor e mais simples, aonde podemos visualizar cada passo e entender o que está acontecendo. Ele também permite conhecer a biblioteca usada e suas funções. `Primeiro-exemplo` mostra a estrutura básica e como usar a biblioteca. `Exemplo-elo` adiciona o ranking Elo e `copa-1-jogo` adiciona os dados reais, porém faz a previsão apenas do primeiro jogo da copa.
@@ -118,4 +98,4 @@ Para avaliar é medido tanto métricas de regressão (para saber o tamanho do er
 
 ### Correções feitas
 
-A partir dessa análise a fórmula do peso dos jogos foi alterado para decair de forma mais gradual, tornando jogos antigos mais valiosos. Isso melhorou todas as métricas, superando os modelos com peso desabilitado.
+A partir dessa análise a fórmula do peso dos jogos foi alterado para decair de forma mais gradual, tornando jogos antigos mais valiosos. Foram testados vários valores de queda do peso e de quantos anos avaliar até chegar nos valores atuais. Isso melhorou todas as métricas, superando os modelos com peso desabilitado.
