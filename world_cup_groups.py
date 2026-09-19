@@ -263,3 +263,51 @@ def groupL_matches(rodada):
       return [(3,0,'United States',(0,2)),(1,2,'United States',(2,1))]
     case _:
       return []
+
+def second_phase_matches(primeiros_lugares, segundos_lugares, sorted_terceiros):
+  return [
+    (segundos_lugares[0]['time'], segundos_lugares[1]['time'], 'United States'),
+    (primeiros_lugares[5]['time'], segundos_lugares[2]['time'], 'Mexico'),
+    (primeiros_lugares[4]['time'], sorted_terceiros[6]['time'], 'United States'),
+    (primeiros_lugares[8]['time'], sorted_terceiros[1]['time'], 'United States'),
+    (primeiros_lugares[6]['time'], sorted_terceiros[7]['time'], 'United States'),
+    (primeiros_lugares[3]['time'], sorted_terceiros[4]['time'], 'United States'),
+    (primeiros_lugares[7]['time'], segundos_lugares[9]['time'], 'United States'),
+    (segundos_lugares[10]['time'], segundos_lugares[11]['time'], 'Canada'),
+    (primeiros_lugares[2]['time'], segundos_lugares[5]['time'], 'United States'),
+    (segundos_lugares[4]['time'], segundos_lugares[8]['time'], 'United States'),
+    (primeiros_lugares[0]['time'], sorted_terceiros[2]['time'], 'Mexico'),
+    (primeiros_lugares[11]['time'], sorted_terceiros[0]['time'], 'United States'),
+    (primeiros_lugares[1]['time'], sorted_terceiros[5]['time'], 'Canada'),
+    (primeiros_lugares[10]['time'], sorted_terceiros[3]['time'], 'United States'),
+    (segundos_lugares[3]['time'], segundos_lugares[6]['time'], 'United States'),
+    (primeiros_lugares[9]['time'], segundos_lugares[7]['time'], 'United States')
+  ]
+
+def oitavas_final(times):
+  return [
+    (times[0], times[1], 'United States'),
+    (times[2], times[3], 'United States'),
+    (times[4], times[5], 'United States'),
+    (times[6], times[7], 'United States'),
+    (times[8], times[9], 'United States'),
+    (times[10], times[11], 'Mexico'),
+    (times[12], times[13], 'Canada'),
+    (times[14], times[15], 'United States')
+  ]
+
+def quartas_final(times):
+  return [
+    (times[0], times[1], 'United States'),
+    (times[2], times[3], 'United States'),
+    (times[4], times[5], 'United States'),
+    (times[6], times[7], 'United States')
+  ]
+
+def semi_final(times):
+  return [
+    (times[0], times[1], 'United States'),
+    (times[2], times[3], 'United States')
+  ]
+
+def final_place(): return 'United States'

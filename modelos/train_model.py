@@ -14,9 +14,13 @@ class DixonColesPred:
   rho: float
   vantagem_mandante: float
   elo: Elo = None
+  all_groups: List[pd.DataFrame]
+  monte_carlo_num_sim: int
 
-  def __init__(self, df, use_elo: bool, k_elo: int|None= None):
+  def __init__(self, df, monte_carlo: bool, use_elo: bool, monte_carlo_num_sim: int = 50_000, k_elo: int|None= None):
     self.df = df
+    self.monte_carlo = monte_carlo
+    self.monte_carlo_num_sim = monte_carlo_num_sim
     if(use_elo): self.configure_elo(k_elo)
 
   def create_model(self)->None:
@@ -115,8 +119,8 @@ class DixonColesPred:
   def predict(self)-> Tuple[List[Tuple[int,int]],List[Tuple[int,int]]]:
     real_scores = []
     pred_scores = []
-    all_groups = wpg.groups()
-    for group_idx, group in enumerate(all_groups):
+    self.all_groups = wpg.groups()
+    for group_idx, group in enumerate(self.all_groups):
       for rodada in range(3):
         jogos = wpg.group_match(group_idx, rodada)
         for jogo in jogos:
@@ -129,8 +133,129 @@ class DixonColesPred:
           previsao = create_dixon_coles_grid(expect_goals_time1, expect_goals_time2, self.rho, max_goals=MAX_GOLS)
           matriz_placar = previsao.grid
 
-          gols_time1, gols_time2 = np.unravel_index(np.argmax(matriz_placar), matriz_placar.shape)
+          if(self.monte_carlo):
+            gols_time1, gols_time2 = self.monte_carlo_score(matriz_placar)
+          else:
+            gols_time1, gols_time2 = self.most_common_score(matriz_placar)
+
           real_scores.append(jogo[3])
           pred_scores.append( (gols_time1, gols_time2) )
-
+          self.fill_score_group_table(group_idx, time1_name, time2_name, gols_time1, gols_time2)
     return real_scores, pred_scores
+
+  def most_common_score(self, matriz_placar):
+    return np.unravel_index(np.argmax(matriz_placar), matriz_placar.shape)
+
+  def monte_carlo_score(self, matriz_placar):
+    # transforma a matriz em um array com as probabilidades
+    probabilidades = np.array(matriz_placar).reshape(-1)
+    # Normalizar as probabilidades para garantir que somem exatamente 1.0 (exigência do numpy). Antes estava dando 0.9999999999
+    probabilidades /= probabilidades.sum()
+
+    # Sorteia os índices (placares) com base na probabilidade (É AQUI QUE A SIMULAÇÃO É EXECUTADA)
+    indices_sorteados = np.random.choice(len(probabilidades), size=self.monte_carlo_num_sim, p=probabilidades)
+    indice_mais_repetido = np.argmax(np.bincount(indices_sorteados))
+    gols_time1 = indice_mais_repetido//(MAX_GOLS+1) # recupera qual era a linha da matriz (pega a divisao inteira por MAX_GOLS+1 pq o tamanho de cada linha é MAX_GOLS+1)
+    gols_time2 = indice_mais_repetido % (MAX_GOLS+1) # recupera qual a coluna da matriz (o resto da divisão por MAX_GOLS+1 dá a coluna)
+    return gols_time1, gols_time2
+  
+  def definir_vencedor_eliminatoria(self, time1_prob, time2_prob, empate_prob):
+    probabilidades = np.array([time1_prob, time2_prob, empate_prob])
+    probabilidades /= probabilidades.sum()
+    num_simulacoes = 100
+    # Sorteia os índices (placares) com base na probabilidade (É AQUI QUE A SIMULAÇÃO É EXECUTADA)
+    indices_sorteados = np.random.choice(3, size=num_simulacoes, p=probabilidades)
+    return np.argmax(np.bincount(indices_sorteados))
+
+  def fill_score_group_table(self, group_idx, time1_name, time2_name, gols_time1, gols_time2):
+    line1 = self.all_groups[group_idx].loc[self.all_groups[group_idx]['time'] == time1_name]
+    line2 = self.all_groups[group_idx].loc[self.all_groups[group_idx]['time'] == time2_name]
+
+    line1['gols_feitos'] += gols_time1
+    line1['saldo_gols'] += gols_time1 - gols_time2
+    line1['pontos'] += 3 if gols_time1 > gols_time2 else (0 if gols_time1 < gols_time2 else 1)
+
+    line2['gols_feitos'] += gols_time2
+    line2['saldo_gols'] += gols_time2 - gols_time1
+    line2['pontos'] += 3 if gols_time2 > gols_time1 else (0 if gols_time2 < gols_time1 else 1)
+
+    self.all_groups[group_idx].loc[self.all_groups[group_idx]['time'] == time1_name] = line1
+    self.all_groups[group_idx].loc[self.all_groups[group_idx]['time'] == time2_name] = line2
+
+  def predict_champion(self):
+    self.predict()
+    return self.eliminatory_phase()
+
+  def eliminatory_phase(self):
+    sorted_groups = [ wpg.sort_group(grupo) for grupo in self.all_groups]
+    primeiros_lugares = [ grupo.iloc[0] for grupo in sorted_groups]
+    segundos_lugares = [ grupo.iloc[1] for grupo in sorted_groups]
+    terceiros_lugares = [ grupo.iloc[2] for grupo in sorted_groups]
+    # define os 8 melhores terceiros colocados
+    sorted_terceiros = wpg.sort_group( pd.DataFrame(terceiros_lugares) ).iloc[:8]
+    sorted_terceiros = [sorted_terceiros.iloc[idx] for idx in range(sorted_terceiros.shape[0])]
+    winners16 = self.second_phase(primeiros_lugares, segundos_lugares, sorted_terceiros)
+
+    jogos_oitavas = wpg.oitavas_final(winners16)
+    winners8 = []
+    for jogo in jogos_oitavas:
+      winner = self.eliminatory_match(jogo[0], jogo[1], jogo[2])
+      winners8.append(winner)
+
+    jogos_quartas = wpg.quartas_final(winners8)
+    winners4 = []
+    for jogo in jogos_quartas:
+      winner = self.eliminatory_match(jogo[0], jogo[1], jogo[2])
+      winners4.append(winner)
+
+    jogos_semi = wpg.semi_final(winners4)
+    finalistas = []
+    for jogo in jogos_semi:
+      winner = self.eliminatory_match(jogo[0], jogo[1], jogo[2])
+      finalistas.append(winner)
+    semi_finalistas = list(set(winners4) - set(finalistas))
+
+    champion = self.eliminatory_match(finalistas[0], finalistas[1], wpg.final_place())
+    vice = list(set(finalistas) - set(champion))[0]
+    return champion, vice, semi_finalistas
+
+  def second_phase(self, primeiros_lugares, segundos_lugares, sorted_terceiros):
+    avos16 = wpg.second_phase_matches(primeiros_lugares, segundos_lugares, sorted_terceiros)
+
+    winners = []
+    for jogo in avos16:
+      winner = self.eliminatory_match(jogo[0], jogo[1], jogo[2])
+      winners.append(winner)
+    return winners
+
+  def eliminatory_match(self, time1, time2, local):
+    expect_goals_time1, expect_goals_time2 = self.calc_expect_goals(time1, time2, local)
+    previsao = create_dixon_coles_grid(expect_goals_time1, expect_goals_time2, self.rho, max_goals=MAX_GOLS)
+
+    time1_prob = previsao.home_win
+    time2_prob = previsao.away_win
+    empate_prob = previsao.draw
+    vencedor_idx = self.definir_vencedor_eliminatoria(time1_prob, time2_prob, empate_prob)
+    if(vencedor_idx == 0):
+      return time1
+    elif(vencedor_idx == 1):
+      return time2
+
+    # em caso de empate faz uma nova previsao 
+    # as expectativas de gol são reduzidas para 1/3, pois a prorrogação dura 1/3 do jogo normal
+    previsao = create_dixon_coles_grid(expect_goals_time1/3, expect_goals_time2/3, self.rho, max_goals=MAX_GOLS)
+    time1_prob = previsao.home_win
+    time2_prob = previsao.away_win
+    empate_prob = previsao.draw
+    vencedor_idx = self.definir_vencedor_eliminatoria(time1_prob, time2_prob, empate_prob)
+    if(vencedor_idx == 0):
+      return time1
+    elif(vencedor_idx == 1):
+      return time2
+
+    # em caso de empate vai para os penaltis. Considera-se 50% de chances para cada lado
+    num_aleatorio = np.random.default_rng().random()
+    if(num_aleatorio < 0.5):
+      return time1
+    else:
+      return time2

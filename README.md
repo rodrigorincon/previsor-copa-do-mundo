@@ -17,6 +17,9 @@ Os hiper-parâmetros são:
 - **Valor K**: hiper-parâmetro usado no cálculo do ranking Elo
 - **Ranking Elo**: habilita ou desabilita o uso do eanking Elo no modelo
 - **Peso dos jogos**: habilita ou desabilita o uso de pesos nos jogos usados na base de treino
+- **Monte Carlo**: habilita ou desabilita a Simulação de Monte Carlo como método de calcular o placar da partida
+  - Se for `True` é executado a Simulação de Monte Carlo em todos os jogos, rodando 50 mil vezes e escolhido o placar mais repetido.
+  - Se for `False` é escolhido o placar com maior probabilidade segundo a distribuição de Dixon-Coles.
 
 Para inicializar diversos modelos com ligeiras diferenças temos a classe `ModelController` que cria um modelo com as configurações desejadas, o nomeia para o identificar, o executa e faz sua análise. O controlador encapsula o modelo ao criá-lo e dar uma função única para executá-los e analisar seu desempenho. A classe `ModelFactory` é uma fábrita de controladores, permitindo criar dezenas de modelos ao mesmo tempo, fazendo todas as combinações dos hiper-parâmetros desejados.
 
@@ -67,35 +70,86 @@ Nos modelos em que essa função está ligada, o ranking Elo age como mais um pe
 
 Importante ressaltar que o ranking Elo é atualizado usando dados de treino, porém ele não afeta o treinamento do modelo. Habilitá-lo não afeta os resultados do treino e só impactará na previsão dos novos resultados.
 
+### Fase de grupos e eliminatória
+
+Testamos as métricas dos modelos e suas precisões unicamente com base na fase de grupos, pois como os times classificados pelo modelo podem (e de fato acontecia em agluns) diferir dos reais, a comparação da fase eliminatória perdia o sentido. A fase eliminatória foi rodada apenas com o melhor modelo encontrado para testar sua precisão de dar o campeão do torneio, vice e semi-finalistas, sem intuito de testar as métricas anteriores.
+
+Para testar a fase eliminatória rodo a Simulação de Monte Carlo 10 mil vezes, verificando em quantas delas acertamos o campeão. Fazemos o mesmo para o segundo lugar e para os semi-finalistas. Essas simulações são divididas em diversos processos que rodam cada um diversas threads com memória compartilhada para agilizar o processamento.
+
+Na fase de grupos é rodada a versão com Monte-Carlo para que não fique 100% iguais em todas as 10 mil versões. A fase eliminatória sempre executa a simulação de Monte-Carlo em cada jogo pelo mesmo motivo. Essas simulações testam cada jogo 100 vezes, dando chance para a aleatoriedade que marca competições do tipo agirem mas com as probabilidades agindo a favor dos times com mais chances.
+
 ## Se familiarizando com a biblioteca
 
 Para quem nunca usou a biblioteca ou fez previsões esportivas, a pasta `exemplos-basicos` fornece alguns exemplos mais simples para facilitar o entendimento do que está acontecendo. Eles trazem um cenário infinitamente menor e mais simples, aonde podemos visualizar cada passo e entender o que está acontecendo. Ele também permite conhecer a biblioteca usada e suas funções. `Primeiro-exemplo` mostra a estrutura básica e como usar a biblioteca. `Exemplo-elo` adiciona o ranking Elo e `copa-1-jogo` adiciona os dados reais, porém faz a previsão apenas do primeiro jogo da copa.
 
-## Dados de apostas
-
-Um segundo projeto está presente na pasta `modelo-por-palpite`, aonde ao invés de usar dados históricos de partidas é usado apenas os palpites feitos pelas pessoas nos jogos da própria copa do mundo. Para tanto a base de treino é outra, usando os palpites feitos em uma casa de apostas. Também é usado os palpites feitos em um bolão privado e comparado os resultados com os modelos tradicionais e entre si (com milhares de pessoas palpitando o placar e com poucas dezenas).
-
-Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média, moda e mediana dos palpites serão usadas como placar escolhido pelo modelo. Portanto para esse tipo de avaliação o que foi discutido antes de peso e Elo não se aplica. O modelo usado é muito mais simples por se basear em um conceito muito mais direto e com poucos detalhes.
-
-### Modelos Usados
-
-- **Média**: retira a média dos gols para cada time independentemente em cada partida. Portanto no jogo AxB os palpites de gols feitos por A não interferem no cálculo da média de gols palpitados para o time B. A média é arredondada para cima a partir de $\ge 0.5$.
-- **Mediana**: retira a mediana dos gols de cada time, seguindo a mesma suposição de independência da média.
-- **Moda**: usa o palpite mais repetido para dada time.
-
-Esses valores são calculado tanto da lista de palpites da casa de apostas usada de exemplo quanto do bolão com pouco mais de 30 pessoas participando. O que nos permite comparar a precisão de modelos com poucas e muitas pessoas palpitando.
-
-### Métrcas dos modelos de palpite
-
-Para avaliar é medido tanto métricas de regressão (para saber o tamanho do erro do palpite) quanto de classificação (para saber se acertou o vencedor). As métricas são as mesmas dos modelos usando histórico.
-
 # Resultado dos modelos
+
+## Fase de grupos
 
 - **MAE, RMSE e Pontuação de precisão** quase não mudaram entre os modelos treinados com o histórico. Todos erravam quantos gols cada time faria mais ou menos na mesma quantidade.
 - **F1-Score e Acurácia** pouco mudaram ao variar K. Porém ao desligar os pesos tivemos uma melhora tímida e ao desligar o Elo as métricas subiram um pouco mais.
   - O pricipal motivo dos valores baixos é a dificuldade do modelo em prever empates, sendo a categoria com menor precisão e por uma larga vantagem. Mais especificamente o campo recall que fica próximo de 0 na maioria dos modelos. Isso ocorre porque o modelo quase nunca define um empate.
 - **Placares exatos**: cai conforme aumenta K e alcança seus maiores valores ao desligar o Elo
 
-### Correções feitas
+Com isso foi visto que dentre os modelos de DixonColes **o melhor modelo encontrado foi o com pesos nos dados históricos e sem ranking Elo**. Usar o método de **Monte Carlo não alterou significativamente as métricas**. O MAE, RMSE e pontuação de precisão tiveram mudanças mínimas enquanto os demais em nada mudaram. Também foi visto que Monte Carlo escolhia o resultado mais provável em certa de 99% das partidas. No modelo com melhor resultado (com peso e sem ranking Elo) a simulação de Monte Carlo deu exatamente 100% de mesmos resultados que o método tradicional. Portanto seguimos com a opção sem ela por ser mais rápida e ter mesmo poder preditivo.
+
+## Fase eliminatória
+
+**A previsão do campeão da copa do mundo 2026 foi a Espanha**. A Espanha foi campeã em 43,3% das simulações, seguido de perto pelo Brasil, com 41,8%. A Argentina, vice campeã, foi o terceiro país a mais ganhar simulações, em 9,1%. França e Inglaterra, os 3º e 4º lugares, foram os próximos, com 2,8% e 2,6%.
+
+A lista completa dos países que ganharam alguma simulação está abaixo, juntamente com as estatísticas para segundo lugar e para quem ficou em 3º ou 4º lugar. 
+
+Seguindo as maiores probabilidades de cada grupo e eliminando os já selecionados, o podium da simulação ficou
+
+- 1º lugar: Espanha (43,3%)
+- 2º lugar: Brasil (10,7%)
+- 3º lugar: Argentina (57,6%)
+- 4º lugar: França (52%)
+
+|País      | Campeão     | Vice | Terceiro ou Quarto|
+|:--       | :--         | :--  | :--               |
+|Espanha   | 4330 (43,3%)|8016  | 1188 |
+|Brasil    | 4184 (41,8%)|1069  | 1789 |
+|Argentina | 912 (9,1%)  |434   | 5756 |
+|Inglaterra| 285 (2,8%)  |241   | 97 |
+|França    | 268 (2,6%)  |10    | 5204 |
+|Portugal  | 7 (<0,1%)   |0     | 989 |
+|Colômbia  | 7 (<0,1%)   |1     | 613 |
+|Holanda   | 5 (<0,1%)   |129   | 1960 |
+|Alemanha  | 2 (<0,1%)   |58    | 1002 |
+|Belgica   | 0           |39    | 313 |
+|Uruguai   | 0           |3     | 124 |
+|Marrocos | 0 | 0 |55 |
+|Suíça | 0 | 0 | 14 |
+|Equador | 0 | 0 | 4 |
+|Senegal | 0 | 0 | 3 |
+|Croácia | 0 | 0 | 1 |
+|México | 0 | 0 | 1 |
+|Noruega | 0 | 0 | 1 |
+|Japão | 0 | 0 |  1 |
+
+## Correções feitas
 
 A partir dessa análise a fórmula do peso dos jogos foi alterado para decair de forma mais gradual, tornando jogos antigos mais valiosos. Foram testados vários valores de queda do peso e de quantos anos avaliar até chegar nos valores atuais. Isso melhorou todas as métricas, superando os modelos com peso desabilitado.
+
+O número de simulações feitas em cada partida também foi alterada. Foi testado diversos valores até encontrar o número que equilibre aleatoriedade com poda de possibilidades muito pequenas. Quando se executava só 1 vez times com baixíssimas chances (como Austia ou Paraguai) chegavam até a final e conforme aumenta mais os times com maior chance predominam.
+
+# Dados de apostas
+
+Um segundo projeto está presente na pasta `modelo-por-palpite`, aonde ao invés de usar dados históricos de partidas é usado apenas os palpites feitos pelas pessoas nos jogos da própria copa do mundo. Para tanto a base de treino é outra, usando os palpites feitos em um bolão privado e comparado os resultados com os modelos tradicionais.
+
+Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média, moda e mediana dos palpites serão usadas como placar escolhido pelo modelo. Portanto para esse tipo de avaliação o que foi discutido antes de peso e Elo não se aplica. O modelo usado é muito mais simples por se basear em um conceito muito mais direto e com poucos detalhes.
+
+## Modelos Usados
+
+- **Média**: retira a média dos gols para cada time independentemente em cada partida. Portanto no jogo AxB os palpites de gols feitos por A não interferem no cálculo da média de gols palpitados para o time B. A média é arredondada para cima a partir de $\ge 0.5$.
+- **Mediana**: retira a mediana dos gols de cada time, seguindo a mesma suposição de independência da média.
+- **Moda**: usa o palpite mais repetido para dada time.
+
+Esses valores são calculado tanto da lista de palpites do bolão com pouco mais de 30 pessoas participando. Para ter um comparativo do efeito do número de pessoas um segundo modelo será treinado usando uma amostra desse bolão, sorteando 5 palpites do bolão para cada jogo. Assim poderemos comparar a precisão de modelos com poucas e muitas pessoas palpitando.
+
+## Métrcas dos modelos de palpite
+
+Para avaliar é medido tanto métricas de regressão (para saber o tamanho do erro do palpite) quanto de classificação (para saber se acertou o vencedor). As métricas são as mesmas dos modelos usando histórico.
+
+## Resultados dos modelos de palpite

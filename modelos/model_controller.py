@@ -10,14 +10,15 @@ class ModelController:
   df: pd.Dataframe
   nome: str
 
-  def __init__(self, nome: str, df: pd.DataFrame, usa_elo: bool, k: int|None):
+  def __init__(self, nome: str, df: pd.DataFrame, monte_carlo: bool, usa_elo: bool, k: int|None):
     self.nome = nome
     self.df = df
+    self.monte_carlo = monte_carlo
     self.usa_elo = usa_elo
     self.k = k
 
   def build(self):
-    self.modelo = DixonColesPred(self.df, self.usa_elo, self.k)
+    self.modelo = DixonColesPred(self.df, self.monte_carlo, self.usa_elo, 50_000, self.k)
     self.modelo.create_model()
     if(not self.k): self.nome += f" ({self.get_k():.0f})"
 
