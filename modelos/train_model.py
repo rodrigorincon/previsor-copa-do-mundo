@@ -216,7 +216,7 @@ class DixonColesPred:
     semi_finalistas = list(set(winners4) - set(finalistas))
 
     champion = self.eliminatory_match(finalistas[0], finalistas[1], wpg.final_place())
-    vice = list(set(finalistas) - set(champion))[0]
+    vice = list(set(finalistas) - set([champion]))[0]
     return champion, vice, semi_finalistas
 
   def second_phase(self, primeiros_lugares, segundos_lugares, sorted_terceiros):

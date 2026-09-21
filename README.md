@@ -108,25 +108,23 @@ Seguindo as maiores probabilidades de cada grupo e eliminando os já selecionado
 
 |País      | Campeão     | Vice | Terceiro ou Quarto|
 |:--       | :--         | :--  | :--               |
-|Espanha   | 4330 (43,3%)|8016  | 1188 |
-|Brasil    | 4184 (41,8%)|1069  | 1789 |
-|Argentina | 912 (9,1%)  |434   | 5756 |
-|Inglaterra| 285 (2,8%)  |241   | 97 |
-|França    | 268 (2,6%)  |10    | 5204 |
-|Portugal  | 7 (<0,1%)   |0     | 989 |
-|Colômbia  | 7 (<0,1%)   |1     | 613 |
-|Holanda   | 5 (<0,1%)   |129   | 1960 |
-|Alemanha  | 2 (<0,1%)   |58    | 1002 |
-|Belgica   | 0           |39    | 313 |
-|Uruguai   | 0           |3     | 124 |
-|Marrocos | 0 | 0 |55 |
-|Suíça | 0 | 0 | 14 |
-|Equador | 0 | 0 | 4 |
-|Senegal | 0 | 0 | 3 |
-|Croácia | 0 | 0 | 1 |
-|México | 0 | 0 | 1 |
+|Espanha   | 4229 (42,3%)|3763  | 1230 |
+|Brasil    | 4124 (41,2%)|2263  | 1917 |
+|Argentina | 1016 (10,1%)|1606  | 5643 |
+|Inglaterra| 315 (3,1%)  |725   | 963 |
+|França    | 296 (3%)    |1199  | 5264 |
+|Portugal  | 11 (0,11%)  |114   | 983 |
+|Holanda   | 5 (<0,1%)   |145   | 1929 |
+|Alemanha  | 2 (<0,1%)   |72    |953  |
+|Belgica   | 1 (<0,1%)   |46    |324  |
+|Colômbia  | 1 (<0,1%)   |59    |603  |
+|Uruguai   | 0           |5     |105  |
+|Marrocos  | 0           | 5    |64 |
+|Suíça | 0 | 0 | 10 |
+|Equador | 0 | 0 | 5 |
+|Croácia | 0 | 0 | 4  |
+|Senegal | 0 | 0 | 2 |
 |Noruega | 0 | 0 | 1 |
-|Japão | 0 | 0 |  1 |
 
 ## Correções feitas
 
