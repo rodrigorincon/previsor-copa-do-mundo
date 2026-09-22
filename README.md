@@ -151,3 +151,9 @@ Esses valores são calculado tanto da lista de palpites do bolão com pouco mais
 Para avaliar é medido tanto métricas de regressão (para saber o tamanho do erro do palpite) quanto de classificação (para saber se acertou o vencedor). As métricas são as mesmas dos modelos usando histórico.
 
 ## Resultados dos modelos de palpite
+
+# Extra, Campeonato Brasileiro 2026
+
+Os mesmos modelos foram reaproveitados para testar seu funcionamento para o campeonato brasileiro (especificamente a série A). ALg uns parâmetros nos pesos foram alterados buscando maior assertividade, além das mudanças nos dados exigir algumas mudanças pontuais no código. Os arquivos que testam para o campeonato brasileiro estão na pasta `brasileirao`.
+
+O teste com o histórico dos últimos 10 anos de campeonato encontrou que o melhor modelo é o **com peso, sem Monte Carlo e sem Elo**.

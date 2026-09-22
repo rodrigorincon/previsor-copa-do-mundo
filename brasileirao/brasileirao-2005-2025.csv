@@ -1,0 +1,4191 @@
+ano_campeonato,time_mandante,time_visitante,gols_mandante,gols_visitante
+2016,Botafogo,Santos,0,1
+2016,Flamengo,Cruzeiro,2,1
+2016,Flamengo,Santa Cruz,3,0
+2016,Flamengo,Corinthians,2,2
+2016,Fluminense,Flamengo,1,2
+2016,Internacional,Flamengo,2,1
+2016,Grêmio,Flamengo,1,0
+2016,Grêmio,Coritiba FC,2,0
+2016,Grêmio,Ponte Preta,1,0
+2016,Grêmio,Cruzeiro,2,0
+2016,Grêmio,Santos,3,2
+2016,Grêmio,Figueirense FC,2,1
+2016,Grêmio,São Paulo,1,0
+2016,Grêmio,Santa Cruz,0,0
+2016,Grêmio,Corinthians,3,0
+2016,Grêmio,Atlético-MG,1,1
+2016,Grêmio,Palmeiras,0,0
+2016,Grêmio,Chapecoense,1,0
+2016,Grêmio,Athletico-PR,1,0
+2016,Grêmio,Internacional,0,0
+2016,Grêmio,América-MG,3,0
+2016,Botafogo,Athletico-PR,2,1
+2016,Botafogo,EC Vitória,1,1
+2016,Botafogo,América-MG,3,1
+2016,Botafogo,Figueirense FC,0,0
+2016,Botafogo,Santa Cruz,2,1
+2016,Botafogo,Palmeiras,3,1
+2016,Botafogo,Grêmio,2,1
+2016,Botafogo,Sport Recife,3,0
+2016,Botafogo,Fluminense,1,0
+2016,Botafogo,Corinthians,2,0
+2016,Botafogo,Internacional,1,0
+2016,Botafogo,Atlético-MG,3,2
+2016,Botafogo,Coritiba FC,0,0
+2016,Botafogo,Ponte Preta,1,1
+2016,Cruzeiro,EC Vitória,2,2
+2016,Cruzeiro,Athletico-PR,0,3
+2016,Cruzeiro,Santa Cruz,2,0
+2016,Cruzeiro,Botafogo,0,2
+2016,Cruzeiro,Grêmio,1,0
+2016,Cruzeiro,Ponte Preta,2,0
+2016,Cruzeiro,Chapecoense,0,0
+2016,Cruzeiro,Santos,2,2
+2016,Flamengo,Sport Recife,1,0
+2016,Flamengo,EC Vitória,1,0
+2016,Flamengo,Fluminense,1,2
+2016,Flamengo,Internacional,1,0
+2016,Flamengo,Atlético-MG,2,0
+2016,Flamengo,América-MG,2,1
+2016,Flamengo,Athletico-PR,1,0
+2016,Flamengo,Grêmio,2,1
+2016,Flamengo,Ponte Preta,2,1
+2016,Flamengo,Figueirense FC,2,0
+2016,Flamengo,Botafogo,0,0
+2016,Flamengo,Santos,2,0
+2016,Palmeiras,Athletico-PR,4,0
+2016,Palmeiras,Fluminense,2,0
+2016,Palmeiras,Corinthians,1,0
+2016,Palmeiras,Santa Cruz,3,1
+2016,Palmeiras,América-MG,2,0
+2016,Palmeiras,Figueirense FC,4,0
+2016,Palmeiras,Santos,1,1
+2016,Palmeiras,Atlético-MG,0,1
+2016,Palmeiras,EC Vitória,2,1
+2016,Palmeiras,Ponte Preta,2,2
+2016,Palmeiras,São Paulo,2,1
+2016,Palmeiras,Flamengo,1,1
+2016,Palmeiras,Coritiba FC,2,1
+2016,Palmeiras,Cruzeiro,0,0
+2016,Palmeiras,Internacional,1,0
+2016,Palmeiras,Botafogo,1,0
+2016,Palmeiras,Chapecoense,1,0
+2016,Santos,Internacional,0,1
+2016,Santos,Botafogo,3,0
+2016,Santos,Sport Recife,2,0
+2016,Santos,São Paulo,3,0
+2016,Santos,Chapecoense,3,0
+2016,Santos,Ponte Preta,3,1
+2016,Santos,Cruzeiro,2,0
+2016,Santos,Flamengo,0,0
+2016,Santos,Atlético-MG,3,0
+2016,Santos,Figueirense FC,0,1
+2016,Santos,Santa Cruz,3,2
+2016,Santos,Athletico-PR,2,0
+2016,Santos,Fluminense,2,1
+2016,Santos,Palmeiras,1,0
+2016,Santos,EC Vitória,3,2
+2016,Santos,América-MG,1,0
+2016,Fluminense,Santa Cruz,2,2
+2016,Fluminense,Botafogo,1,0
+2016,Fluminense,Corinthians,1,0
+2016,Fluminense,Coritiba FC,0,0
+2016,Fluminense,Cruzeiro,2,0
+2016,Fluminense,Ponte Preta,3,0
+2016,Fluminense,Figueirense FC,3,2
+2016,Fluminense,América-MG,1,0
+2016,Fluminense,Chapecoense,1,2
+2016,Fluminense,São Paulo,1,2
+2016,Fluminense,Athletico-PR,1,1
+2016,Fluminense,Internacional,1,1
+2016,Santa Cruz,EC Vitória,4,1
+2016,Santa Cruz,Cruzeiro,4,1
+2016,Santa Cruz,Figueirense FC,1,0
+2016,Santa Cruz,Internacional,1,0
+2016,Santa Cruz,Coritiba FC,0,1
+2016,Santa Cruz,Athletico-PR,1,0
+2016,Santa Cruz,América-MG,1,0
+2016,Santa Cruz,Grêmio,5,1
+2016,São Paulo,Palmeiras,1,0
+2016,São Paulo,Athletico-PR,1,2
+2016,São Paulo,EC Vitória,2,0
+2016,São Paulo,Sport Recife,0,0
+2016,São Paulo,Fluminense,2,1
+2016,São Paulo,América-MG,3,0
+2016,São Paulo,Botafogo,0,1
+2016,São Paulo,Coritiba FC,0,0
+2016,São Paulo,Figueirense FC,3,1
+2016,São Paulo,Cruzeiro,1,0
+2016,São Paulo,Flamengo,0,0
+2016,São Paulo,Santos,0,1
+2016,São Paulo,Ponte Preta,2,0
+2016,São Paulo,Corinthians,4,0
+2016,São Paulo,Grêmio,1,1
+2016,São Paulo,Santa Cruz,5,0
+2016,América-MG,EC Vitória,1,1
+2016,América-MG,Figueirense FC,1,0
+2016,América-MG,Coritiba FC,2,1
+2016,América-MG,Grêmio,0,0
+2016,América-MG,Santos,1,0
+2016,América-MG,Chapecoense,1,2
+2016,América-MG,Internacional,1,0
+2016,América-MG,Botafogo,1,0
+2016,América-MG,Athletico-PR,1,0
+2016,América-MG,São Paulo,1,0
+2016,Chapecoense,Fluminense,0,0
+2016,Chapecoense,Athletico-PR,0,0
+2016,Chapecoense,Corinthians,0,2
+2016,Chapecoense,Botafogo,2,1
+2016,Chapecoense,Palmeiras,1,1
+2016,Chapecoense,Internacional,1,0
+2016,Chapecoense,Coritiba FC,1,0
+2016,Chapecoense,Sport Recife,3,0
+2016,Chapecoense,Figueirense FC,1,0
+2016,Chapecoense,São Paulo,2,0
+2016,Corinthians,Grêmio,0,0
+2016,Corinthians,Ponte Preta,3,0
+2016,Corinthians,Santos,1,0
+2016,Corinthians,Santa Cruz,2,1
+2016,Corinthians,Flamengo,4,0
+2016,Corinthians,Figueirense FC,1,1
+2016,Corinthians,Cruzeiro,1,1
+2016,Corinthians,Sport Recife,3,0
+2016,Corinthians,Fluminense,0,1
+2016,Corinthians,Atlético-MG,0,0
+2016,Corinthians,América-MG,2,0
+2016,Corinthians,Chapecoense,1,1
+2016,Corinthians,Internacional,1,0
+2016,Corinthians,Athletico-PR,0,0
+2016,Coritiba FC,Cruzeiro,1,0
+2016,Coritiba FC,São Paulo,1,1
+2016,Coritiba FC,Athletico-PR,1,0
+2016,Coritiba FC,Botafogo,0,0
+2016,Coritiba FC,Flamengo,0,2
+2016,Coritiba FC,Santos,2,1
+2016,Coritiba FC,Grêmio,4,0
+2016,Coritiba FC,América-MG,3,0
+2016,Coritiba FC,Figueirense FC,0,0
+2016,Coritiba FC,Atlético-MG,2,0
+2016,Coritiba FC,Santa Cruz,1,0
+2016,EC Vitória,Internacional,1,0
+2016,EC Vitória,Chapecoense,1,2
+2016,EC Vitória,Fluminense,0,0
+2016,EC Vitória,Coritiba FC,3,1
+2016,EC Vitória,América-MG,2,1
+2016,EC Vitória,São Paulo,2,0
+2016,EC Vitória,Grêmio,0,1
+2016,EC Vitória,Figueirense FC,4,0
+2016,Ponte Preta,Palmeiras,2,1
+2016,Ponte Preta,Chapecoense,2,1
+2016,Ponte Preta,São Paulo,1,0
+2016,Ponte Preta,Botafogo,2,0
+2016,Ponte Preta,Figueirense FC,2,0
+2016,Ponte Preta,Corinthians,2,0
+2016,Ponte Preta,América-MG,1,1
+2016,Ponte Preta,Grêmio,3,0
+2016,Ponte Preta,EC Vitória,2,0
+2016,Ponte Preta,Santa Cruz,3,0
+2016,Ponte Preta,Santos,1,2
+2016,Ponte Preta,Fluminense,1,0
+2016,Ponte Preta,Coritiba FC,2,0
+2016,Atlético-MG,Santos,1,0
+2016,Atlético-MG,Ponte Preta,3,0
+2016,Atlético-MG,Corinthians,2,1
+2016,Atlético-MG,Botafogo,5,3
+2016,Atlético-MG,Coritiba FC,2,1
+2016,Atlético-MG,Santa Cruz,3,0
+2016,Atlético-MG,Chapecoense,3,1
+2016,Atlético-MG,Athletico-PR,1,0
+2016,Atlético-MG,EC Vitória,2,1
+2016,Atlético-MG,Sport Recife,1,0
+2016,Atlético-MG,América-MG,3,0
+2016,Atlético-MG,Figueirense FC,3,0
+2016,Athletico-PR,Atlético-MG,1,1
+2016,Athletico-PR,Figueirense FC,2,1
+2016,Athletico-PR,Santa Cruz,1,0
+2016,Athletico-PR,Santos,1,0
+2016,Athletico-PR,Grêmio,2,0
+2016,Athletico-PR,América-MG,1,0
+2016,Athletico-PR,EC Vitória,1,1
+2016,Athletico-PR,Fluminense,1,0
+2016,Athletico-PR,Corinthians,2,0
+2016,Athletico-PR,Botafogo,1,0
+2016,Athletico-PR,São Paulo,1,0
+2016,Athletico-PR,Ponte Preta,3,0
+2016,Athletico-PR,Coritiba FC,2,0
+2016,Athletico-PR,Cruzeiro,1,0
+2016,Athletico-PR,Sport Recife,2,0
+2016,Athletico-PR,Flamengo,0,0
+2016,Sport Recife,Corinthians,0,2
+2016,Sport Recife,Fluminense,2,1
+2016,Sport Recife,Chapecoense,5,1
+2016,Sport Recife,Grêmio,4,2
+2016,Sport Recife,Athletico-PR,2,0
+2016,Sport Recife,Flamengo,1,0
+2016,Sport Recife,Santos,1,0
+2016,Sport Recife,EC Vitória,1,0
+2016,Sport Recife,Ponte Preta,1,0
+2016,Sport Recife,Figueirense FC,2,0
+2016,Internacional,Chapecoense,0,0
+2016,Internacional,Sport Recife,1,0
+2016,Internacional,Athletico-PR,1,0
+2016,Internacional,Atlético-MG,2,0
+2016,Internacional,EC Vitória,0,1
+2016,Internacional,Figueirense FC,1,0
+2016,Internacional,Coritiba FC,1,0
+2016,Internacional,Ponte Preta,1,1
+2016,Internacional,Cruzeiro,1,0
+2016,Figueirense FC,Ponte Preta,0,0
+2016,Figueirense FC,São Paulo,1,0
+2016,Figueirense FC,Flamengo,1,0
+2016,Figueirense FC,Internacional,3,2
+2016,Figueirense FC,Coritiba FC,0,0
+2016,Figueirense FC,Chapecoense,1,1
+2016,Figueirense FC,EC Vitória,1,0
+2016,Figueirense FC,Sport Recife,1,1
+2016,Figueirense FC,Athletico-PR,1,0
+2016,Figueirense FC,Santa Cruz,3,1
+2016,Figueirense FC,Botafogo,0,1
+2016,Figueirense FC,Palmeiras,1,2
+2016,Figueirense FC,Grêmio,0,0
+2016,Figueirense FC,Fluminense,1,0
+2016,Grêmio,Fluminense,0,1
+2016,Grêmio,Sport Recife,0,3
+2016,Grêmio,Botafogo,0,1
+2016,Botafogo,São Paulo,0,1
+2016,Botafogo,Cruzeiro,0,1
+2016,Botafogo,Flamengo,3,3
+2016,Botafogo,Chapecoense,0,2
+2016,Cruzeiro,Figueirense FC,2,2
+2016,Cruzeiro,América-MG,1,1
+2016,Cruzeiro,São Paulo,0,1
+2016,Cruzeiro,Flamengo,0,1
+2016,Cruzeiro,Palmeiras,2,1
+2016,Cruzeiro,Sport Recife,1,2
+2016,Cruzeiro,Internacional,4,2
+2016,Cruzeiro,Atlético-MG,1,1
+2016,Cruzeiro,Fluminense,4,2
+2016,Cruzeiro,Corinthians,3,2
+2016,Flamengo,Chapecoense,2,2
+2016,Flamengo,Palmeiras,1,2
+2016,Flamengo,São Paulo,2,2
+2016,Flamengo,Coritiba FC,2,2
+2016,Palmeiras,Grêmio,4,3
+2016,Palmeiras,Sport Recife,2,1
+2016,Santos,Coritiba FC,2,1
+2016,Santos,Corinthians,2,1
+2016,Santos,Grêmio,1,1
+2016,Fluminense,Grêmio,1,1
+2016,Fluminense,Atlético-MG,4,2
+2016,Fluminense,Sport Recife,3,1
+2016,Fluminense,EC Vitória,2,2
+2016,Santa Cruz,Sport Recife,0,1
+2016,Santa Cruz,Santos,0,2
+2016,Santa Cruz,Flamengo,0,1
+2016,Santa Cruz,São Paulo,1,2
+2016,Santa Cruz,Fluminense,0,1
+2016,Santa Cruz,Chapecoense,2,2
+2016,Santa Cruz,Palmeiras,2,3
+2016,Santa Cruz,Corinthians,2,4
+2016,Santa Cruz,Botafogo,0,1
+2016,Santa Cruz,Atlético-MG,3,3
+2016,São Paulo,Internacional,1,2
+2016,América-MG,Fluminense,0,1
+2016,América-MG,Atlético-MG,0,1
+2016,América-MG,Corinthians,0,2
+2016,América-MG,Cruzeiro,0,2
+2016,América-MG,Palmeiras,0,2
+2016,América-MG,Flamengo,0,1
+2016,América-MG,Sport Recife,2,2
+2016,Chapecoense,América-MG,3,1
+2016,Chapecoense,Santa Cruz,1,1
+2016,Chapecoense,Cruzeiro,3,2
+2016,Chapecoense,Flamengo,1,3
+2016,Chapecoense,Ponte Preta,2,2
+2016,Chapecoense,Santos,0,1
+2016,Corinthians,Coritiba FC,2,1
+2016,Corinthians,Botafogo,3,1
+2016,Corinthians,São Paulo,1,1
+2016,Corinthians,EC Vitória,2,1
+2016,Corinthians,Palmeiras,0,2
+2016,Coritiba FC,Sport Recife,3,2
+2016,Coritiba FC,Palmeiras,2,2
+2016,Coritiba FC,Internacional,1,1
+2016,Coritiba FC,Ponte Preta,3,1
+2016,Coritiba FC,Corinthians,1,1
+2016,Coritiba FC,Fluminense,1,1
+2016,Coritiba FC,EC Vitória,0,1
+2016,EC Vitória,Atlético-MG,1,1
+2016,EC Vitória,Ponte Preta,1,1
+2016,EC Vitória,Sport Recife,3,2
+2016,EC Vitória,Santa Cruz,2,2
+2016,EC Vitória,Flamengo,1,2
+2016,EC Vitória,Botafogo,0,1
+2016,EC Vitória,Cruzeiro,0,1
+2016,Ponte Preta,Athletico-PR,3,2
+2016,Ponte Preta,Sport Recife,2,1
+2016,Ponte Preta,Internacional,2,2
+2016,Atlético-MG,Fluminense,1,1
+2016,Atlético-MG,Cruzeiro,2,3
+2016,Atlético-MG,Internacional,3,1
+2016,Atlético-MG,Flamengo,2,2
+2016,Atlético-MG,Palmeiras,1,1
+2016,Atlético-MG,São Paulo,1,2
+2016,Athletico-PR,Palmeiras,0,1
+2016,Athletico-PR,Internacional,2,1
+2016,Athletico-PR,Chapecoense,3,1
+2016,Sport Recife,Botafogo,1,1
+2016,Sport Recife,Palmeiras,1,3
+2016,Sport Recife,América-MG,1,1
+2016,Sport Recife,Internacional,1,1
+2016,Sport Recife,Santa Cruz,5,3
+2016,Sport Recife,Coritiba FC,0,1
+2016,Sport Recife,São Paulo,1,1
+2016,Sport Recife,Cruzeiro,0,1
+2016,Internacional,América-MG,3,1
+2016,Internacional,Grêmio,0,1
+2016,Internacional,Palmeiras,0,1
+2016,Internacional,Corinthians,0,1
+2016,Internacional,Fluminense,2,2
+2016,Internacional,São Paulo,1,1
+2016,Internacional,Santos,2,1
+2016,Internacional,Santa Cruz,1,1
+2016,Figueirense FC,Santos,2,2
+2016,Figueirense FC,Atlético-MG,1,1
+2016,Figueirense FC,Cruzeiro,1,2
+2016,Figueirense FC,América-MG,2,2
+2016,Figueirense FC,Corinthians,1,1
+2016,Grêmio,EC Vitória,1,2
+2016,Cruzeiro,Coritiba FC,2,2
+2016,Fluminense,Santos,2,4
+2016,Fluminense,Palmeiras,0,2
+2016,Santa Cruz,Ponte Preta,0,3
+2016,São Paulo,Chapecoense,2,2
+2016,São Paulo,Atlético-MG,1,2
+2016,América-MG,Ponte Preta,1,2
+2016,América-MG,Santa Cruz,0,3
+2016,Chapecoense,Grêmio,3,3
+2016,Coritiba FC,Chapecoense,3,4
+2016,EC Vitória,Corinthians,3,2
+2016,EC Vitória,Santos,2,3
+2016,EC Vitória,Athletico-PR,3,2
+2016,EC Vitória,Palmeiras,1,2
+2016,Ponte Preta,Flamengo,1,2
+2016,Ponte Preta,Cruzeiro,0,4
+2016,Ponte Preta,Atlético-MG,1,2
+2016,Internacional,Botafogo,2,3
+2016,Atlético-MG,Grêmio,0,3
+2016,Chapecoense,EC Vitória,1,4
+2016,Sport Recife,Atlético-MG,4,4
+2015,Grêmio,Ponte Preta,3,3
+2015,Grêmio,Figueirense FC,1,0
+2015,Grêmio,Corinthians,3,1
+2015,Grêmio,Athletico-PR,2,1
+2015,Grêmio,Palmeiras,1,0
+2015,Grêmio,Cruzeiro,1,0
+2015,Grêmio,Vasco da Gama,2,0
+2015,Grêmio,Sport Recife,1,1
+2015,Grêmio,Internacional,5,0
+2015,Grêmio,Joinville-SC,2,1
+2015,Grêmio,Coritiba FC,0,0
+2015,Grêmio,Goiás,2,1
+2015,Grêmio,São Paulo,1,2
+2015,Grêmio,Avaí FC,3,1
+2015,Grêmio,Santos,1,0
+2015,Grêmio,Chapecoense,2,3
+2015,Grêmio,Flamengo,2,0
+2015,Grêmio,Fluminense,1,0
+2015,Grêmio,Atlético-MG,2,1
+2015,Avaí FC,Santos,1,1
+2015,Avaí FC,Flamengo,2,1
+2015,Avaí FC,Atlético-MG,1,4
+2015,Avaí FC,Figueirense FC,1,1
+2015,Avaí FC,Grêmio,1,2
+2015,Avaí FC,Sport Recife,2,2
+2015,Avaí FC,Chapecoense,2,1
+2015,Avaí FC,Athletico-PR,1,2
+2015,Avaí FC,Fluminense,1,0
+2015,Avaí FC,Corinthians,1,2
+2015,Avaí FC,Internacional,3,0
+2015,Avaí FC,Coritiba FC,0,2
+2015,Avaí FC,Goiás,2,1
+2015,Avaí FC,São Paulo,2,1
+2015,Avaí FC,Vasco da Gama,1,1
+2015,Avaí FC,Palmeiras,1,3
+2015,Avaí FC,Cruzeiro,1,1
+2015,Avaí FC,Joinville-SC,2,1
+2015,Avaí FC,Ponte Preta,1,0
+2015,Cruzeiro,Corinthians,0,1
+2015,Cruzeiro,Ponte Preta,1,1
+2015,Cruzeiro,Flamengo,1,0
+2015,Cruzeiro,Chapecoense,0,1
+2015,Cruzeiro,Athletico-PR,2,0
+2015,Cruzeiro,Goiás,1,0
+2015,Cruzeiro,Avaí FC,1,1
+2015,Cruzeiro,Palmeiras,2,1
+2015,Cruzeiro,Internacional,0,0
+2015,Cruzeiro,Santos,0,1
+2015,Cruzeiro,Figueirense FC,5,1
+2015,Cruzeiro,Atlético-MG,1,1
+2015,Cruzeiro,Vasco da Gama,2,2
+2015,Cruzeiro,Coritiba FC,2,0
+2015,Cruzeiro,Grêmio,0,0
+2015,Cruzeiro,Fluminense,2,0
+2015,Cruzeiro,São Paulo,2,1
+2015,Cruzeiro,Sport Recife,3,0
+2015,Cruzeiro,Joinville-SC,3,0
+2015,Flamengo,Sport Recife,2,2
+2015,Flamengo,Fluminense,2,3
+2015,Flamengo,Chapecoense,1,0
+2015,Flamengo,Atlético-MG,0,2
+2015,Flamengo,Figueirense FC,1,2
+2015,Flamengo,Corinthians,0,3
+2015,Flamengo,Grêmio,1,0
+2015,Flamengo,Santos,2,2
+2015,Flamengo,Athletico-PR,3,2
+2015,Flamengo,São Paulo,2,1
+2015,Flamengo,Avaí FC,3,0
+2015,Flamengo,Cruzeiro,2,0
+2015,Flamengo,Coritiba FC,0,2
+2015,Flamengo,Vasco da Gama,1,2
+2015,Flamengo,Joinville-SC,2,0
+2015,Flamengo,Internacional,0,1
+2015,Flamengo,Goiás,4,1
+2015,Flamengo,Ponte Preta,1,1
+2015,Flamengo,Palmeiras,1,2
+2015,Goiás,Athletico-PR,2,0
+2015,Goiás,Grêmio,1,1
+2015,Goiás,Avaí FC,0,1
+2015,Goiás,Fluminense,1,2
+2015,Goiás,Corinthians,0,0
+2015,Goiás,Santos,4,1
+2015,Goiás,Flamengo,0,1
+2015,Goiás,Atlético-MG,0,0
+2015,Goiás,Chapecoense,0,0
+2015,Goiás,Vasco da Gama,3,0
+2015,Goiás,Palmeiras,1,0
+2015,Goiás,Sport Recife,1,0
+2015,Goiás,Ponte Preta,1,2
+2015,Goiás,Joinville-SC,3,0
+2015,Goiás,Figueirense FC,2,3
+2015,Goiás,Cruzeiro,0,1
+2015,Goiás,Internacional,2,1
+2015,Goiás,Coritiba FC,1,3
+2015,Goiás,São Paulo,0,1
+2015,Palmeiras,Atlético-MG,2,2
+2015,Palmeiras,Goiás,0,1
+2015,Palmeiras,Internacional,1,1
+2015,Palmeiras,Fluminense,2,1
+2015,Palmeiras,São Paulo,4,0
+2015,Palmeiras,Chapecoense,2,0
+2015,Palmeiras,Avaí FC,3,0
+2015,Palmeiras,Santos,1,0
+2015,Palmeiras,Athletico-PR,0,1
+2015,Palmeiras,Flamengo,4,2
+2015,Palmeiras,Joinville-SC,3,2
+2015,Palmeiras,Corinthians,3,3
+2015,Palmeiras,Figueirense FC,2,0
+2015,Palmeiras,Grêmio,3,2
+2015,Palmeiras,Ponte Preta,0,1
+2015,Palmeiras,Sport Recife,0,2
+2015,Palmeiras,Vasco da Gama,0,2
+2015,Palmeiras,Cruzeiro,1,1
+2015,Palmeiras,Coritiba FC,0,2
+2015,Santos,Cruzeiro,1,0
+2015,Santos,Sport Recife,2,2
+2015,Santos,Ponte Preta,2,2
+2015,Santos,Corinthians,1,0
+2015,Santos,Grêmio,1,3
+2015,Santos,Figueirense FC,3,0
+2015,Santos,Joinville-SC,2,0
+2015,Santos,Coritiba FC,3,0
+2015,Santos,Vasco da Gama,1,0
+2015,Santos,Avaí FC,5,2
+2015,Santos,Chapecoense,3,1
+2015,Santos,São Paulo,3,0
+2015,Santos,Atlético-MG,4,0
+2015,Santos,Internacional,3,1
+2015,Santos,Fluminense,3,1
+2015,Santos,Goiás,3,1
+2015,Santos,Palmeiras,2,1
+2015,Santos,Flamengo,0,0
+2015,Santos,Athletico-PR,5,1
+2015,Fluminense,Joinville-SC,1,0
+2015,Fluminense,Corinthians,0,0
+2015,Fluminense,Coritiba FC,2,0
+2015,Fluminense,Sport Recife,0,0
+2015,Fluminense,Ponte Preta,2,0
+2015,Fluminense,Santos,2,1
+2015,Fluminense,Cruzeiro,1,0
+2015,Fluminense,Vasco da Gama,1,2
+2015,Fluminense,Grêmio,1,0
+2015,Fluminense,Figueirense FC,2,1
+2015,Fluminense,Atlético-MG,1,2
+2015,Fluminense,Flamengo,1,3
+2015,Fluminense,Palmeiras,1,4
+2015,Fluminense,Goiás,2,0
+2015,Fluminense,São Paulo,2,0
+2015,Fluminense,Athletico-PR,0,1
+2015,Fluminense,Chapecoense,2,3
+2015,Fluminense,Avaí FC,3,1
+2015,Fluminense,Internacional,1,1
+2015,São Paulo,Flamengo,2,1
+2015,São Paulo,Joinville-SC,3,0
+2015,São Paulo,Santos,3,2
+2015,São Paulo,Grêmio,2,0
+2015,São Paulo,Avaí FC,1,1
+2015,São Paulo,Fluminense,0,0
+2015,São Paulo,Coritiba FC,3,1
+2015,São Paulo,Cruzeiro,1,0
+2015,São Paulo,Corinthians,1,1
+2015,São Paulo,Goiás,0,3
+2015,São Paulo,Ponte Preta,3,0
+2015,São Paulo,Internacional,2,0
+2015,São Paulo,Chapecoense,0,0
+2015,São Paulo,Palmeiras,1,1
+2015,São Paulo,Athletico-PR,1,0
+2015,São Paulo,Vasco da Gama,2,2
+2015,São Paulo,Sport Recife,3,0
+2015,São Paulo,Atlético-MG,4,2
+2015,São Paulo,Figueirense FC,3,2
+2015,Chapecoense,Coritiba FC,2,1
+2015,Chapecoense,Santos,1,0
+2015,Chapecoense,Joinville-SC,2,0
+2015,Chapecoense,São Paulo,0,1
+2015,Chapecoense,Sport Recife,1,1
+2015,Chapecoense,Vasco da Gama,1,0
+2015,Chapecoense,Grêmio,1,0
+2015,Chapecoense,Fluminense,2,1
+2015,Chapecoense,Figueirense FC,2,2
+2015,Chapecoense,Atlético-MG,2,1
+2015,Chapecoense,Corinthians,1,3
+2015,Chapecoense,Ponte Preta,0,0
+2015,Chapecoense,Flamengo,1,3
+2015,Chapecoense,Cruzeiro,0,2
+2015,Chapecoense,Palmeiras,5,1
+2015,Chapecoense,Avaí FC,0,0
+2015,Chapecoense,Athletico-PR,0,0
+2015,Chapecoense,Internacional,1,0
+2015,Chapecoense,Goiás,1,3
+2015,Corinthians,Chapecoense,1,0
+2015,Corinthians,Palmeiras,0,2
+2015,Corinthians,Internacional,2,1
+2015,Corinthians,Figueirense FC,2,1
+2015,Corinthians,Ponte Preta,2,0
+2015,Corinthians,Athletico-PR,2,0
+2015,Corinthians,Atlético-MG,1,0
+2015,Corinthians,Vasco da Gama,3,0
+2015,Corinthians,Sport Recife,4,3
+2015,Corinthians,Cruzeiro,3,0
+2015,Corinthians,Fluminense,2,0
+2015,Corinthians,Grêmio,1,1
+2015,Corinthians,Joinville-SC,3,0
+2015,Corinthians,Santos,2,0
+2015,Corinthians,Goiás,3,0
+2015,Corinthians,Flamengo,1,0
+2015,Corinthians,Coritiba FC,2,1
+2015,Corinthians,São Paulo,6,1
+2015,Corinthians,Avaí FC,1,1
+2015,Coritiba FC,Grêmio,2,0
+2015,Coritiba FC,Avaí FC,1,2
+2015,Coritiba FC,Flamengo,0,1
+2015,Coritiba FC,Cruzeiro,1,0
+2015,Coritiba FC,Joinville-SC,0,0
+2015,Coritiba FC,Ponte Preta,0,0
+2015,Coritiba FC,Corinthians,1,1
+2015,Coritiba FC,Goiás,1,1
+2015,Coritiba FC,Palmeiras,2,1
+2015,Coritiba FC,Chapecoense,1,0
+2015,Coritiba FC,Sport Recife,0,0
+2015,Coritiba FC,Fluminense,1,1
+2015,Coritiba FC,Internacional,0,1
+2015,Coritiba FC,Athletico-PR,2,0
+2015,Coritiba FC,Atlético-MG,0,3
+2015,Coritiba FC,São Paulo,1,2
+2015,Coritiba FC,Figueirense FC,1,1
+2015,Coritiba FC,Santos,1,0
+2015,Coritiba FC,Vasco da Gama,0,0
+2015,Ponte Preta,São Paulo,1,0
+2015,Ponte Preta,Chapecoense,3,1
+2015,Ponte Preta,Goiás,0,0
+2015,Ponte Preta,Athletico-PR,2,1
+2015,Ponte Preta,Palmeiras,0,2
+2015,Ponte Preta,Atlético-MG,0,2
+2015,Ponte Preta,Internacional,0,0
+2015,Ponte Preta,Flamengo,1,0
+2015,Ponte Preta,Avaí FC,2,0
+2015,Ponte Preta,Grêmio,0,0
+2015,Ponte Preta,Cruzeiro,1,2
+2015,Ponte Preta,Vasco da Gama,0,1
+2015,Ponte Preta,Santos,3,1
+2015,Ponte Preta,Fluminense,3,1
+2015,Ponte Preta,Corinthians,2,2
+2015,Ponte Preta,Coritiba FC,3,0
+2015,Ponte Preta,Joinville-SC,1,0
+2015,Ponte Preta,Figueirense FC,0,1
+2015,Ponte Preta,Sport Recife,0,1
+2015,Atlético-MG,Fluminense,4,1
+2015,Atlético-MG,Vasco da Gama,3,0
+2015,Atlético-MG,Cruzeiro,1,3
+2015,Atlético-MG,Santos,2,2
+2015,Atlético-MG,Joinville-SC,1,0
+2015,Atlético-MG,Coritiba FC,2,0
+2015,Atlético-MG,Sport Recife,2,1
+2015,Atlético-MG,Figueirense FC,1,0
+2015,Atlético-MG,São Paulo,3,1
+2015,Atlético-MG,Grêmio,0,2
+2015,Atlético-MG,Palmeiras,2,1
+2015,Atlético-MG,Athletico-PR,0,1
+2015,Atlético-MG,Avaí FC,2,0
+2015,Atlético-MG,Flamengo,4,1
+2015,Atlético-MG,Internacional,2,1
+2015,Atlético-MG,Ponte Preta,2,1
+2015,Atlético-MG,Corinthians,0,3
+2015,Atlético-MG,Goiás,2,2
+2015,Atlético-MG,Chapecoense,3,0
+2015,Athletico-PR,Internacional,3,0
+2015,Athletico-PR,Atlético-MG,1,0
+2015,Athletico-PR,Figueirense FC,1,0
+2015,Athletico-PR,Vasco da Gama,2,0
+2015,Athletico-PR,Coritiba FC,2,2
+2015,Athletico-PR,São Paulo,2,1
+2015,Athletico-PR,Fluminense,1,2
+2015,Athletico-PR,Chapecoense,1,0
+2015,Athletico-PR,Sport Recife,1,1
+2015,Athletico-PR,Santos,0,0
+2015,Athletico-PR,Goiás,3,0
+2015,Athletico-PR,Joinville-SC,0,0
+2015,Athletico-PR,Grêmio,1,2
+2015,Athletico-PR,Ponte Preta,1,2
+2015,Athletico-PR,Cruzeiro,2,2
+2015,Athletico-PR,Corinthians,1,4
+2015,Athletico-PR,Avaí FC,2,1
+2015,Athletico-PR,Palmeiras,3,3
+2015,Athletico-PR,Flamengo,3,0
+2015,Joinville-SC,Palmeiras,0,0
+2015,Joinville-SC,Athletico-PR,1,2
+2015,Joinville-SC,Corinthians,0,1
+2015,Joinville-SC,Goiás,2,1
+2015,Joinville-SC,Flamengo,0,1
+2015,Joinville-SC,Internacional,0,2
+2015,Joinville-SC,Ponte Preta,1,1
+2015,Joinville-SC,Avaí FC,2,0
+2015,Joinville-SC,Cruzeiro,3,0
+2015,Joinville-SC,Fluminense,2,1
+2015,Joinville-SC,São Paulo,0,0
+2015,Joinville-SC,Chapecoense,0,0
+2015,Joinville-SC,Sport Recife,1,1
+2015,Joinville-SC,Atlético-MG,2,2
+2015,Joinville-SC,Coritiba FC,3,1
+2015,Joinville-SC,Figueirense FC,1,0
+2015,Joinville-SC,Santos,0,0
+2015,Joinville-SC,Vasco da Gama,1,2
+2015,Joinville-SC,Grêmio,0,2
+2015,Sport Recife,Figueirense FC,4,1
+2015,Sport Recife,Coritiba FC,1,0
+2015,Sport Recife,Goiás,1,0
+2015,Sport Recife,Joinville-SC,2,1
+2015,Sport Recife,Vasco da Gama,2,1
+2015,Sport Recife,Internacional,3,0
+2015,Sport Recife,Palmeiras,2,2
+2015,Sport Recife,São Paulo,2,0
+2015,Sport Recife,Cruzeiro,0,0
+2015,Sport Recife,Ponte Preta,1,1
+2015,Sport Recife,Flamengo,0,1
+2015,Sport Recife,Santos,1,1
+2015,Sport Recife,Fluminense,1,0
+2015,Sport Recife,Chapecoense,3,0
+2015,Sport Recife,Avaí FC,3,0
+2015,Sport Recife,Atlético-MG,4,1
+2015,Sport Recife,Grêmio,1,0
+2015,Sport Recife,Athletico-PR,0,0
+2015,Sport Recife,Corinthians,2,0
+2015,Internacional,Avaí FC,1,0
+2015,Internacional,São Paulo,0,0
+2015,Internacional,Coritiba FC,2,0
+2015,Internacional,Santos,1,0
+2015,Internacional,Atlético-MG,1,3
+2015,Internacional,Flamengo,1,2
+2015,Internacional,Goiás,2,1
+2015,Internacional,Chapecoense,0,0
+2015,Internacional,Fluminense,1,0
+2015,Internacional,Athletico-PR,2,0
+2015,Internacional,Vasco da Gama,6,0
+2015,Internacional,Palmeiras,1,0
+2015,Internacional,Corinthians,2,1
+2015,Internacional,Figueirense FC,1,1
+2015,Internacional,Sport Recife,2,1
+2015,Internacional,Joinville-SC,1,0
+2015,Internacional,Ponte Preta,1,0
+2015,Internacional,Grêmio,1,0
+2015,Internacional,Cruzeiro,2,0
+2015,Vasco da Gama,Goiás,0,0
+2015,Vasco da Gama,Internacional,1,1
+2015,Vasco da Gama,Ponte Preta,0,3
+2015,Vasco da Gama,Cruzeiro,1,3
+2015,Vasco da Gama,Flamengo,1,0
+2015,Vasco da Gama,Avaí FC,1,0
+2015,Vasco da Gama,São Paulo,0,4
+2015,Vasco da Gama,Palmeiras,1,4
+2015,Vasco da Gama,Joinville-SC,0,0
+2015,Vasco da Gama,Coritiba FC,0,1
+2015,Vasco da Gama,Figueirense FC,0,1
+2015,Vasco da Gama,Atlético-MG,1,2
+2015,Vasco da Gama,Athletico-PR,2,0
+2015,Vasco da Gama,Sport Recife,2,1
+2015,Vasco da Gama,Chapecoense,1,1
+2015,Vasco da Gama,Grêmio,0,0
+2015,Vasco da Gama,Fluminense,0,1
+2015,Vasco da Gama,Corinthians,1,1
+2015,Vasco da Gama,Santos,1,0
+2015,Figueirense FC,Vasco da Gama,0,0
+2015,Figueirense FC,Cruzeiro,2,1
+2015,Figueirense FC,Palmeiras,2,1
+2015,Figueirense FC,Internacional,0,0
+2015,Figueirense FC,Goiás,3,1
+2015,Figueirense FC,Joinville-SC,0,2
+2015,Figueirense FC,Coritiba FC,0,0
+2015,Figueirense FC,Ponte Preta,3,1
+2015,Figueirense FC,São Paulo,0,2
+2015,Figueirense FC,Sport Recife,2,1
+2015,Figueirense FC,Grêmio,0,2
+2015,Figueirense FC,Athletico-PR,1,1
+2015,Figueirense FC,Avaí FC,0,1
+2015,Figueirense FC,Corinthians,1,3
+2015,Figueirense FC,Flamengo,3,0
+2015,Figueirense FC,Santos,0,0
+2015,Figueirense FC,Atlético-MG,0,1
+2015,Figueirense FC,Chapecoense,0,0
+2015,Figueirense FC,Fluminense,1,0
+2024,Grêmio,Fluminense,1,0
+2024,Grêmio,Palmeiras,2,2
+2024,Grêmio,Cruzeiro,0,2
+2024,Grêmio,EC Vitória,2,0
+2024,Grêmio,Vasco da Gama,1,0
+2024,Botafogo,Atlético-MG,3,0
+2024,Botafogo,Palmeiras,1,0
+2024,Botafogo,Internacional,1,0
+2024,Botafogo,Cruzeiro,0,3
+2024,Cruzeiro,Corinthians,3,0
+2024,Cruzeiro,RB Bragantino,2,1
+2024,Cruzeiro,Juventude,2,0
+2024,EC Bahia,Juventude,2,0
+2024,EC Bahia,Cuiabá-MT,1,2
+2024,EC Bahia,Corinthians,0,1
+2024,EC Bahia,Internacional,1,1
+2024,Flamengo,Cruzeiro,2,1
+2024,Flamengo,Cuiabá-MT,1,1
+2024,Flamengo,Fortaleza,1,2
+2024,Flamengo,Criciúma EC,2,1
+2024,Flamengo,Atlético-GO,2,0
+2024,Fortaleza,Juventude,2,1
+2024,Fortaleza,Fluminense,1,0
+2024,Fortaleza,EC Vitória,3,1
+2024,Fortaleza,Atlético-GO,3,1
+2024,Fortaleza,São Paulo,1,0
+2024,Juventude,Grêmio,3,0
+2024,Juventude,Atlético-MG,1,1
+2024,Juventude,São Paulo,0,0
+2024,Juventude,Criciúma EC,1,2
+2024,Palmeiras,EC Bahia,2,0
+2024,Palmeiras,Atlético-GO,3,1
+2024,Palmeiras,Cruzeiro,2,0
+2024,Palmeiras,EC Vitória,0,2
+2024,Cuiabá-MT,Fluminense,0,1
+2024,Cuiabá-MT,Athletico-PR,1,2
+2024,Fluminense,Internacional,1,1
+2024,Fluminense,Palmeiras,1,0
+2024,Fluminense,EC Bahia,1,0
+2024,São Paulo,EC Bahia,3,1
+2024,São Paulo,RB Bragantino,2,0
+2024,São Paulo,Grêmio,1,0
+2024,São Paulo,Botafogo,2,2
+2024,São Paulo,Flamengo,1,0
+2024,Corinthians,Fortaleza,0,0
+2024,Corinthians,EC Vitória,3,2
+2024,Corinthians,Criciúma EC,2,1
+2024,Corinthians,Grêmio,2,2
+2024,Corinthians,Juventude,1,1
+2024,EC Vitória,Athletico-PR,0,1
+2024,EC Vitória,Criciúma EC,2,1
+2024,EC Vitória,Botafogo,0,1
+2024,EC Vitória,Flamengo,1,2
+2024,EC Vitória,Cuiabá-MT,1,0
+2024,Athletico-PR,Internacional,1,0
+2024,Athletico-PR,EC Bahia,1,3
+2024,Athletico-PR,Grêmio,0,2
+2024,Atlético-GO,Athletico-PR,1,2
+2024,Atlético-GO,Vasco da Gama,0,1
+2024,Atlético-GO,EC Bahia,1,1
+2024,Atlético-GO,Botafogo,1,4
+2024,Atlético-MG,São Paulo,2,1
+2024,Atlético-MG,Vasco da Gama,2,0
+2024,Atlético-MG,Corinthians,2,1
+2024,Criciúma EC,Fortaleza,1,1
+2024,Criciúma EC,Internacional,1,1
+2024,Criciúma EC,Fluminense,1,1
+2024,Criciúma EC,Atlético-MG,2,1
+2024,Internacional,Vasco da Gama,1,2
+2024,Internacional,Palmeiras,1,1
+2024,RB Bragantino,Flamengo,1,1
+2024,RB Bragantino,Athletico-PR,1,0
+2024,RB Bragantino,Fluminense,0,1
+2024,Vasco da Gama,Corinthians,2,0
+2024,Vasco da Gama,RB Bragantino,2,2
+2024,Grêmio,Cuiabá-MT,1,0
+2024,Grêmio,Botafogo,1,2
+2024,Grêmio,Atlético-GO,3,1
+2024,Botafogo,EC Bahia,1,2
+2024,Botafogo,Fluminense,1,0
+2024,Botafogo,Flamengo,4,1
+2024,Botafogo,Fortaleza,2,0
+2024,Botafogo,Grêmio,0,0
+2024,Cruzeiro,Botafogo,3,2
+2024,Cruzeiro,EC Vitória,3,1
+2024,Cruzeiro,Athletico-PR,2,0
+2024,Cruzeiro,Vasco da Gama,1,1
+2024,EC Bahia,EC Vitória,2,0
+2024,Flamengo,Grêmio,2,1
+2024,Fortaleza,Botafogo,1,1
+2024,Juventude,Botafogo,3,2
+2024,Juventude,RB Bragantino,1,1
+2024,Palmeiras,Flamengo,0,0
+2024,Palmeiras,Corinthians,2,0
+2024,Palmeiras,Fortaleza,2,2
+2024,Cuiabá-MT,Cruzeiro,0,0
+2024,Fluminense,RB Bragantino,2,2
+2024,Fluminense,EC Vitória,0,1
+2024,Fluminense,São Paulo,2,0
+2024,São Paulo,Fluminense,2,1
+2024,São Paulo,Criciúma EC,2,1
+2024,São Paulo,EC Vitória,2,1
+2024,Corinthians,Flamengo,2,1
+2024,Corinthians,Internacional,2,2
+2024,EC Vitória,Cruzeiro,2,2
+2024,EC Vitória,Juventude,1,0
+2024,EC Vitória,RB Bragantino,1,0
+2024,Athletico-PR,Fortaleza,1,1
+2024,Athletico-PR,Cruzeiro,3,0
+2024,Atlético-GO,Corinthians,2,2
+2024,Atlético-GO,Grêmio,1,1
+2024,Atlético-GO,Internacional,1,0
+2024,Atlético-GO,EC Vitória,0,2
+2024,Atlético-GO,Fluminense,1,0
+2024,Atlético-MG,Criciúma EC,1,1
+2024,Atlético-MG,EC Bahia,1,1
+2024,Atlético-MG,Cuiabá-MT,1,1
+2024,Atlético-MG,Fluminense,0,2
+2024,Criciúma EC,Cuiabá-MT,2,5
+2024,Criciúma EC,Athletico-PR,0,0
+2024,Internacional,Juventude,2,1
+2024,Internacional,Atlético-MG,1,2
+2024,Internacional,Cruzeiro,1,0
+2024,RB Bragantino,Palmeiras,0,0
+2024,Vasco da Gama,EC Vitória,2,1
+2024,Vasco da Gama,Botafogo,1,1
+2024,Grêmio,Athletico-PR,2,0
+2024,Grêmio,Criciúma EC,1,2
+2024,Grêmio,RB Bragantino,0,2
+2024,Grêmio,EC Bahia,0,2
+2024,Grêmio,Flamengo,3,2
+2024,Grêmio,Fortaleza,3,1
+2024,Botafogo,Juventude,5,1
+2024,Botafogo,RB Bragantino,2,1
+2024,Botafogo,Corinthians,2,1
+2024,Cruzeiro,Internacional,0,0
+2024,Cruzeiro,Cuiabá-MT,2,1
+2024,Cruzeiro,São Paulo,0,1
+2024,EC Bahia,Vasco da Gama,2,1
+2024,Flamengo,Botafogo,0,2
+2024,Flamengo,Corinthians,2,0
+2024,Flamengo,RB Bragantino,2,1
+2024,Flamengo,Vasco da Gama,1,1
+2024,Flamengo,Fluminense,0,2
+2024,Flamengo,Juventude,4,2
+2024,Fortaleza,Criciúma EC,1,0
+2024,Juventude,Atlético-GO,1,0
+2024,Juventude,EC Vitória,1,1
+2024,Juventude,Internacional,1,3
+2024,Juventude,Fluminense,2,1
+2024,Palmeiras,Internacional,0,1
+2024,Palmeiras,Athletico-PR,0,2
+2024,Palmeiras,Vasco da Gama,2,0
+2024,Palmeiras,São Paulo,2,1
+2024,Palmeiras,Atlético-MG,2,1
+2024,Cuiabá-MT,EC Vitória,0,0
+2024,Cuiabá-MT,Atlético-MG,0,3
+2024,Cuiabá-MT,Palmeiras,0,2
+2024,Cuiabá-MT,Internacional,0,1
+2024,Cuiabá-MT,Fortaleza,5,0
+2024,Cuiabá-MT,RB Bragantino,1,1
+2024,Cuiabá-MT,Grêmio,1,3
+2024,Cuiabá-MT,São Paulo,2,0
+2024,Fluminense,Atlético-GO,1,2
+2024,Fluminense,Athletico-PR,1,0
+2024,Fluminense,Cruzeiro,1,0
+2024,São Paulo,Fortaleza,1,2
+2024,São Paulo,Cruzeiro,2,0
+2024,São Paulo,Atlético-GO,1,0
+2024,São Paulo,Vasco da Gama,3,0
+2024,Corinthians,São Paulo,2,2
+2024,Corinthians,Cuiabá-MT,1,1
+2024,Corinthians,RB Bragantino,1,1
+2024,Corinthians,Atlético-GO,3,0
+2024,EC Vitória,Atlético-GO,0,2
+2024,Athletico-PR,Cuiabá-MT,4,0
+2024,Athletico-PR,Juventude,1,2
+2024,Atlético-GO,Flamengo,1,2
+2024,Atlético-GO,Cuiabá-MT,0,0
+2024,Atlético-MG,Grêmio,2,1
+2024,Atlético-MG,RB Bragantino,3,0
+2024,Criciúma EC,Palmeiras,1,2
+2024,Criciúma EC,EC Bahia,2,2
+2024,Criciúma EC,Cruzeiro,1,0
+2024,Criciúma EC,RB Bragantino,1,0
+2024,Criciúma EC,Vasco da Gama,2,2
+2024,Criciúma EC,Atlético-GO,2,0
+2024,Internacional,Grêmio,1,0
+2024,RB Bragantino,Fortaleza,1,2
+2024,RB Bragantino,EC Bahia,2,1
+2024,RB Bragantino,Grêmio,2,2
+2024,Vasco da Gama,Grêmio,2,1
+2024,Vasco da Gama,Flamengo,1,6
+2024,Vasco da Gama,Fortaleza,2,0
+2024,Vasco da Gama,Cuiabá-MT,1,0
+2024,Vasco da Gama,Fluminense,2,0
+2024,Vasco da Gama,Athletico-PR,2,1
+2024,Vasco da Gama,Juventude,1,1
+2024,Botafogo,Atlético-GO,1,0
+2024,Botafogo,Criciúma EC,1,1
+2024,Cruzeiro,Fortaleza,1,2
+2024,Cruzeiro,Atlético-MG,0,0
+2024,EC Bahia,Fluminense,2,1
+2024,EC Bahia,Grêmio,1,0
+2024,EC Bahia,Botafogo,0,0
+2024,Flamengo,São Paulo,2,1
+2024,Flamengo,Palmeiras,1,1
+2024,Fortaleza,Cruzeiro,1,1
+2024,Fortaleza,RB Bragantino,1,1
+2024,Fortaleza,Athletico-PR,1,0
+2024,Fortaleza,Palmeiras,3,0
+2024,Fortaleza,Corinthians,1,0
+2024,Juventude,Corinthians,2,0
+2024,Juventude,Flamengo,2,1
+2024,Palmeiras,Cuiabá-MT,5,0
+2024,Palmeiras,Criciúma EC,5,0
+2024,Cuiabá-MT,Juventude,0,0
+2024,São Paulo,Internacional,1,3
+2024,São Paulo,Corinthians,3,1
+2024,Corinthians,Atlético-MG,0,0
+2024,Corinthians,Fluminense,3,0
+2024,Corinthians,Botafogo,0,1
+2024,Corinthians,Athletico-PR,5,2
+2024,EC Vitória,EC Bahia,2,2
+2024,EC Vitória,São Paulo,1,3
+2024,EC Vitória,Internacional,2,1
+2024,EC Vitória,Vasco da Gama,0,1
+2024,EC Vitória,Fluminense,2,1
+2024,Athletico-PR,Flamengo,1,1
+2024,Athletico-PR,São Paulo,1,2
+2024,Athletico-PR,Palmeiras,0,2
+2024,Athletico-PR,Botafogo,0,1
+2024,Atlético-GO,São Paulo,0,3
+2024,Atlético-GO,Cruzeiro,0,1
+2024,Atlético-GO,Juventude,2,1
+2024,Atlético-MG,Cruzeiro,3,0
+2024,Atlético-MG,Palmeiras,0,4
+2024,Atlético-MG,Atlético-GO,1,1
+2024,Atlético-MG,Flamengo,2,4
+2024,Internacional,EC Bahia,2,1
+2024,Internacional,Fortaleza,2,1
+2024,Internacional,Athletico-PR,2,2
+2024,Internacional,Cuiabá-MT,3,0
+2024,RB Bragantino,Atlético-MG,1,2
+2024,RB Bragantino,Internacional,2,2
+2024,Vasco da Gama,Criciúma EC,0,4
+2024,Vasco da Gama,Palmeiras,0,1
+2024,Grêmio,Atlético-MG,2,3
+2024,Cruzeiro,Atlético-GO,3,1
+2024,EC Bahia,RB Bragantino,1,0
+2024,EC Bahia,Atlético-MG,3,0
+2024,Flamengo,Athletico-PR,1,0
+2024,Fortaleza,Atlético-MG,1,1
+2024,Juventude,Athletico-PR,1,1
+2024,Cuiabá-MT,Criciúma EC,2,1
+2024,Fluminense,Atlético-MG,2,2
+2024,Fluminense,Juventude,1,1
+2024,Fluminense,Corinthians,0,0
+2024,Fluminense,Botafogo,0,1
+2024,São Paulo,Palmeiras,0,0
+2024,EC Vitória,Palmeiras,0,1
+2024,Athletico-PR,Vasco da Gama,1,0
+2024,Athletico-PR,Criciúma EC,3,1
+2024,Atlético-MG,EC Vitória,2,2
+2024,Internacional,São Paulo,0,0
+2024,RB Bragantino,Vasco da Gama,2,1
+2024,RB Bragantino,Atlético-GO,3,1
+2024,Vasco da Gama,Cruzeiro,0,0
+2024,EC Bahia,Flamengo,0,2
+2024,Fortaleza,EC Bahia,4,1
+2024,Fluminense,Vasco da Gama,2,1
+2024,Criciúma EC,Juventude,1,1
+2024,Criciúma EC,Grêmio,0,1
+2024,Internacional,EC Vitória,3,1
+2024,RB Bragantino,Corinthians,1,0
+2024,Cruzeiro,EC Bahia,1,1
+2024,EC Bahia,Criciúma EC,1,0
+2024,Juventude,Palmeiras,3,5
+2024,Internacional,Atlético-GO,1,1
+2024,RB Bragantino,Juventude,2,1
+2024,EC Bahia,Fortaleza,1,0
+2024,Fortaleza,Cuiabá-MT,1,0
+2024,Cuiabá-MT,Botafogo,1,2
+2023,Fluminense,Athletico-PR,2,0
+2023,Botafogo,América-MG,2,0
+2023,Internacional,Palmeiras,0,0
+2023,Athletico-PR,EC Bahia,2,0
+2023,Goiás,São Paulo,2,0
+2023,Palmeiras,Fluminense,1,0
+2023,EC Bahia,Palmeiras,1,0
+2023,EC Bahia,Corinthians,0,0
+2023,EC Bahia,RB Bragantino,4,0
+2023,EC Bahia,Internacional,1,0
+2023,EC Bahia,Fortaleza,2,0
+2023,EC Bahia,Fluminense,1,0
+2023,Vasco da Gama,Grêmio,1,0
+2023,Vasco da Gama,São Paulo,0,0
+2023,Vasco da Gama,Fortaleza,1,0
+2023,Vasco da Gama,Botafogo,1,0
+2023,Coritiba FC,Cruzeiro,1,0
+2023,Corinthians,Fluminense,2,0
+2023,Corinthians,Palmeiras,0,0
+2023,Corinthians,Botafogo,1,0
+2023,Corinthians,Athletico-PR,1,0
+2023,Coritiba FC,Santos,0,0
+2023,Coritiba FC,Fluminense,2,0
+2023,Coritiba FC,Athletico-PR,2,0
+2023,Fluminense,Cuiabá-MT,2,0
+2023,Fluminense,Internacional,2,0
+2023,Fluminense,Flamengo,0,0
+2023,Fluminense,Santos,1,0
+2023,Fluminense,Cruzeiro,1,0
+2023,Fluminense,São Paulo,1,0
+2023,Fluminense,Fortaleza,1,0
+2023,São Paulo,RB Bragantino,1,0
+2023,Botafogo,Atlético-MG,2,0
+2023,Botafogo,Corinthians,3,0
+2023,Botafogo,Fluminense,1,0
+2023,Botafogo,Fortaleza,2,0
+2023,Botafogo,Vasco da Gama,2,0
+2023,Botafogo,RB Bragantino,2,0
+2023,Botafogo,EC Bahia,3,0
+2023,Botafogo,Cruzeiro,0,0
+2023,Cruzeiro,Grêmio,1,0
+2023,São Paulo,América-MG,3,0
+2023,São Paulo,Internacional,2,0
+2023,São Paulo,Fluminense,1,0
+2023,São Paulo,EC Bahia,0,0
+2023,São Paulo,Botafogo,0,0
+2023,São Paulo,Grêmio,3,0
+2023,São Paulo,Cruzeiro,1,0
+2023,São Paulo,Cuiabá-MT,0,0
+2023,São Paulo,Flamengo,1,0
+2023,Grêmio,Fortaleza,0,0
+2023,Grêmio,Atlético-MG,1,0
+2023,Grêmio,Cruzeiro,3,0
+2023,Grêmio,Cuiabá-MT,2,0
+2023,Grêmio,Palmeiras,1,0
+2023,Grêmio,EC Bahia,1,0
+2023,Grêmio,Vasco da Gama,1,0
+2023,Athletico-PR,Goiás,2,0
+2023,Athletico-PR,Botafogo,1,0
+2023,Athletico-PR,Corinthians,1,0
+2023,Athletico-PR,Cuiabá-MT,2,0
+2023,Athletico-PR,Vasco da Gama,0,0
+2023,Athletico-PR,Santos,3,0
+2023,Vasco da Gama,Cuiabá-MT,1,0
+2023,Atlético-MG,Internacional,2,0
+2023,Atlético-MG,EC Bahia,1,0
+2023,Santos,Atlético-MG,0,0
+2023,Santos,EC Bahia,3,0
+2023,Santos,Palmeiras,0,0
+2023,Santos,Cuiabá-MT,0,0
+2023,Santos,São Paulo,0,0
+2023,RB Bragantino,Athletico-PR,2,0
+2023,RB Bragantino,Santos,2,0
+2023,RB Bragantino,Flamengo,4,0
+2023,RB Bragantino,Goiás,2,0
+2023,RB Bragantino,São Paulo,0,0
+2023,RB Bragantino,Internacional,0,0
+2023,RB Bragantino,Cuiabá-MT,2,0
+2023,RB Bragantino,Grêmio,2,0
+2023,Internacional,Fluminense,0,0
+2023,Internacional,RB Bragantino,1,0
+2023,RB Bragantino,Fluminense,1,0
+2023,RB Bragantino,Corinthians,1,0
+2023,RB Bragantino,Coritiba FC,1,0
+2023,Fortaleza,São Paulo,0,0
+2023,Fortaleza,Vasco da Gama,2,0
+2023,Fortaleza,EC Bahia,0,0
+2023,Fortaleza,Athletico-PR,1,0
+2023,Fortaleza,Santos,4,0
+2023,Fortaleza,Goiás,1,0
+2023,América-MG,Corinthians,2,0
+2023,América-MG,Santos,2,0
+2023,Atlético-MG,Santos,2,0
+2023,Atlético-MG,Botafogo,1,0
+2023,Atlético-MG,Cuiabá-MT,1,0
+2023,Atlético-MG,Fluminense,2,0
+2023,Atlético-MG,Grêmio,3,0
+2023,Goiás,Atlético-MG,0,0
+2023,Goiás,Fortaleza,1,0
+2023,Goiás,Internacional,0,0
+2023,Goiás,Flamengo,0,0
+2023,Goiás,América-MG,1,0
+2023,Internacional,Goiás,1,0
+2023,Internacional,EC Bahia,2,0
+2023,Internacional,Cruzeiro,0,0
+2023,Palmeiras,Cruzeiro,1,0
+2023,Palmeiras,Vasco da Gama,1,0
+2023,Palmeiras,Goiás,1,0
+2023,Palmeiras,São Paulo,5,0
+2023,Palmeiras,EC Bahia,1,0
+2023,Palmeiras,América-MG,4,0
+2023,Palmeiras,Athletico-PR,1,0
+2023,Cuiabá-MT,Santos,3,0
+2023,Cuiabá-MT,Flamengo,3,0
+2023,Cuiabá-MT,Fluminense,3,0
+2023,Cuiabá-MT,Cruzeiro,0,0
+2023,Cuiabá-MT,Athletico-PR,3,0
+2023,Cruzeiro,São Paulo,1,0
+2023,Cruzeiro,Coritiba FC,0,0
+2023,Cruzeiro,Botafogo,0,0
+2023,Cruzeiro,RB Bragantino,0,0
+2023,Cruzeiro,EC Bahia,3,0
+2023,Grêmio,Santos,1,0
+2023,Palmeiras,Internacional,3,0
+2023,Flamengo,Coritiba FC,3,0
+2023,Flamengo,Goiás,2,0
+2023,Flamengo,Corinthians,1,0
+2023,Flamengo,Grêmio,3,0
+2023,Flamengo,Fortaleza,2,0
+2023,Flamengo,Internacional,0,0
+2023,Flamengo,EC Bahia,1,0
+2023,Flamengo,Vasco da Gama,1,0
+2023,Flamengo,RB Bragantino,1,0
+2023,Flamengo,Palmeiras,3,0
+2023,Vasco da Gama,Atlético-MG,1,0
+2023,Palmeiras,Cuiabá-MT,2,1
+2023,Cuiabá-MT,São Paulo,2,1
+2023,EC Bahia,América-MG,3,1
+2023,Fortaleza,Coritiba FC,3,1
+2023,Fortaleza,Corinthians,2,1
+2023,EC Bahia,Coritiba FC,3,1
+2023,EC Bahia,Goiás,1,1
+2023,EC Bahia,Vasco da Gama,1,1
+2023,EC Bahia,Athletico-PR,1,1
+2023,EC Bahia,São Paulo,0,1
+2023,EC Bahia,Atlético-MG,4,1
+2023,Vasco da Gama,EC Bahia,0,1
+2023,Vasco da Gama,Santos,0,1
+2023,Vasco da Gama,Goiás,0,1
+2023,Vasco da Gama,Cruzeiro,0,1
+2023,Vasco da Gama,Coritiba FC,5,1
+2023,Vasco da Gama,América-MG,2,1
+2023,Vasco da Gama,RB Bragantino,2,1
+2023,América-MG,Atlético-MG,1,1
+2023,Corinthians,Cruzeiro,2,1
+2023,Corinthians,Fortaleza,1,1
+2023,Corinthians,São Paulo,1,1
+2023,Corinthians,Cuiabá-MT,1,1
+2023,Corinthians,RB Bragantino,0,1
+2023,Corinthians,Vasco da Gama,3,1
+2023,Corinthians,Coritiba FC,3,1
+2023,Corinthians,Goiás,1,1
+2023,Corinthians,Flamengo,1,1
+2023,Corinthians,América-MG,1,1
+2023,Corinthians,Santos,1,1
+2023,Corinthians,Atlético-MG,1,1
+2023,Coritiba FC,São Paulo,1,1
+2023,Coritiba FC,Vasco da Gama,1,1
+2023,Coritiba FC,Internacional,0,1
+2023,Coritiba FC,América-MG,3,1
+2023,Coritiba FC,RB Bragantino,0,1
+2023,Coritiba FC,Goiás,0,1
+2023,Coritiba FC,Botafogo,1,1
+2023,Fluminense,Vasco da Gama,1,1
+2023,Fluminense,RB Bragantino,2,1
+2023,Fluminense,EC Bahia,2,1
+2023,Fluminense,Palmeiras,2,1
+2023,Fluminense,América-MG,3,1
+2023,Fluminense,Coritiba FC,2,1
+2023,Fluminense,Atlético-MG,1,1
+2023,Atlético-MG,São Paulo,2,1
+2023,Botafogo,São Paulo,2,1
+2023,Botafogo,Coritiba FC,4,1
+2023,Botafogo,Internacional,3,1
+2023,Botafogo,Goiás,1,1
+2023,Botafogo,Athletico-PR,1,1
+2023,Botafogo,Cuiabá-MT,0,1
+2023,Botafogo,Santos,1,1
+2023,São Paulo,Goiás,2,1
+2023,São Paulo,Athletico-PR,2,1
+2023,São Paulo,Santos,4,1
+2023,São Paulo,Coritiba FC,2,1
+2023,São Paulo,Corinthians,2,1
+2023,Grêmio,Internacional,3,1
+2023,Grêmio,São Paulo,2,1
+2023,Grêmio,América-MG,3,1
+2023,Grêmio,Coritiba FC,5,1
+2023,Grêmio,Fluminense,2,1
+2023,Grêmio,Corinthians,0,1
+2023,Grêmio,Goiás,2,1
+2023,Athletico-PR,Flamengo,2,1
+2023,Athletico-PR,Atlético-MG,1,1
+2023,Athletico-PR,Internacional,2,1
+2023,Athletico-PR,RB Bragantino,1,1
+2023,Athletico-PR,São Paulo,1,1
+2023,Athletico-PR,Fortaleza,1,1
+2023,Atlético-MG,Palmeiras,1,1
+2023,Atlético-MG,RB Bragantino,1,1
+2023,Atlético-MG,Corinthians,0,1
+2023,Cruzeiro,Atlético-MG,0,1
+2023,Santos,Internacional,1,1
+2023,Santos,Athletico-PR,1,1
+2023,Santos,Grêmio,2,1
+2023,Santos,Vasco da Gama,4,1
+2023,Santos,Coritiba FC,2,1
+2023,RB Bragantino,EC Bahia,2,1
+2023,RB Bragantino,Vasco da Gama,1,1
+2023,RB Bragantino,Palmeiras,2,1
+2023,Internacional,Fortaleza,0,1
+2023,Internacional,São Paulo,2,1
+2023,Internacional,Santos,7,1
+2023,Internacional,América-MG,1,1
+2023,Internacional,Botafogo,3,1
+2023,Atlético-MG,Athletico-PR,2,1
+2023,Fortaleza,Internacional,1,1
+2023,Fortaleza,Atlético-MG,2,1
+2023,Fortaleza,Cuiabá-MT,0,1
+2023,Fortaleza,Grêmio,1,1
+2023,Fortaleza,Cruzeiro,0,1
+2023,Cruzeiro,Santos,2,1
+2023,América-MG,Fortaleza,2,1
+2023,América-MG,Vasco da Gama,0,1
+2023,Cruzeiro,Goiás,0,1
+2023,América-MG,Goiás,0,1
+2023,América-MG,São Paulo,2,1
+2023,Atlético-MG,Cruzeiro,0,1
+2023,Atlético-MG,Fortaleza,3,1
+2023,Atlético-MG,Goiás,2,1
+2023,Goiás,Corinthians,3,1
+2023,Goiás,Botafogo,2,1
+2023,Goiás,Cuiabá-MT,0,1
+2023,Goiás,Grêmio,1,1
+2023,Goiás,Athletico-PR,1,1
+2023,Goiás,Vasco da Gama,1,1
+2023,Goiás,Santos,0,1
+2023,Goiás,Cruzeiro,0,1
+2023,Internacional,Flamengo,2,1
+2023,Internacional,Vasco da Gama,2,1
+2023,Palmeiras,Corinthians,2,1
+2023,Palmeiras,Grêmio,4,1
+2023,Palmeiras,RB Bragantino,1,1
+2023,Palmeiras,Coritiba FC,3,1
+2023,Palmeiras,Botafogo,0,1
+2023,Palmeiras,Flamengo,1,1
+2023,Palmeiras,Fortaleza,3,1
+2023,Cuiabá-MT,RB Bragantino,1,1
+2023,Cuiabá-MT,Coritiba FC,1,1
+2023,Cuiabá-MT,Botafogo,0,1
+2023,Cuiabá-MT,EC Bahia,1,1
+2023,Cuiabá-MT,Goiás,1,1
+2023,Cuiabá-MT,Corinthians,0,1
+2023,Cuiabá-MT,Fortaleza,2,1
+2023,Cruzeiro,Cuiabá-MT,0,1
+2023,Cruzeiro,Fortaleza,0,1
+2023,Cruzeiro,Corinthians,1,1
+2023,Cruzeiro,América-MG,1,1
+2023,Cruzeiro,Athletico-PR,1,1
+2023,Cruzeiro,Palmeiras,1,1
+2023,Flamengo,Cruzeiro,1,1
+2023,Flamengo,América-MG,1,1
+2023,Flamengo,São Paulo,1,1
+2023,Flamengo,Fluminense,1,1
+2023,Flamengo,Cuiabá-MT,2,1
+2023,Athletico-PR,Fluminense,2,2
+2023,Cruzeiro,Flamengo,0,2
+2023,Vasco da Gama,Fluminense,4,2
+2023,EC Bahia,Botafogo,1,2
+2023,EC Bahia,Cruzeiro,2,2
+2023,EC Bahia,Grêmio,1,2
+2023,EC Bahia,Santos,1,2
+2023,Vasco da Gama,Athletico-PR,0,2
+2023,Vasco da Gama,Internacional,1,2
+2023,Corinthians,Internacional,1,2
+2023,Coritiba FC,Atlético-MG,1,2
+2023,Coritiba FC,Palmeiras,0,2
+2023,Coritiba FC,Grêmio,1,2
+2023,Coritiba FC,Corinthians,0,2
+2023,Fluminense,Botafogo,0,2
+2023,Botafogo,Flamengo,1,2
+2023,São Paulo,Vasco da Gama,4,2
+2023,São Paulo,Palmeiras,0,2
+2023,São Paulo,Atlético-MG,0,2
+2023,São Paulo,Fortaleza,1,2
+2023,Grêmio,Botafogo,0,2
+2023,Grêmio,Athletico-PR,1,2
+2023,Grêmio,Flamengo,3,2
+2023,Athletico-PR,Coritiba FC,3,2
+2023,Athletico-PR,Grêmio,1,2
+2023,Athletico-PR,Palmeiras,2,2
+2023,Athletico-PR,América-MG,3,2
+2023,Flamengo,Santos,1,2
+2023,Atlético-MG,Vasco da Gama,1,2
+2023,Atlético-MG,América-MG,2,2
+2023,Santos,América-MG,3,2
+2023,Santos,Corinthians,0,2
+2023,Santos,Botafogo,2,2
+2023,Santos,Fortaleza,1,2
+2023,RB Bragantino,América-MG,2,2
+2023,Internacional,Cuiabá-MT,1,2
+2023,Internacional,Corinthians,2,2
+2023,Internacional,Atlético-MG,0,2
+2023,Internacional,Grêmio,3,2
+2023,RB Bragantino,Atlético-MG,1,2
+2023,RB Bragantino,Botafogo,2,2
+2023,RB Bragantino,Fortaleza,1,2
+2023,Atlético-MG,Flamengo,1,2
+2023,Fortaleza,Fluminense,4,2
+2023,Fortaleza,América-MG,3,2
+2023,Fortaleza,Botafogo,2,2
+2023,Fortaleza,Flamengo,0,2
+2023,Fortaleza,Palmeiras,2,2
+2023,América-MG,Cuiabá-MT,1,2
+2023,América-MG,Internacional,1,2
+2023,América-MG,RB Bragantino,0,2
+2023,América-MG,Botafogo,1,2
+2023,América-MG,EC Bahia,3,2
+2023,Atlético-MG,Coritiba FC,1,2
+2023,Goiás,Fluminense,2,2
+2023,Goiás,Coritiba FC,1,2
+2023,Goiás,RB Bragantino,0,2
+2023,Internacional,Athletico-PR,0,2
+2023,Palmeiras,Atlético-MG,0,2
+2023,Cuiabá-MT,Grêmio,1,2
+2023,Cuiabá-MT,Palmeiras,0,2
+2023,Cuiabá-MT,América-MG,2,2
+2023,Cuiabá-MT,Vasco da Gama,0,2
+2023,Cuiabá-MT,Internacional,0,2
+2023,América-MG,Athletico-PR,2,2
+2023,Cruzeiro,Fluminense,0,2
+2023,Cruzeiro,Internacional,1,2
+2023,Cruzeiro,Vasco da Gama,2,2
+2023,Palmeiras,Santos,1,2
+2023,Vasco da Gama,Palmeiras,2,2
+2023,Flamengo,Botafogo,2,3
+2023,EC Bahia,Flamengo,2,3
+2023,EC Bahia,Cuiabá-MT,0,3
+2023,América-MG,Flamengo,0,3
+2023,Coritiba FC,Fortaleza,0,3
+2023,Coritiba FC,Flamengo,2,3
+2023,Coritiba FC,Cuiabá-MT,0,3
+2023,Fluminense,Corinthians,3,3
+2023,Fluminense,Grêmio,2,3
+2023,Fluminense,Goiás,5,3
+2023,Flamengo,Athletico-PR,0,3
+2023,Grêmio,RB Bragantino,3,3
+2023,Athletico-PR,Cruzeiro,3,3
+2023,Santos,Flamengo,2,3
+2023,Santos,Goiás,4,3
+2023,Santos,Cruzeiro,0,3
+2023,Santos,RB Bragantino,1,3
+2023,Santos,Fluminense,0,3
+2023,RB Bragantino,Cruzeiro,0,3
+2023,Fortaleza,RB Bragantino,0,3
+2023,América-MG,Fluminense,0,3
+2023,América-MG,Coritiba FC,0,3
+2023,Flamengo,Atlético-MG,0,3
+2023,Vasco da Gama,Corinthians,2,4
+2023,Corinthians,Grêmio,4,4
+2023,Coritiba FC,EC Bahia,2,4
+2023,Botafogo,Palmeiras,3,4
+2023,Botafogo,Grêmio,3,4
+2023,Vasco da Gama,Flamengo,1,4
+2023,Internacional,Coritiba FC,3,4
+2023,América-MG,Cruzeiro,0,4
+2023,América-MG,Palmeiras,1,4
+2023,América-MG,Grêmio,3,4
+2023,Cuiabá-MT,Atlético-MG,0,4
+2023,Corinthians,EC Bahia,1,5
+2023,Goiás,Palmeiras,0,5
+2023,Goiás,EC Bahia,4,6
+2022,Goiás,Palmeiras,1,1
+2022,Goiás,Santos,1,0
+2022,Goiás,Cuiabá-MT,1,0
+2022,Goiás,Athletico-PR,2,1
+2022,Goiás,Coritiba FC,1,0
+2022,Goiás,Atlético-GO,2,1
+2022,Goiás,Flamengo,1,1
+2022,Goiás,Botafogo,0,1
+2022,Goiás,Corinthians,0,0
+2022,Goiás,América-MG,2,2
+2022,Goiás,Juventude,1,0
+2022,Santos,América-MG,3,0
+2022,Santos,Ceará SC,0,0
+2022,Santos,Palmeiras,0,1
+2022,Santos,Internacional,1,1
+2022,Santos,Atlético-GO,1,0
+2022,Santos,Botafogo,2,0
+2022,Santos,Fluminense,2,2
+2022,Santos,São Paulo,1,0
+2022,Santos,Athletico-PR,2,0
+2022,Santos,Atlético-MG,1,2
+2022,Santos,Juventude,4,1
+2022,Santos,Corinthians,0,1
+2022,Santos,Avaí FC,1,1
+2022,Santos,Fortaleza,0,2
+2022,Avaí FC,América-MG,1,0
+2022,Avaí FC,Goiás,3,2
+2022,Avaí FC,Coritiba FC,2,1
+2022,Avaí FC,Palmeiras,2,2
+2022,Avaí FC,Cuiabá-MT,1,2
+2022,Avaí FC,Santos,1,0
+2022,Avaí FC,Flamengo,1,2
+2022,Avaí FC,Corinthians,1,1
+2022,Avaí FC,Internacional,0,1
+2022,Avaí FC,Athletico-PR,1,1
+2022,Avaí FC,Atlético-MG,1,0
+2022,Avaí FC,Botafogo,1,2
+2022,Avaí FC,RB Bragantino,1,2
+2022,Avaí FC,Ceará SC,2,0
+2022,Botafogo,Juventude,1,1
+2022,Botafogo,Goiás,1,2
+2022,Botafogo,São Paulo,1,0
+2022,Botafogo,Fluminense,0,1
+2022,Botafogo,Atlético-MG,0,1
+2022,Botafogo,Athletico-PR,2,0
+2022,Botafogo,Ceará SC,1,1
+2022,Botafogo,Atlético-GO,0,0
+2022,Botafogo,Flamengo,0,1
+2022,Botafogo,América-MG,0,0
+2022,Botafogo,Coritiba FC,2,0
+2022,Botafogo,Internacional,0,1
+2022,Botafogo,RB Bragantino,2,1
+2022,Botafogo,Santos,3,0
+2022,Flamengo,Palmeiras,0,0
+2022,Flamengo,Botafogo,0,1
+2022,Flamengo,Goiás,1,0
+2022,Flamengo,Cuiabá-MT,2,0
+2022,Flamengo,América-MG,3,0
+2022,Flamengo,Coritiba FC,2,0
+2022,Flamengo,Juventude,4,0
+2022,Flamengo,Atlético-GO,4,1
+2022,Flamengo,Athletico-PR,5,0
+2022,Flamengo,RB Bragantino,4,1
+2022,Flamengo,Internacional,0,0
+2022,Flamengo,Atlético-MG,1,0
+2022,Flamengo,Santos,3,2
+2022,Ceará SC,Coritiba FC,1,1
+2022,Ceará SC,Atlético-MG,0,0
+2022,Ceará SC,Avaí FC,1,0
+2022,Ceará SC,Athletico-PR,0,0
+2022,Ceará SC,Santos,2,1
+2022,Ceará SC,Goiás,1,1
+2022,Ceará SC,Cuiabá-MT,1,1
+2022,Ceará SC,Fluminense,0,1
+2022,Ceará SC,Juventude,4,1
+2022,Fortaleza,São Paulo,1,1
+2022,Fortaleza,Juventude,1,1
+2022,Fortaleza,Goiás,1,1
+2022,Fortaleza,Athletico-PR,0,0
+2022,Fortaleza,América-MG,1,0
+2022,Fortaleza,Palmeiras,0,0
+2022,Fortaleza,Santos,0,0
+2022,Fortaleza,Internacional,3,0
+2022,Fortaleza,Corinthians,1,0
+2022,Fortaleza,Avaí FC,2,0
+2022,Fortaleza,Atlético-MG,0,0
+2022,Fortaleza,Coritiba FC,3,1
+2022,Fortaleza,RB Bragantino,6,0
+2022,Juventude,Cuiabá-MT,0,1
+2022,Juventude,Internacional,1,1
+2022,Juventude,Fluminense,1,0
+2022,Juventude,Santos,1,2
+2022,Juventude,Goiás,0,0
+2022,Juventude,Ceará SC,1,0
+2022,Juventude,Botafogo,2,2
+2022,Juventude,Avaí FC,1,1
+2022,Juventude,Atlético-GO,1,1
+2022,Juventude,Coritiba FC,0,1
+2022,Palmeiras,Corinthians,3,0
+2022,Palmeiras,Fluminense,1,1
+2022,Palmeiras,RB Bragantino,2,0
+2022,Palmeiras,Atlético-MG,0,0
+2022,Palmeiras,Botafogo,4,0
+2022,Palmeiras,Cuiabá-MT,1,0
+2022,Palmeiras,Internacional,2,1
+2022,Palmeiras,Goiás,3,0
+2022,Palmeiras,Juventude,2,1
+2022,Palmeiras,Santos,1,0
+2022,Palmeiras,Coritiba FC,4,0
+2022,Palmeiras,São Paulo,0,0
+2022,Palmeiras,Avaí FC,3,0
+2022,Palmeiras,Fortaleza,4,0
+2022,Cuiabá-MT,Fluminense,0,1
+2022,Cuiabá-MT,Internacional,1,1
+2022,Cuiabá-MT,Athletico-PR,0,1
+2022,Cuiabá-MT,Corinthians,1,0
+2022,Cuiabá-MT,Ceará SC,0,0
+2022,Cuiabá-MT,Botafogo,2,0
+2022,Cuiabá-MT,Atlético-MG,1,1
+2022,Cuiabá-MT,Juventude,1,0
+2022,Cuiabá-MT,Santos,0,0
+2022,Cuiabá-MT,São Paulo,1,1
+2022,Cuiabá-MT,América-MG,2,1
+2022,Cuiabá-MT,Flamengo,1,2
+2022,Cuiabá-MT,Avaí FC,1,0
+2022,Cuiabá-MT,Palmeiras,1,1
+2022,Cuiabá-MT,Coritiba FC,2,1
+2022,Fluminense,Santos,0,0
+2022,Fluminense,Internacional,0,1
+2022,Fluminense,Athletico-PR,2,1
+2022,Fluminense,Avaí FC,2,0
+2022,Fluminense,Corinthians,4,0
+2022,Fluminense,Ceará SC,2,1
+2022,Fluminense,RB Bragantino,2,1
+2022,Fluminense,Cuiabá-MT,1,0
+2022,Fluminense,Coritiba FC,5,2
+2022,Fluminense,Fortaleza,2,1
+2022,Fluminense,Juventude,4,0
+2022,Fluminense,Goiás,3,0
+2022,São Paulo,Athletico-PR,4,0
+2022,São Paulo,América-MG,1,0
+2022,São Paulo,Palmeiras,1,2
+2022,São Paulo,Juventude,0,0
+2022,São Paulo,RB Bragantino,3,0
+2022,São Paulo,Avaí FC,4,0
+2022,São Paulo,Coritiba FC,3,1
+2022,São Paulo,Botafogo,0,1
+2022,São Paulo,Atlético-GO,2,1
+2022,América-MG,Juventude,4,1
+2022,América-MG,Athletico-PR,1,0
+2022,América-MG,Botafogo,1,1
+2022,América-MG,Fluminense,0,0
+2022,América-MG,Goiás,1,0
+2022,América-MG,Palmeiras,0,1
+2022,América-MG,Santos,1,0
+2022,América-MG,Coritiba FC,2,0
+2022,América-MG,Corinthians,1,0
+2022,América-MG,Internacional,1,0
+2022,Corinthians,Avaí FC,3,0
+2022,Corinthians,Fortaleza,1,0
+2022,Corinthians,América-MG,1,1
+2022,Corinthians,Juventude,2,0
+2022,Corinthians,Goiás,1,0
+2022,Corinthians,Santos,0,0
+2022,Corinthians,Flamengo,1,0
+2022,Corinthians,Coritiba FC,3,1
+2022,Corinthians,Botafogo,1,0
+2022,Corinthians,Palmeiras,0,1
+2022,Corinthians,RB Bragantino,1,0
+2022,Corinthians,Cuiabá-MT,2,0
+2022,Corinthians,Athletico-PR,2,1
+2022,Corinthians,Ceará SC,1,0
+2022,Coritiba FC,Goiás,3,0
+2022,Coritiba FC,América-MG,1,0
+2022,Coritiba FC,Botafogo,1,0
+2022,Coritiba FC,Athletico-PR,0,1
+2022,Coritiba FC,Fortaleza,2,1
+2022,Coritiba FC,Cuiabá-MT,1,0
+2022,Coritiba FC,Santos,1,2
+2022,Coritiba FC,Atlético-MG,0,1
+2022,Coritiba FC,Avaí FC,1,0
+2022,Coritiba FC,Atlético-GO,2,0
+2022,Coritiba FC,Ceará SC,1,0
+2022,Coritiba FC,Internacional,1,1
+2022,Coritiba FC,Flamengo,1,0
+2022,Athletico-PR,Atlético-MG,0,1
+2022,Athletico-PR,Flamengo,1,0
+2022,Athletico-PR,Ceará SC,1,0
+2022,Athletico-PR,Avaí FC,2,1
+2022,Athletico-PR,RB Bragantino,4,2
+2022,Athletico-PR,Internacional,0,0
+2022,Athletico-PR,Atlético-GO,4,1
+2022,Athletico-PR,São Paulo,1,0
+2022,Athletico-PR,América-MG,1,1
+2022,Athletico-PR,Fluminense,1,0
+2022,Athletico-PR,Juventude,2,0
+2022,Athletico-PR,Coritiba FC,1,0
+2022,Athletico-PR,Palmeiras,1,3
+2022,Athletico-PR,Botafogo,3,0
+2022,Atlético-GO,Flamengo,1,1
+2022,Atlético-GO,Botafogo,1,1
+2022,Atlético-GO,Coritiba FC,2,0
+2022,Atlético-GO,Fortaleza,0,1
+2022,Atlético-GO,RB Bragantino,2,1
+2022,Atlético-GO,Cuiabá-MT,1,1
+2022,Atlético-GO,Palmeiras,1,1
+2022,Atlético-GO,Ceará SC,1,0
+2022,Atlético-GO,Athletico-PR,1,1
+2022,Atlético-MG,Internacional,2,0
+2022,Atlético-MG,Coritiba FC,2,2
+2022,Atlético-MG,Atlético-GO,2,0
+2022,Atlético-MG,Santos,1,1
+2022,Atlético-MG,Flamengo,2,0
+2022,Atlético-MG,São Paulo,0,0
+2022,Atlético-MG,Corinthians,1,2
+2022,Atlético-MG,Athletico-PR,2,3
+2022,Atlético-MG,Goiás,0,1
+2022,Atlético-MG,Palmeiras,0,1
+2022,Atlético-MG,Fluminense,2,0
+2022,Atlético-MG,Ceará SC,0,0
+2022,Atlético-MG,Juventude,1,0
+2022,Atlético-MG,Botafogo,0,2
+2022,Atlético-MG,Cuiabá-MT,3,0
+2022,Internacional,Avaí FC,0,0
+2022,Internacional,Atlético-GO,1,1
+2022,Internacional,Flamengo,3,1
+2022,Internacional,Coritiba FC,3,0
+2022,Internacional,América-MG,1,0
+2022,Internacional,Atlético-MG,3,0
+2022,Internacional,Fluminense,3,0
+2022,Internacional,Juventude,4,0
+2022,Internacional,Cuiabá-MT,1,0
+2022,Internacional,RB Bragantino,0,0
+2022,Internacional,Santos,1,0
+2022,Internacional,Athletico-PR,2,0
+2022,Internacional,Palmeiras,3,0
+2022,RB Bragantino,Atlético-GO,4,0
+2022,RB Bragantino,São Paulo,1,1
+2022,RB Bragantino,Corinthians,0,1
+2022,RB Bragantino,Atlético-MG,1,1
+2022,RB Bragantino,Internacional,0,2
+2022,RB Bragantino,Flamengo,1,0
+2022,RB Bragantino,Coritiba FC,4,2
+2022,RB Bragantino,Botafogo,0,1
+2022,RB Bragantino,Avaí FC,4,0
+2022,RB Bragantino,Fortaleza,2,1
+2022,RB Bragantino,Juventude,1,0
+2022,RB Bragantino,Ceará SC,1,1
+2022,RB Bragantino,Goiás,1,1
+2022,RB Bragantino,Santos,0,2
+2022,RB Bragantino,Athletico-PR,4,2
+2022,Goiás,Atlético-MG,2,2
+2022,Goiás,RB Bragantino,1,1
+2022,Goiás,Ceará SC,1,1
+2022,Goiás,Internacional,1,2
+2022,Goiás,Fluminense,2,3
+2022,Goiás,Avaí FC,1,1
+2022,Goiás,Fortaleza,0,1
+2022,Goiás,São Paulo,0,4
+2022,Santos,Coritiba FC,2,1
+2022,Santos,Cuiabá-MT,4,1
+2022,Santos,RB Bragantino,2,2
+2022,Santos,Flamengo,1,2
+2022,Santos,Goiás,1,2
+2022,Avaí FC,Juventude,1,2
+2022,Avaí FC,São Paulo,1,1
+2022,Avaí FC,Fortaleza,3,2
+2022,Avaí FC,Atlético-GO,1,2
+2022,Botafogo,Fortaleza,3,1
+2022,Botafogo,Avaí FC,0,1
+2022,Botafogo,Cuiabá-MT,0,2
+2022,Flamengo,São Paulo,3,1
+2022,Flamengo,Fortaleza,1,2
+2022,Flamengo,Ceará SC,1,1
+2022,Flamengo,Fluminense,1,2
+2022,Flamengo,Corinthians,1,2
+2022,Flamengo,Avaí FC,1,2
+2022,Ceará SC,Botafogo,1,3
+2022,Ceará SC,RB Bragantino,0,1
+2022,Ceará SC,Atlético-GO,1,1
+2022,Ceará SC,Internacional,1,1
+2022,Ceará SC,Corinthians,3,1
+2022,Ceará SC,Fortaleza,0,1
+2022,Ceará SC,São Paulo,0,2
+2022,Ceará SC,América-MG,1,2
+2022,Fortaleza,Cuiabá-MT,0,1
+2022,Fortaleza,Ceará SC,0,1
+2022,Fortaleza,Fluminense,0,1
+2022,Fortaleza,Atlético-GO,1,1
+2022,Juventude,RB Bragantino,2,2
+2022,Juventude,Athletico-PR,1,3
+2022,Juventude,Atlético-MG,1,2
+2022,Juventude,América-MG,0,1
+2022,Juventude,Fortaleza,1,1
+2022,Juventude,Corinthians,2,2
+2022,Juventude,São Paulo,1,2
+2022,Juventude,Flamengo,2,2
+2022,Palmeiras,Atlético-GO,4,2
+2022,Palmeiras,Athletico-PR,0,2
+2022,Palmeiras,Flamengo,1,1
+2022,Palmeiras,América-MG,2,1
+2022,Cuiabá-MT,Atlético-GO,1,1
+2022,Cuiabá-MT,RB Bragantino,1,1
+2022,Cuiabá-MT,Fortaleza,0,1
+2022,Fluminense,Flamengo,1,2
+2022,Fluminense,Palmeiras,1,1
+2022,Fluminense,Botafogo,2,2
+2022,Fluminense,São Paulo,3,1
+2022,São Paulo,Santos,2,1
+2022,São Paulo,Cuiabá-MT,2,1
+2022,São Paulo,Ceará SC,2,2
+2022,São Paulo,Fluminense,2,2
+2022,São Paulo,Flamengo,0,2
+2022,São Paulo,Fortaleza,0,1
+2022,São Paulo,Corinthians,1,1
+2022,São Paulo,Atlético-MG,2,2
+2022,São Paulo,Internacional,0,1
+2022,América-MG,Cuiabá-MT,2,1
+2022,América-MG,Ceará SC,0,2
+2022,América-MG,Avaí FC,3,1
+2022,América-MG,Atlético-MG,1,1
+2022,América-MG,São Paulo,1,2
+2022,América-MG,Fortaleza,1,2
+2022,América-MG,Atlético-GO,1,1
+2022,Corinthians,São Paulo,1,1
+2022,Corinthians,Internacional,2,2
+2022,Corinthians,Atlético-GO,2,1
+2022,Corinthians,Fluminense,0,2
+2022,Corinthians,Atlético-MG,0,1
+2022,Coritiba FC,São Paulo,1,1
+2022,Coritiba FC,Palmeiras,0,2
+2022,Coritiba FC,RB Bragantino,2,1
+2022,Coritiba FC,Corinthians,2,2
+2022,Athletico-PR,Santos,2,2
+2022,Athletico-PR,Corinthians,1,1
+2022,Athletico-PR,Cuiabá-MT,2,2
+2022,Athletico-PR,Fortaleza,1,1
+2022,Athletico-PR,Goiás,3,2
+2022,Atlético-GO,Goiás,0,1
+2022,Atlético-GO,Corinthians,0,1
+2022,Atlético-GO,Avaí FC,2,1
+2022,Atlético-GO,Juventude,3,1
+2022,Atlético-GO,São Paulo,1,2
+2022,Atlético-GO,América-MG,0,1
+2022,Atlético-GO,Atlético-MG,0,2
+2022,Atlético-GO,Santos,2,3
+2022,Atlético-MG,América-MG,1,2
+2022,Atlético-MG,Avaí FC,2,1
+2022,Atlético-MG,RB Bragantino,1,1
+2022,Internacional,Fortaleza,2,1
+2022,Internacional,Corinthians,2,2
+2022,Internacional,Botafogo,2,3
+2022,Internacional,Ceará SC,2,1
+2022,RB Bragantino,Palmeiras,2,2
+2022,RB Bragantino,Cuiabá-MT,2,1
+2022,RB Bragantino,Fluminense,0,1
+2022,Avaí FC,Fluminense,0,3
+2022,Botafogo,Palmeiras,1,3
+2022,Ceará SC,Flamengo,2,2
+2022,Ceará SC,Palmeiras,1,2
+2022,Fortaleza,Botafogo,1,3
+2022,Fortaleza,Flamengo,3,2
+2022,Juventude,Palmeiras,0,3
+2022,Palmeiras,Ceará SC,2,3
+2022,Cuiabá-MT,Goiás,1,2
+2022,Fluminense,Atlético-MG,5,3
+2022,Fluminense,Atlético-GO,0,2
+2022,Fluminense,América-MG,0,2
+2022,São Paulo,Goiás,3,3
+2022,América-MG,Flamengo,1,2
+2022,Coritiba FC,Fluminense,3,2
+2022,Coritiba FC,Juventude,2,2
+2022,Atlético-GO,Internacional,1,2
+2022,Atlético-GO,Fluminense,3,2
+2022,Atlético-MG,Fortaleza,3,2
+2022,Internacional,São Paulo,3,3
+2022,Internacional,Goiás,4,2
+2022,Botafogo,Corinthians,1,3
+2022,América-MG,RB Bragantino,0,3
+2022,RB Bragantino,América-MG,1,4
+2021,Santos,Ceará SC,3,1
+2021,Santos,Juventude,0,0
+2021,Santos,São Paulo,2,0
+2021,Santos,Atlético-MG,2,0
+2021,Santos,Sport Recife,0,0
+2021,Santos,Athletico-PR,2,1
+2021,Santos,Atlético-GO,0,1
+2021,Santos,Corinthians,0,0
+2021,Santos,Internacional,2,2
+2021,Santos,Flamengo,0,4
+2021,Santos,EC Bahia,0,0
+2021,Santos,Fluminense,2,0
+2021,Santos,Grêmio,1,0
+2021,Santos,América-MG,0,2
+2021,Santos,Palmeiras,0,2
+2021,Santos,RB Bragantino,2,0
+2021,Santos,Chapecoense,2,0
+2021,Santos,Fortaleza,2,0
+2021,Santos,Cuiabá-MT,1,1
+2021,Grêmio,Flamengo,2,2
+2021,Grêmio,Athletico-PR,0,1
+2021,Grêmio,Santos,2,2
+2021,Grêmio,Fortaleza,0,0
+2021,Grêmio,Atlético-GO,0,1
+2021,Grêmio,Internacional,0,0
+2021,Grêmio,América-MG,1,1
+2021,Grêmio,Chapecoense,2,1
+2021,Grêmio,EC Bahia,2,0
+2021,Grêmio,Corinthians,0,1
+2021,Grêmio,Ceará SC,2,0
+2021,Grêmio,Sport Recife,1,2
+2021,Grêmio,Cuiabá-MT,2,2
+2021,Grêmio,Juventude,3,2
+2021,Grêmio,Palmeiras,1,3
+2021,Grêmio,Fluminense,1,0
+2021,Grêmio,RB Bragantino,3,0
+2021,Grêmio,São Paulo,3,0
+2021,Grêmio,Atlético-MG,4,3
+2021,EC Bahia,Santos,3,0
+2021,EC Bahia,Internacional,0,1
+2021,EC Bahia,Corinthians,0,0
+2021,EC Bahia,Athletico-PR,2,1
+2021,EC Bahia,América-MG,3,4
+2021,EC Bahia,Juventude,1,0
+2021,EC Bahia,Flamengo,0,5
+2021,EC Bahia,Sport Recife,0,1
+2021,EC Bahia,Atlético-GO,1,2
+2021,EC Bahia,Fortaleza,4,2
+2021,EC Bahia,RB Bragantino,1,1
+2021,EC Bahia,Ceará SC,1,1
+2021,EC Bahia,Palmeiras,0,0
+2021,EC Bahia,Chapecoense,3,0
+2021,EC Bahia,São Paulo,1,0
+2021,EC Bahia,Atlético-MG,2,3
+2021,EC Bahia,Cuiabá-MT,0,0
+2021,EC Bahia,Grêmio,3,1
+2021,EC Bahia,Fluminense,2,0
+2021,Flamengo,Palmeiras,1,0
+2021,Flamengo,América-MG,2,0
+2021,Flamengo,RB Bragantino,2,3
+2021,Flamengo,Fortaleza,2,1
+2021,Flamengo,Fluminense,0,1
+2021,Flamengo,Chapecoense,2,1
+2021,Flamengo,São Paulo,5,1
+2021,Flamengo,Internacional,0,4
+2021,Flamengo,Sport Recife,2,0
+2021,Flamengo,Atlético-GO,2,0
+2021,Flamengo,Grêmio,0,1
+2021,Flamengo,Athletico-PR,3,0
+2021,Flamengo,Juventude,3,1
+2021,Flamengo,Cuiabá-MT,0,0
+2021,Flamengo,Atlético-MG,1,0
+2021,Flamengo,EC Bahia,3,0
+2021,Flamengo,Corinthians,1,0
+2021,Flamengo,Ceará SC,2,1
+2021,Flamengo,Santos,0,1
+2021,Ceará SC,Grêmio,3,2
+2021,Ceará SC,EC Bahia,1,2
+2021,Ceará SC,Atlético-MG,2,1
+2021,Ceará SC,São Paulo,1,1
+2021,Ceará SC,Juventude,2,0
+2021,Ceará SC,Athletico-PR,1,0
+2021,Ceará SC,Fortaleza,3,1
+2021,Ceará SC,Atlético-GO,0,0
+2021,Ceará SC,Flamengo,1,1
+2021,Ceará SC,Palmeiras,1,2
+2021,Ceará SC,Santos,0,0
+2021,Ceará SC,Chapecoense,1,0
+2021,Ceará SC,Internacional,0,0
+2021,Ceará SC,RB Bragantino,2,2
+2021,Ceará SC,Fluminense,1,0
+2021,Ceará SC,Cuiabá-MT,1,0
+2021,Ceará SC,Sport Recife,2,1
+2021,Ceará SC,Corinthians,2,1
+2021,Ceará SC,América-MG,0,0
+2021,Fortaleza,Internacional,5,1
+2021,Fortaleza,Sport Recife,1,0
+2021,Fortaleza,Fluminense,1,1
+2021,Fortaleza,Chapecoense,3,2
+2021,Fortaleza,América-MG,4,0
+2021,Fortaleza,Corinthians,1,0
+2021,Fortaleza,RB Bragantino,1,0
+2021,Fortaleza,Santos,1,1
+2021,Fortaleza,Cuiabá-MT,0,0
+2021,Fortaleza,Atlético-MG,0,2
+2021,Fortaleza,Atlético-GO,0,3
+2021,Fortaleza,Flamengo,0,3
+2021,Fortaleza,Grêmio,1,0
+2021,Fortaleza,Athletico-PR,3,0
+2021,Fortaleza,São Paulo,1,1
+2021,Fortaleza,Ceará SC,0,4
+2021,Fortaleza,Palmeiras,1,0
+2021,Fortaleza,Juventude,1,0
+2021,Fortaleza,EC Bahia,2,1
+2021,Juventude,Athletico-PR,0,3
+2021,Juventude,Palmeiras,0,3
+2021,Juventude,Sport Recife,1,0
+2021,Juventude,Flamengo,1,0
+2021,Juventude,Grêmio,2,0
+2021,Juventude,Atlético-GO,1,1
+2021,Juventude,Chapecoense,1,0
+2021,Juventude,Atlético-MG,1,2
+2021,Juventude,Fortaleza,1,1
+2021,Juventude,São Paulo,1,1
+2021,Juventude,Cuiabá-MT,1,2
+2021,Juventude,Santos,3,0
+2021,Juventude,América-MG,1,1
+2021,Juventude,Ceará SC,0,0
+2021,Juventude,EC Bahia,0,0
+2021,Juventude,Internacional,2,1
+2021,Juventude,Fluminense,1,0
+2021,Juventude,RB Bragantino,1,0
+2021,Juventude,Corinthians,1,0
+2021,Palmeiras,Chapecoense,3,1
+2021,Palmeiras,Corinthians,1,1
+2021,Palmeiras,América-MG,2,1
+2021,Palmeiras,EC Bahia,3,2
+2021,Palmeiras,Grêmio,2,0
+2021,Palmeiras,Santos,3,2
+2021,Palmeiras,Fluminense,1,0
+2021,Palmeiras,Fortaleza,2,3
+2021,Palmeiras,Cuiabá-MT,0,2
+2021,Palmeiras,Athletico-PR,2,1
+2021,Palmeiras,Flamengo,1,3
+2021,Palmeiras,Juventude,1,1
+2021,Palmeiras,RB Bragantino,2,4
+2021,Palmeiras,Internacional,1,0
+2021,Palmeiras,Sport Recife,2,1
+2021,Palmeiras,Atlético-GO,4,0
+2021,Palmeiras,São Paulo,0,2
+2021,Palmeiras,Atlético-MG,2,2
+2021,Palmeiras,Ceará SC,1,0
+2021,Cuiabá-MT,Juventude,2,2
+2021,Cuiabá-MT,Atlético-GO,2,1
+2021,Cuiabá-MT,Grêmio,0,1
+2021,Cuiabá-MT,Flamengo,0,2
+2021,Cuiabá-MT,Atlético-MG,0,1
+2021,Cuiabá-MT,Ceará SC,2,2
+2021,Cuiabá-MT,Corinthians,1,2
+2021,Cuiabá-MT,EC Bahia,1,1
+2021,Cuiabá-MT,Athletico-PR,1,0
+2021,Cuiabá-MT,Santos,2,1
+2021,Cuiabá-MT,Fluminense,2,2
+2021,Cuiabá-MT,América-MG,0,2
+2021,Cuiabá-MT,São Paulo,0,0
+2021,Cuiabá-MT,Sport Recife,1,0
+2021,Cuiabá-MT,RB Bragantino,1,0
+2021,Cuiabá-MT,Chapecoense,0,0
+2021,Cuiabá-MT,Internacional,1,0
+2021,Cuiabá-MT,Palmeiras,1,3
+2021,Cuiabá-MT,Fortaleza,1,0
+2021,Fluminense,Cuiabá-MT,1,0
+2021,Fluminense,Santos,1,0
+2021,Fluminense,Corinthians,1,1
+2021,Fluminense,Athletico-PR,1,4
+2021,Fluminense,Ceará SC,0,0
+2021,Fluminense,Grêmio,0,1
+2021,Fluminense,Juventude,1,1
+2021,Fluminense,Atlético-MG,1,1
+2021,Fluminense,EC Bahia,2,0
+2021,Fluminense,São Paulo,2,1
+2021,Fluminense,RB Bragantino,2,1
+2021,Fluminense,Fortaleza,0,2
+2021,Fluminense,Atlético-GO,0,0
+2021,Fluminense,Flamengo,3,1
+2021,Fluminense,Sport Recife,1,0
+2021,Fluminense,Palmeiras,2,1
+2021,Fluminense,América-MG,2,0
+2021,Fluminense,Internacional,1,0
+2021,Fluminense,Chapecoense,3,0
+2021,São Paulo,Fluminense,0,0
+2021,São Paulo,Chapecoense,1,1
+2021,São Paulo,Cuiabá-MT,2,2
+2021,São Paulo,RB Bragantino,1,2
+2021,São Paulo,EC Bahia,1,0
+2021,São Paulo,Fortaleza,0,1
+2021,São Paulo,Palmeiras,0,0
+2021,São Paulo,Grêmio,2,1
+2021,São Paulo,América-MG,0,0
+2021,São Paulo,Atlético-GO,2,1
+2021,São Paulo,Atlético-MG,0,0
+2021,São Paulo,Santos,1,1
+2021,São Paulo,Ceará SC,1,1
+2021,São Paulo,Corinthians,1,0
+2021,São Paulo,Internacional,1,0
+2021,São Paulo,Flamengo,0,4
+2021,São Paulo,Athletico-PR,0,0
+2021,São Paulo,Sport Recife,2,0
+2021,São Paulo,Juventude,3,1
+2021,América-MG,Corinthians,0,1
+2021,América-MG,Cuiabá-MT,0,0
+2021,América-MG,Juventude,1,1
+2021,América-MG,Internacional,1,1
+2021,América-MG,Santos,2,0
+2021,América-MG,Atlético-MG,0,1
+2021,América-MG,Sport Recife,0,1
+2021,América-MG,Fluminense,1,0
+2021,América-MG,RB Bragantino,0,2
+2021,América-MG,Ceará SC,2,0
+2021,América-MG,Athletico-PR,2,0
+2021,América-MG,Flamengo,1,1
+2021,América-MG,Palmeiras,2,1
+2021,América-MG,EC Bahia,0,0
+2021,América-MG,Fortaleza,2,1
+2021,América-MG,Grêmio,3,1
+2021,América-MG,Atlético-GO,0,0
+2021,América-MG,Chapecoense,3,0
+2021,América-MG,São Paulo,2,0
+2021,Chapecoense,RB Bragantino,0,3
+2021,Chapecoense,Ceará SC,0,0
+2021,Chapecoense,Internacional,1,2
+2021,Chapecoense,EC Bahia,0,2
+2021,Chapecoense,Corinthians,0,1
+2021,Chapecoense,Cuiabá-MT,2,3
+2021,Chapecoense,Santos,0,1
+2021,Chapecoense,América-MG,1,1
+2021,Chapecoense,Fluminense,1,2
+2021,Chapecoense,Palmeiras,0,2
+2021,Chapecoense,São Paulo,1,1
+2021,Chapecoense,Atlético-MG,2,2
+2021,Chapecoense,Athletico-PR,1,1
+2021,Chapecoense,Fortaleza,1,2
+2021,Chapecoense,Flamengo,2,2
+2021,Chapecoense,Juventude,0,2
+2021,Chapecoense,Grêmio,1,3
+2021,Chapecoense,Atlético-GO,0,1
+2021,Chapecoense,Sport Recife,0,1
+2021,Corinthians,Atlético-GO,0,1
+2021,Corinthians,RB Bragantino,1,2
+2021,Corinthians,Sport Recife,2,1
+2021,Corinthians,São Paulo,0,0
+2021,Corinthians,Internacional,1,1
+2021,Corinthians,Atlético-MG,1,2
+2021,Corinthians,Flamengo,1,3
+2021,Corinthians,Ceará SC,3,1
+2021,Corinthians,Juventude,1,1
+2021,Corinthians,América-MG,1,1
+2021,Corinthians,Palmeiras,2,1
+2021,Corinthians,EC Bahia,3,1
+2021,Corinthians,Fluminense,1,0
+2021,Corinthians,Chapecoense,1,0
+2021,Corinthians,Fortaleza,1,0
+2021,Corinthians,Cuiabá-MT,3,2
+2021,Corinthians,Santos,2,0
+2021,Corinthians,Athletico-PR,1,0
+2021,Corinthians,Grêmio,1,1
+2021,Athletico-PR,América-MG,1,0
+2021,Athletico-PR,Flamengo,2,2
+2021,Athletico-PR,Atlético-GO,2,1
+2021,Athletico-PR,Chapecoense,2,2
+2021,Athletico-PR,Fortaleza,2,1
+2021,Athletico-PR,RB Bragantino,2,2
+2021,Athletico-PR,Internacional,2,1
+2021,Athletico-PR,São Paulo,1,2
+2021,Athletico-PR,Corinthians,0,1
+2021,Athletico-PR,Sport Recife,0,0
+2021,Athletico-PR,Juventude,2,1
+2021,Athletico-PR,Grêmio,4,2
+2021,Athletico-PR,EC Bahia,0,2
+2021,Athletico-PR,Fluminense,0,1
+2021,Athletico-PR,Santos,0,1
+2021,Athletico-PR,Ceará SC,2,1
+2021,Athletico-PR,Atlético-MG,0,1
+2021,Athletico-PR,Cuiabá-MT,1,0
+2021,Athletico-PR,Palmeiras,0,0
+2021,Atlético-GO,São Paulo,2,0
+2021,Atlético-GO,Fortaleza,0,0
+2021,Atlético-GO,Fluminense,1,0
+2021,Atlético-GO,RB Bragantino,0,1
+2021,Atlético-GO,Sport Recife,1,1
+2021,Atlético-GO,Palmeiras,0,3
+2021,Atlético-GO,América-MG,1,1
+2021,Atlético-GO,Chapecoense,1,1
+2021,Atlético-GO,Internacional,0,0
+2021,Atlético-GO,Corinthians,1,1
+2021,Atlético-GO,Cuiabá-MT,0,0
+2021,Atlético-GO,Athletico-PR,0,2
+2021,Atlético-GO,Atlético-MG,2,1
+2021,Atlético-GO,Grêmio,2,0
+2021,Atlético-GO,Juventude,1,1
+2021,Atlético-GO,Santos,0,0
+2021,Atlético-GO,Ceará SC,1,1
+2021,Atlético-GO,EC Bahia,2,1
+2021,Atlético-GO,Flamengo,2,0
+2021,Atlético-MG,Fortaleza,1,2
+2021,Atlético-MG,São Paulo,1,0
+2021,Atlético-MG,Chapecoense,1,1
+2021,Atlético-MG,Atlético-GO,4,1
+2021,Atlético-MG,Flamengo,2,1
+2021,Atlético-MG,EC Bahia,3,0
+2021,Atlético-MG,Athletico-PR,2,0
+2021,Atlético-MG,Palmeiras,2,0
+2021,Atlético-MG,Grêmio,2,1
+2021,Atlético-MG,Sport Recife,3,0
+2021,Atlético-MG,Internacional,1,0
+2021,Atlético-MG,Ceará SC,3,1
+2021,Atlético-MG,Santos,3,1
+2021,Atlético-MG,Cuiabá-MT,2,1
+2021,Atlético-MG,América-MG,1,0
+2021,Atlético-MG,Corinthians,3,0
+2021,Atlético-MG,Juventude,2,0
+2021,Atlético-MG,Fluminense,2,1
+2021,Atlético-MG,RB Bragantino,4,3
+2021,Sport Recife,Atlético-MG,0,1
+2021,Sport Recife,Grêmio,1,0
+2021,Sport Recife,Cuiabá-MT,0,0
+2021,Sport Recife,Palmeiras,0,1
+2021,Sport Recife,Fluminense,1,2
+2021,Sport Recife,Ceará SC,0,0
+2021,Sport Recife,RB Bragantino,0,0
+2021,Sport Recife,São Paulo,0,1
+2021,Sport Recife,Chapecoense,0,0
+2021,Sport Recife,Internacional,0,1
+2021,Sport Recife,Fortaleza,0,1
+2021,Sport Recife,Juventude,3,1
+2021,Sport Recife,Corinthians,1,0
+2021,Sport Recife,Santos,0,0
+2021,Sport Recife,Atlético-GO,2,0
+2021,Sport Recife,América-MG,2,3
+2021,Sport Recife,EC Bahia,1,0
+2021,Sport Recife,Flamengo,1,1
+2021,Sport Recife,Athletico-PR,1,1
+2021,Internacional,Sport Recife,2,2
+2021,Internacional,Atlético-MG,0,1
+2021,Internacional,Ceará SC,1,1
+2021,Internacional,Palmeiras,1,2
+2021,Internacional,São Paulo,0,2
+2021,Internacional,Juventude,1,0
+2021,Internacional,Cuiabá-MT,0,0
+2021,Internacional,Fluminense,4,2
+2021,Internacional,RB Bragantino,1,1
+2021,Internacional,Fortaleza,1,0
+2021,Internacional,EC Bahia,2,0
+2021,Internacional,Chapecoense,5,2
+2021,Internacional,América-MG,3,1
+2021,Internacional,Corinthians,2,2
+2021,Internacional,Grêmio,1,0
+2021,Internacional,Athletico-PR,2,1
+2021,Internacional,Flamengo,1,2
+2021,Internacional,Santos,1,1
+2021,Internacional,Atlético-GO,1,2
+2021,RB Bragantino,EC Bahia,3,3
+2021,RB Bragantino,Fluminense,2,2
+2021,RB Bragantino,Palmeiras,3,1
+2021,RB Bragantino,Ceará SC,0,0
+2021,RB Bragantino,Cuiabá-MT,1,1
+2021,RB Bragantino,Santos,2,2
+2021,RB Bragantino,Grêmio,1,0
+2021,RB Bragantino,Juventude,1,2
+2021,RB Bragantino,Atlético-MG,1,1
+2021,RB Bragantino,Chapecoense,1,2
+2021,RB Bragantino,Corinthians,2,2
+2021,RB Bragantino,Flamengo,1,1
+2021,RB Bragantino,Atlético-GO,1,0
+2021,RB Bragantino,São Paulo,1,0
+2021,RB Bragantino,Athletico-PR,0,2
+2021,RB Bragantino,Fortaleza,3,0
+2021,RB Bragantino,Sport Recife,3,0
+2021,RB Bragantino,América-MG,1,1
+2021,RB Bragantino,Internacional,1,0
+2020,Grêmio,Fluminense,1,0
+2020,Grêmio,Corinthians,0,0
+2020,Grêmio,Goiás,2,1
+2020,Grêmio,Palmeiras,1,1
+2020,Grêmio,Internacional,1,1
+2020,Grêmio,Coritiba FC,2,1
+2020,Grêmio,RB Bragantino,2,1
+2020,Grêmio,Flamengo,2,4
+2020,Grêmio,Vasco da Gama,4,0
+2020,Grêmio,Atlético-GO,2,1
+2020,Grêmio,EC Bahia,2,1
+2020,Grêmio,São Paulo,1,2
+2020,Grêmio,Athletico-PR,1,0
+2020,Botafogo,Atlético-MG,2,1
+2020,Botafogo,Coritiba FC,0,0
+2020,Botafogo,Santos,0,0
+2020,Botafogo,Palmeiras,2,1
+2020,Botafogo,Goiás,0,0
+2020,Botafogo,Fortaleza,1,2
+2020,Botafogo,Flamengo,0,1
+2020,Botafogo,Atlético-GO,1,3
+2020,Botafogo,São Paulo,1,0
+2020,EC Bahia,Coritiba FC,1,0
+2020,EC Bahia,RB Bragantino,2,1
+2020,EC Bahia,Palmeiras,1,1
+2020,EC Bahia,Vasco da Gama,3,0
+2020,EC Bahia,Fortaleza,2,1
+2020,EC Bahia,Botafogo,1,0
+2020,EC Bahia,São Paulo,1,3
+2020,EC Bahia,Ceará SC,0,2
+2020,EC Bahia,Corinthians,2,1
+2020,EC Bahia,Athletico-PR,1,0
+2020,EC Bahia,Santos,2,0
+2020,Flamengo,Botafogo,1,1
+2020,Flamengo,Athletico-PR,3,1
+2020,Flamengo,Sport Recife,3,0
+2020,Flamengo,RB Bragantino,1,1
+2020,Flamengo,Atlético-GO,1,1
+2020,Flamengo,Coritiba FC,3,1
+2020,Flamengo,Santos,4,1
+2020,Flamengo,EC Bahia,4,3
+2020,Flamengo,Fluminense,1,2
+2020,Flamengo,Palmeiras,2,0
+2020,Flamengo,Vasco da Gama,2,0
+2020,Ceará SC,Grêmio,1,1
+2020,Ceará SC,Vasco da Gama,0,3
+2020,Ceará SC,EC Bahia,2,0
+2020,Ceará SC,Fortaleza,1,0
+2020,Ceará SC,Flamengo,2,0
+2020,Ceará SC,Sport Recife,0,0
+2020,Ceará SC,Atlético-GO,1,2
+2020,Ceará SC,Internacional,0,2
+2020,Ceará SC,RB Bragantino,1,2
+2020,Ceará SC,Athletico-PR,0,2
+2020,Ceará SC,Botafogo,2,1
+2020,Fortaleza,Botafogo,0,0
+2020,Fortaleza,RB Bragantino,3,0
+2020,Fortaleza,Sport Recife,1,0
+2020,Fortaleza,Internacional,1,0
+2020,Fortaleza,Atlético-GO,0,0
+2020,Fortaleza,Palmeiras,2,0
+2020,Fortaleza,Fluminense,0,1
+2020,Fortaleza,Corinthians,0,0
+2020,Fortaleza,Ceará SC,0,2
+2020,Fortaleza,Flamengo,0,0
+2020,Fortaleza,Grêmio,0,0
+2020,Fortaleza,Santos,2,0
+2020,Fortaleza,Vasco da Gama,3,0
+2020,Goiás,Atlético-GO,2,0
+2020,Goiás,Internacional,1,0
+2020,Goiás,EC Bahia,1,1
+2020,Goiás,Palmeiras,1,0
+2020,Goiás,Grêmio,0,0
+2020,Goiás,Sport Recife,1,0
+2020,Goiás,Atlético-MG,1,0
+2020,Goiás,Botafogo,2,0
+2020,Goiás,RB Bragantino,0,0
+2020,Palmeiras,Santos,2,1
+2020,Palmeiras,Internacional,1,1
+2020,Palmeiras,Flamengo,1,1
+2020,Palmeiras,São Paulo,0,2
+2020,Palmeiras,Atlético-MG,3,0
+2020,Palmeiras,Fluminense,2,0
+2020,Palmeiras,Athletico-PR,3,0
+2020,Palmeiras,EC Bahia,3,0
+2020,Palmeiras,RB Bragantino,1,0
+2020,Palmeiras,Corinthians,4,0
+2020,Palmeiras,Grêmio,1,1
+2020,Palmeiras,Botafogo,1,1
+2020,Palmeiras,Fortaleza,3,0
+2020,Santos,RB Bragantino,1,1
+2020,Santos,Athletico-PR,3,1
+2020,Santos,Fortaleza,1,1
+2020,Santos,Grêmio,2,1
+2020,Santos,Atlético-GO,0,1
+2020,Santos,Internacional,2,0
+2020,Santos,Palmeiras,2,2
+2020,Santos,Goiás,3,4
+2020,Santos,Corinthians,1,0
+2020,Santos,Coritiba FC,2,0
+2020,Fluminense,Vasco da Gama,2,1
+2020,Fluminense,Atlético-GO,1,1
+2020,Fluminense,Corinthians,2,1
+2020,Fluminense,Coritiba FC,4,0
+2020,Fluminense,EC Bahia,1,0
+2020,Fluminense,RB Bragantino,0,0
+2020,Fluminense,Sport Recife,1,0
+2020,Fluminense,Botafogo,2,0
+2020,Fluminense,Goiás,3,0
+2020,Fluminense,Atlético-MG,0,0
+2020,Fluminense,Fortaleza,2,0
+2020,São Paulo,Fortaleza,1,0
+2020,São Paulo,RB Bragantino,1,1
+2020,São Paulo,Athletico-PR,1,0
+2020,São Paulo,Atlético-GO,3,0
+2020,São Paulo,Grêmio,0,0
+2020,São Paulo,Botafogo,4,0
+2020,São Paulo,Sport Recife,1,0
+2020,São Paulo,Atlético-MG,3,0
+2020,São Paulo,Santos,0,1
+2020,São Paulo,Coritiba FC,1,1
+2020,São Paulo,Palmeiras,1,1
+2020,São Paulo,Ceará SC,1,1
+2020,São Paulo,Flamengo,2,1
+2020,Corinthians,Atlético-GO,0,0
+2020,Corinthians,Fortaleza,1,1
+2020,Corinthians,Internacional,1,0
+2020,Corinthians,Atlético-MG,1,2
+2020,Corinthians,Grêmio,0,0
+2020,Corinthians,São Paulo,1,0
+2020,Corinthians,Fluminense,5,0
+2020,Corinthians,Sport Recife,3,0
+2020,Corinthians,Vasco da Gama,0,0
+2020,Coritiba FC,Internacional,0,1
+2020,Coritiba FC,Sport Recife,1,0
+2020,Coritiba FC,Vasco da Gama,1,0
+2020,Coritiba FC,São Paulo,1,1
+2020,Coritiba FC,Fortaleza,0,0
+2020,Coritiba FC,Atlético-GO,1,0
+2020,Coritiba FC,RB Bragantino,0,0
+2020,Coritiba FC,Botafogo,1,2
+2020,Coritiba FC,Athletico-PR,0,0
+2020,Coritiba FC,Fluminense,3,3
+2020,Coritiba FC,Palmeiras,1,0
+2020,Coritiba FC,Ceará SC,0,2
+2020,Athletico-PR,Palmeiras,0,1
+2020,Athletico-PR,Botafogo,1,1
+2020,Athletico-PR,Coritiba FC,1,0
+2020,Athletico-PR,EC Bahia,1,0
+2020,Athletico-PR,Ceará SC,0,0
+2020,Athletico-PR,Corinthians,0,1
+2020,Athletico-PR,Grêmio,1,2
+2020,Athletico-PR,Santos,1,0
+2020,Athletico-PR,Vasco da Gama,3,0
+2020,Athletico-PR,São Paulo,1,1
+2020,Athletico-PR,Internacional,0,0
+2020,Athletico-PR,Atlético-GO,2,1
+2020,Athletico-PR,Sport Recife,2,0
+2020,Atlético-GO,Flamengo,3,0
+2020,Atlético-GO,Sport Recife,1,1
+2020,Atlético-GO,Ceará SC,0,2
+2020,Atlético-GO,Atlético-MG,3,4
+2020,Atlético-GO,Athletico-PR,1,1
+2020,Atlético-GO,Corinthians,1,1
+2020,Atlético-GO,Internacional,0,0
+2020,Atlético-GO,Fluminense,2,1
+2020,Atlético-GO,Vasco da Gama,0,0
+2020,Atlético-GO,EC Bahia,1,1
+2020,Atlético-GO,Fortaleza,2,0
+2020,Atlético-GO,Santos,1,1
+2020,Atlético-GO,Coritiba FC,3,1
+2020,Atlético-MG,Ceará SC,2,0
+2020,Atlético-MG,São Paulo,3,0
+2020,Atlético-MG,RB Bragantino,2,1
+2020,Atlético-MG,Grêmio,3,1
+2020,Atlético-MG,Goiás,3,0
+2020,Atlético-MG,Sport Recife,0,0
+2020,Atlético-MG,Flamengo,4,0
+2020,Atlético-MG,Botafogo,2,1
+2020,Atlético-MG,Coritiba FC,2,0
+2020,Atlético-MG,Santos,2,0
+2020,Atlético-MG,Atlético-GO,3,1
+2020,Atlético-MG,Fortaleza,2,0
+2020,Atlético-MG,EC Bahia,1,1
+2020,Atlético-MG,Palmeiras,2,0
+2020,Sport Recife,Santos,0,1
+2020,Sport Recife,Goiás,2,1
+2020,Sport Recife,Fluminense,1,0
+2020,Sport Recife,Corinthians,1,0
+2020,Sport Recife,Athletico-PR,1,0
+2020,Sport Recife,Atlético-GO,0,1
+2020,Sport Recife,Coritiba FC,1,0
+2020,Sport Recife,Grêmio,1,1
+2020,Sport Recife,Fortaleza,1,0
+2020,Sport Recife,EC Bahia,2,0
+2020,Sport Recife,RB Bragantino,0,0
+2020,Internacional,Santos,2,0
+2020,Internacional,Atlético-GO,3,0
+2020,Internacional,Atlético-MG,1,0
+2020,Internacional,Ceará SC,2,0
+2020,Internacional,Vasco da Gama,2,0
+2020,Internacional,Coritiba FC,2,2
+2020,Internacional,Fluminense,1,2
+2020,Internacional,Palmeiras,2,0
+2020,Internacional,Goiás,1,0
+2020,Internacional,Grêmio,2,1
+2020,Internacional,Corinthians,0,0
+2020,RB Bragantino,Botafogo,1,1
+2020,RB Bragantino,Palmeiras,1,2
+2020,RB Bragantino,Corinthians,0,0
+2020,RB Bragantino,Sport Recife,2,0
+2020,RB Bragantino,Goiás,2,0
+2020,RB Bragantino,Santos,1,1
+2020,RB Bragantino,EC Bahia,4,0
+2020,RB Bragantino,Atlético-MG,2,2
+2020,RB Bragantino,Vasco da Gama,4,1
+2020,RB Bragantino,Atlético-GO,2,0
+2020,RB Bragantino,Grêmio,1,0
+2020,Vasco da Gama,Sport Recife,2,0
+2020,Vasco da Gama,São Paulo,2,1
+2020,Vasco da Gama,Grêmio,0,0
+2020,Vasco da Gama,Athletico-PR,1,0
+2020,Vasco da Gama,Atlético-GO,1,2
+2020,Vasco da Gama,RB Bragantino,1,1
+2020,Vasco da Gama,Flamengo,1,2
+2020,Vasco da Gama,Fortaleza,0,0
+2020,Vasco da Gama,Palmeiras,0,1
+2020,Vasco da Gama,Santos,1,0
+2020,Vasco da Gama,Botafogo,3,0
+2020,Vasco da Gama,Atlético-MG,3,2
+2020,Vasco da Gama,EC Bahia,0,0
+2020,Grêmio,Sport Recife,1,2
+2020,Grêmio,Fortaleza,1,1
+2020,Grêmio,Botafogo,3,1
+2020,Grêmio,Ceará SC,4,2
+2020,Grêmio,Atlético-MG,1,1
+2020,Grêmio,Santos,3,3
+2020,Botafogo,EC Bahia,1,2
+2020,Botafogo,Vasco da Gama,2,3
+2020,Botafogo,Fluminense,1,1
+2020,Botafogo,Ceará SC,2,2
+2020,Botafogo,RB Bragantino,1,2
+2020,Botafogo,Corinthians,0,2
+2020,Botafogo,Athletico-PR,0,2
+2020,Botafogo,Sport Recife,0,1
+2020,EC Bahia,Grêmio,0,2
+2020,EC Bahia,Atlético-GO,0,1
+2020,EC Bahia,Sport Recife,1,2
+2020,EC Bahia,Atlético-MG,3,1
+2020,EC Bahia,Internacional,1,2
+2020,EC Bahia,Fluminense,0,1
+2020,EC Bahia,Goiás,3,3
+2020,Flamengo,Atlético-MG,0,1
+2020,Flamengo,Grêmio,1,1
+2020,Flamengo,Fortaleza,2,1
+2020,Flamengo,Goiás,2,1
+2020,Flamengo,Ceará SC,0,2
+2020,Flamengo,Corinthians,2,1
+2020,Flamengo,Internacional,2,1
+2020,Ceará SC,Santos,0,1
+2020,Ceará SC,Goiás,2,2
+2020,Ceará SC,Corinthians,2,1
+2020,Ceará SC,São Paulo,1,1
+2020,Ceará SC,Coritiba FC,2,1
+2020,Ceará SC,Atlético-MG,2,2
+2020,Ceará SC,Palmeiras,2,1
+2020,Ceará SC,Fluminense,1,3
+2020,Fortaleza,Atlético-MG,2,1
+2020,Fortaleza,São Paulo,2,3
+2020,Fortaleza,Goiás,1,1
+2020,Fortaleza,Coritiba FC,3,1
+2020,Fortaleza,EC Bahia,0,4
+2020,Goiás,São Paulo,0,3
+2020,Goiás,Fortaleza,1,3
+2020,Goiás,Corinthians,1,2
+2020,Goiás,Santos,2,3
+2020,Goiás,Fluminense,2,4
+2020,Goiás,Vasco da Gama,1,1
+2020,Goiás,Athletico-PR,0,1
+2020,Goiás,Flamengo,0,3
+2020,Palmeiras,Vasco da Gama,1,1
+2020,Palmeiras,Goiás,1,1
+2020,Palmeiras,Sport Recife,2,2
+2020,Palmeiras,Ceará SC,2,1
+2020,Palmeiras,Atlético-GO,1,1
+2020,Santos,Flamengo,0,1
+2020,Santos,Vasco da Gama,2,2
+2020,Santos,Atlético-MG,3,1
+2020,Santos,EC Bahia,3,1
+2020,Santos,Ceará SC,1,1
+2020,Santos,Botafogo,2,1
+2020,Santos,Fluminense,1,1
+2020,Fluminense,Palmeiras,1,1
+2020,Fluminense,Internacional,2,1
+2020,Fluminense,Ceará SC,2,2
+2020,Fluminense,Santos,3,1
+2020,Fluminense,Grêmio,0,1
+2020,Fluminense,Athletico-PR,3,1
+2020,Fluminense,São Paulo,1,2
+2020,São Paulo,EC Bahia,1,1
+2020,São Paulo,Corinthians,2,1
+2020,São Paulo,Fluminense,3,1
+2020,São Paulo,Goiás,2,1
+2020,São Paulo,Vasco da Gama,1,1
+2020,Corinthians,Coritiba FC,3,1
+2020,Corinthians,Botafogo,2,2
+2020,Corinthians,Palmeiras,0,2
+2020,Corinthians,EC Bahia,3,2
+2020,Corinthians,Santos,1,1
+2020,Corinthians,Flamengo,1,5
+2020,Corinthians,Goiás,2,1
+2020,Corinthians,Ceará SC,2,1
+2020,Coritiba FC,Flamengo,0,1
+2020,Coritiba FC,Atlético-MG,0,1
+2020,Coritiba FC,EC Bahia,1,2
+2020,Coritiba FC,Corinthians,0,1
+2020,Coritiba FC,Grêmio,1,1
+2020,Athletico-PR,Goiás,2,1
+2020,Athletico-PR,Fluminense,0,1
+2020,Athletico-PR,RB Bragantino,1,1
+2020,Athletico-PR,Fortaleza,2,1
+2020,Athletico-PR,Atlético-MG,0,1
+2020,Athletico-PR,Flamengo,2,1
+2020,Atlético-GO,Grêmio,1,1
+2020,Atlético-GO,Botafogo,1,1
+2020,Atlético-GO,RB Bragantino,2,1
+2020,Atlético-GO,Palmeiras,0,3
+2020,Atlético-GO,Goiás,0,1
+2020,Atlético-GO,São Paulo,2,1
+2020,Atlético-MG,Vasco da Gama,4,1
+2020,Atlético-MG,Fluminense,1,1
+2020,Atlético-MG,Internacional,2,2
+2020,Sport Recife,Ceará SC,3,2
+2020,Sport Recife,São Paulo,0,1
+2020,Sport Recife,Vasco da Gama,0,2
+2020,Sport Recife,Palmeiras,0,1
+2020,Sport Recife,Atlético-MG,2,3
+2020,Internacional,EC Bahia,2,2
+2020,Internacional,São Paulo,1,1
+2020,Internacional,Athletico-PR,2,1
+2020,Internacional,Flamengo,2,2
+2020,Internacional,Botafogo,2,1
+2020,Internacional,Fortaleza,4,2
+2020,Internacional,RB Bragantino,2,1
+2020,RB Bragantino,Fluminense,2,1
+2020,RB Bragantino,Coritiba FC,1,2
+2020,RB Bragantino,Ceará SC,4,2
+2020,RB Bragantino,Fortaleza,2,1
+2020,RB Bragantino,Athletico-PR,0,1
+2020,RB Bragantino,São Paulo,4,2
+2020,RB Bragantino,Flamengo,1,1
+2020,Vasco da Gama,Corinthians,1,2
+2020,Vasco da Gama,Fluminense,1,1
+2020,Vasco da Gama,Coritiba FC,0,1
+2020,Vasco da Gama,Internacional,0,2
+2020,Botafogo,Internacional,0,2
+2020,Botafogo,Grêmio,2,5
+2020,Flamengo,São Paulo,1,4
+2020,Fortaleza,Athletico-PR,0,2
+2020,Goiás,Coritiba FC,3,3
+2020,Goiás,Ceará SC,0,4
+2020,Palmeiras,Coritiba FC,1,3
+2020,Santos,São Paulo,2,2
+2020,Santos,Sport Recife,4,2
+2020,Fluminense,Flamengo,1,2
+2020,São Paulo,Internacional,1,5
+2020,Corinthians,RB Bragantino,0,2
+2020,Corinthians,Athletico-PR,3,3
+2020,Coritiba FC,Santos,1,2
+2020,Coritiba FC,Goiás,1,2
+2020,Atlético-MG,Corinthians,3,2
+2020,Atlético-MG,Athletico-PR,0,2
+2020,Sport Recife,Botafogo,1,2
+2020,Sport Recife,Internacional,3,5
+2020,Sport Recife,Flamengo,0,3
+2020,Internacional,Sport Recife,1,2
+2020,RB Bragantino,Internacional,0,2
+2020,Vasco da Gama,Ceará SC,1,4
+2020,Vasco da Gama,Goiás,3,2
+2020,EC Bahia,Flamengo,3,5
+2019,CSA,Palmeiras,1,1
+2019,CSA,Grêmio,0,0
+2019,CSA,Fortaleza,0,2
+2019,CSA,Cruzeiro,1,1
+2019,CSA,Chapecoense,2,0
+2019,CSA,Ceará SC,1,0
+2019,CSA,Avaí FC,3,1
+2019,CSA,Internacional,1,0
+2019,CSA,Atlético-MG,2,2
+2019,CSA,Corinthians,2,1
+2019,CSA,Vasco da Gama,0,3
+2019,CSA,Fluminense,0,1
+2019,CSA,EC Bahia,1,2
+2019,Grêmio,Chapecoense,3,3
+2019,Grêmio,Palmeiras,1,1
+2019,Grêmio,Athletico-PR,2,1
+2019,Grêmio,Goiás,3,0
+2019,Grêmio,Avaí FC,6,1
+2019,Grêmio,Corinthians,0,0
+2019,Grêmio,Ceará SC,2,1
+2019,Grêmio,Botafogo,3,0
+2019,Grêmio,Internacional,2,0
+2019,Grêmio,CSA,2,1
+2019,Grêmio,São Paulo,3,0
+2019,Grêmio,Cruzeiro,2,0
+2019,Avaí FC,Botafogo,0,2
+2019,Avaí FC,Cruzeiro,2,2
+2019,Avaí FC,Corinthians,1,1
+2019,Avaí FC,Flamengo,0,3
+2019,Avaí FC,Atlético-MG,1,0
+2019,Avaí FC,EC Bahia,0,2
+2019,Avaí FC,Palmeiras,1,2
+2019,Avaí FC,Fortaleza,1,3
+2019,Avaí FC,Santos,1,2
+2019,Avaí FC,Fluminense,1,1
+2019,Avaí FC,Athletico-PR,0,0
+2019,Botafogo,Athletico-PR,2,1
+2019,Botafogo,Chapecoense,0,0
+2019,Botafogo,Atlético-MG,2,1
+2019,Botafogo,São Paulo,1,2
+2019,Botafogo,Fluminense,0,1
+2019,Botafogo,Goiás,3,1
+2019,Botafogo,CSA,2,1
+2019,Botafogo,Cruzeiro,0,2
+2019,Botafogo,Internacional,0,1
+2019,Cruzeiro,Athletico-PR,0,2
+2019,Cruzeiro,Santos,2,0
+2019,Cruzeiro,Vasco da Gama,1,0
+2019,Cruzeiro,Grêmio,1,4
+2019,Cruzeiro,Flamengo,1,2
+2019,Cruzeiro,São Paulo,1,0
+2019,Cruzeiro,Fortaleza,1,1
+2019,Cruzeiro,EC Bahia,1,1
+2019,Cruzeiro,CSA,0,1
+2019,EC Bahia,Flamengo,3,0
+2019,EC Bahia,Goiás,1,1
+2019,EC Bahia,CSA,1,0
+2019,EC Bahia,Fortaleza,1,1
+2019,EC Bahia,Botafogo,2,0
+2019,EC Bahia,São Paulo,0,0
+2019,EC Bahia,Ceará SC,1,2
+2019,EC Bahia,Internacional,2,3
+2019,EC Bahia,Chapecoense,1,1
+2019,EC Bahia,Atlético-MG,1,1
+2019,EC Bahia,Vasco da Gama,1,1
+2019,Flamengo,Botafogo,3,2
+2019,Flamengo,Grêmio,3,1
+2019,Flamengo,Palmeiras,3,0
+2019,Flamengo,Santos,1,0
+2019,Flamengo,Internacional,3,1
+2019,Flamengo,São Paulo,0,0
+2019,Flamengo,CSA,1,0
+2019,Flamengo,Corinthians,4,1
+2019,Flamengo,Vasco da Gama,4,4
+2019,Flamengo,Ceará SC,4,1
+2019,Flamengo,Avaí FC,6,1
+2019,Ceará SC,Fortaleza,2,1
+2019,Ceará SC,Chapecoense,4,1
+2019,Ceará SC,Flamengo,0,3
+2019,Ceará SC,Botafogo,0,0
+2019,Ceará SC,Cruzeiro,0,0
+2019,Ceará SC,Vasco da Gama,1,1
+2019,Ceará SC,Fluminense,2,0
+2019,Ceará SC,Internacional,2,0
+2019,Ceará SC,Athletico-PR,1,1
+2019,Ceará SC,Corinthians,0,1
+2019,Fortaleza,Corinthians,1,3
+2019,Fortaleza,Internacional,0,1
+2019,Fortaleza,Goiás,2,0
+2019,Fortaleza,Fluminense,0,1
+2019,Fortaleza,Palmeiras,0,1
+2019,Fortaleza,Botafogo,1,0
+2019,Fortaleza,Flamengo,1,2
+2019,Fortaleza,Atlético-MG,2,2
+2019,Fortaleza,Santos,2,1
+2019,Goiás,Atlético-MG,0,0
+2019,Goiás,Vasco da Gama,0,1
+2019,Goiás,Internacional,2,1
+2019,Goiás,Palmeiras,1,2
+2019,Goiás,Fluminense,3,0
+2019,Goiás,CSA,1,0
+2019,Goiás,Flamengo,2,2
+2019,Goiás,Avaí FC,2,0
+2019,Goiás,EC Bahia,4,3
+2019,Goiás,Fortaleza,1,2
+2019,Palmeiras,Vasco da Gama,1,1
+2019,Palmeiras,EC Bahia,2,2
+2019,Palmeiras,Fluminense,3,0
+2019,Palmeiras,Cruzeiro,1,0
+2019,Palmeiras,CSA,6,2
+2019,Palmeiras,Atlético-MG,1,1
+2019,Palmeiras,Chapecoense,1,0
+2019,Palmeiras,São Paulo,3,0
+2019,Palmeiras,Ceará SC,1,0
+2019,Palmeiras,Grêmio,1,2
+2019,Palmeiras,Flamengo,1,3
+2019,Palmeiras,Goiás,5,1
+2019,Santos,Avaí FC,3,1
+2019,Santos,Goiás,6,1
+2019,Santos,Fortaleza,3,3
+2019,Santos,Athletico-PR,1,1
+2019,Santos,Grêmio,0,3
+2019,Santos,CSA,2,0
+2019,Santos,EC Bahia,1,0
+2019,Santos,Botafogo,4,1
+2019,Santos,Cruzeiro,4,1
+2019,Santos,Chapecoense,2,0
+2019,Fluminense,São Paulo,1,2
+2019,Fluminense,Internacional,2,1
+2019,Fluminense,CSA,0,1
+2019,Fluminense,Avaí FC,0,1
+2019,Fluminense,Corinthians,1,0
+2019,Fluminense,Santos,1,1
+2019,Fluminense,Athletico-PR,1,2
+2019,Fluminense,Chapecoense,1,1
+2019,Fluminense,Vasco da Gama,0,0
+2019,Fluminense,Atlético-MG,1,1
+2019,Fluminense,Palmeiras,1,0
+2019,Fluminense,Fortaleza,0,0
+2019,São Paulo,Santos,3,2
+2019,São Paulo,Ceará SC,1,0
+2019,São Paulo,Grêmio,0,0
+2019,São Paulo,CSA,1,1
+2019,São Paulo,Goiás,0,1
+2019,São Paulo,Fortaleza,2,1
+2019,São Paulo,Atlético-MG,2,0
+2019,São Paulo,Fluminense,0,2
+2019,São Paulo,Vasco da Gama,1,0
+2019,São Paulo,Internacional,2,1
+2019,Chapecoense,EC Bahia,0,0
+2019,Chapecoense,Avaí FC,1,0
+2019,Chapecoense,Santos,0,1
+2019,Chapecoense,Vasco da Gama,1,2
+2019,Chapecoense,Corinthians,0,1
+2019,Chapecoense,Flamengo,0,1
+2019,Chapecoense,São Paulo,0,3
+2019,Chapecoense,Ceará SC,1,0
+2019,Chapecoense,Botafogo,0,1
+2019,Chapecoense,CSA,3,0
+2019,Corinthians,Chapecoense,1,0
+2019,Corinthians,Goiás,2,0
+2019,Corinthians,Palmeiras,1,1
+2019,Corinthians,Botafogo,2,0
+2019,Corinthians,Atlético-MG,1,0
+2019,Corinthians,Ceará SC,2,2
+2019,Corinthians,EC Bahia,2,1
+2019,Corinthians,Santos,0,0
+2019,Corinthians,Internacional,0,0
+2019,Corinthians,Avaí FC,3,0
+2019,Athletico-PR,São Paulo,0,1
+2019,Athletico-PR,Atlético-MG,1,0
+2019,Athletico-PR,Ceará SC,1,0
+2019,Athletico-PR,Avaí FC,0,1
+2019,Athletico-PR,Fortaleza,4,1
+2019,Athletico-PR,Goiás,4,1
+2019,Athletico-PR,CSA,1,0
+2019,Athletico-PR,Cruzeiro,0,0
+2019,Athletico-PR,Botafogo,1,0
+2019,Athletico-PR,Grêmio,2,0
+2019,Athletico-PR,Santos,1,0
+2019,Atlético-MG,Cruzeiro,2,0
+2019,Atlético-MG,Fluminense,2,1
+2019,Atlético-MG,EC Bahia,0,1
+2019,Atlético-MG,Internacional,1,3
+2019,Atlético-MG,Vasco da Gama,1,2
+2019,Atlético-MG,Chapecoense,0,2
+2019,Atlético-MG,Goiás,2,0
+2019,Atlético-MG,Athletico-PR,0,1
+2019,Atlético-MG,Corinthians,2,1
+2019,Atlético-MG,Botafogo,2,0
+2019,Internacional,Flamengo,2,1
+2019,Internacional,Ceará SC,1,0
+2019,Internacional,Corinthians,0,0
+2019,Internacional,Botafogo,3,2
+2019,Internacional,São Paulo,1,0
+2019,Internacional,Chapecoense,1,0
+2019,Internacional,Vasco da Gama,0,1
+2019,Internacional,Athletico-PR,1,1
+2019,Internacional,Fortaleza,2,2
+2019,Internacional,Goiás,1,2
+2019,Vasco da Gama,CSA,0,0
+2019,Vasco da Gama,Flamengo,1,4
+2019,Vasco da Gama,São Paulo,2,0
+2019,Vasco da Gama,EC Bahia,0,2
+2019,Vasco da Gama,Athletico-PR,1,1
+2019,Vasco da Gama,Santos,0,1
+2019,Vasco da Gama,Fortaleza,1,0
+2019,Vasco da Gama,Botafogo,2,1
+2019,Vasco da Gama,Grêmio,1,3
+2019,Vasco da Gama,Palmeiras,1,2
+2019,Vasco da Gama,Goiás,1,1
+2019,Vasco da Gama,Cruzeiro,1,0
+2019,CSA,Goiás,1,0
+2019,CSA,Botafogo,1,2
+2019,CSA,Athletico-PR,0,4
+2019,Grêmio,Fluminense,4,5
+2019,Grêmio,Atlético-MG,1,0
+2019,Grêmio,Fortaleza,1,0
+2019,Grêmio,EC Bahia,0,1
+2019,Grêmio,Flamengo,0,1
+2019,Avaí FC,Grêmio,1,1
+2019,Avaí FC,CSA,0,0
+2019,Avaí FC,Goiás,0,0
+2019,Avaí FC,Chapecoense,0,1
+2019,Botafogo,Flamengo,0,1
+2019,Cruzeiro,Chapecoense,1,2
+2019,Cruzeiro,Botafogo,0,0
+2019,Cruzeiro,Fluminense,0,0
+2019,Cruzeiro,Atlético-MG,0,0
+2019,Cruzeiro,Avaí FC,0,0
+2019,EC Bahia,Corinthians,3,2
+2019,EC Bahia,Palmeiras,1,1
+2019,Flamengo,Chapecoense,2,1
+2019,Flamengo,Athletico-PR,3,2
+2019,Flamengo,EC Bahia,3,1
+2019,Ceará SC,São Paulo,1,1
+2019,Fortaleza,Athletico-PR,2,1
+2019,Fortaleza,São Paulo,0,1
+2019,Fortaleza,Vasco da Gama,1,1
+2019,Fortaleza,Grêmio,2,1
+2019,Fortaleza,Ceará SC,1,0
+2019,Goiás,Botafogo,1,0
+2019,Goiás,Chapecoense,3,1
+2019,Goiás,Corinthians,2,2
+2019,Palmeiras,Internacional,1,0
+2019,Palmeiras,Botafogo,1,0
+2019,Palmeiras,Corinthians,1,1
+2019,Santos,Atlético-MG,3,1
+2019,Santos,Palmeiras,2,0
+2019,Santos,Flamengo,4,0
+2019,Fluminense,Goiás,0,1
+2019,Fluminense,Flamengo,0,0
+2019,Fluminense,EC Bahia,2,0
+2019,São Paulo,EC Bahia,0,0
+2019,São Paulo,Corinthians,1,0
+2019,São Paulo,Athletico-PR,0,1
+2019,Chapecoense,Athletico-PR,1,1
+2019,Chapecoense,Palmeiras,1,2
+2019,Chapecoense,Cruzeiro,1,1
+2019,Chapecoense,Grêmio,0,1
+2019,Corinthians,CSA,1,0
+2019,Corinthians,Athletico-PR,2,2
+2019,Corinthians,Cruzeiro,1,2
+2019,Athletico-PR,Fluminense,3,0
+2019,Athletico-PR,Chapecoense,1,1
+2019,Athletico-PR,Flamengo,0,2
+2019,Atlético-MG,Flamengo,2,1
+2019,Atlético-MG,CSA,4,0
+2019,Atlético-MG,São Paulo,1,1
+2019,Atlético-MG,Fortaleza,2,2
+2019,Internacional,Cruzeiro,3,1
+2019,Internacional,EC Bahia,3,1
+2019,Internacional,Grêmio,1,1
+2019,Internacional,Fluminense,2,1
+2019,Vasco da Gama,Corinthians,1,1
+2019,Vasco da Gama,Chapecoense,1,1
+2019,CSA,Santos,0,0
+2019,CSA,Flamengo,0,2
+2019,CSA,São Paulo,1,2
+2019,Grêmio,Santos,1,2
+2019,Grêmio,Vasco da Gama,2,1
+2019,Avaí FC,Ceará SC,1,2
+2019,Avaí FC,São Paulo,0,0
+2019,Avaí FC,Vasco da Gama,0,0
+2019,Botafogo,Fortaleza,1,0
+2019,Botafogo,Vasco da Gama,1,0
+2019,Botafogo,Santos,0,1
+2019,Botafogo,Avaí FC,2,0
+2019,Cruzeiro,Goiás,2,1
+2019,Cruzeiro,Corinthians,0,0
+2019,Cruzeiro,Internacional,1,1
+2019,EC Bahia,Avaí FC,1,0
+2019,EC Bahia,Santos,0,1
+2019,EC Bahia,Athletico-PR,1,2
+2019,Flamengo,Cruzeiro,3,1
+2019,Flamengo,Fortaleza,2,0
+2019,Flamengo,Atlético-MG,3,1
+2019,Flamengo,Fluminense,2,0
+2019,Ceará SC,CSA,4,0
+2019,Ceará SC,Atlético-MG,1,2
+2019,Ceará SC,Grêmio,2,1
+2019,Ceará SC,Palmeiras,2,0
+2019,Ceará SC,Goiás,0,1
+2019,Fortaleza,Cruzeiro,2,1
+2019,Fortaleza,Avaí FC,2,0
+2019,Fortaleza,Chapecoense,2,0
+2019,Fortaleza,CSA,3,0
+2019,Goiás,São Paulo,1,2
+2019,Goiás,Athletico-PR,2,1
+2019,Palmeiras,Fortaleza,4,0
+2019,Palmeiras,Santos,4,0
+2019,Palmeiras,Athletico-PR,1,0
+2019,Palmeiras,Avaí FC,2,0
+2019,Santos,Corinthians,1,0
+2019,Fluminense,Cruzeiro,4,1
+2019,Fluminense,Grêmio,2,1
+2019,São Paulo,Botafogo,2,0
+2019,São Paulo,Flamengo,1,1
+2019,São Paulo,Avaí FC,1,0
+2019,Chapecoense,Fluminense,1,1
+2019,Chapecoense,Atlético-MG,1,2
+2019,Corinthians,Grêmio,0,0
+2019,Corinthians,Flamengo,1,1
+2019,Corinthians,Fortaleza,3,2
+2019,Athletico-PR,Vasco da Gama,4,1
+2019,Athletico-PR,Corinthians,0,2
+2019,Atlético-MG,Palmeiras,0,2
+2019,Atlético-MG,Ceará SC,2,1
+2019,Atlético-MG,Santos,2,0
+2019,Internacional,CSA,2,0
+2019,Internacional,Avaí FC,2,0
+2019,Internacional,Palmeiras,1,1
+2019,Internacional,Atlético-MG,2,1
+2019,Vasco da Gama,Atlético-MG,1,2
+2019,Vasco da Gama,Fluminense,2,1
+2019,Avaí FC,Internacional,0,2
+2019,Botafogo,Corinthians,1,0
+2019,Botafogo,Ceará SC,1,1
+2019,Cruzeiro,Ceará SC,1,0
+2019,Cruzeiro,Palmeiras,0,2
+2019,EC Bahia,Fluminense,3,2
+2019,EC Bahia,Cruzeiro,0,0
+2019,Ceará SC,Santos,0,1
+2019,Ceará SC,EC Bahia,0,0
+2019,Goiás,Ceará SC,2,1
+2019,Goiás,Cruzeiro,1,0
+2019,Goiás,Grêmio,3,2
+2019,Santos,Fluminense,2,1
+2019,Santos,Ceará SC,2,1
+2019,Fluminense,Ceará SC,1,1
+2019,Chapecoense,Internacional,2,0
+2019,Chapecoense,Fortaleza,1,3
+2019,Chapecoense,Goiás,2,2
+2019,Corinthians,São Paulo,1,0
+2019,Corinthians,Fluminense,1,2
+2019,Athletico-PR,EC Bahia,1,0
+2019,Atlético-MG,Avaí FC,2,1
+2019,Atlético-MG,Grêmio,1,4
+2019,Internacional,Santos,0,0
+2019,Vasco da Gama,Ceará SC,1,0
+2019,Flamengo,Goiás,6,1
+2019,Ceará SC,Avaí FC,1,0
+2019,Fortaleza,EC Bahia,2,1
+2019,Goiás,Santos,0,3
+2019,Santos,Internacional,0,0
+2019,São Paulo,Chapecoense,4,0
+2019,Athletico-PR,Internacional,1,0
+2019,Vasco da Gama,Avaí FC,1,1
+2019,Botafogo,EC Bahia,3,2
+2019,Botafogo,Palmeiras,0,1
+2019,Botafogo,Grêmio,0,1
+2019,Santos,Vasco da Gama,3,0
+2019,Santos,São Paulo,1,1
+2019,Fluminense,Botafogo,0,1
+2019,São Paulo,Cruzeiro,1,1
+2019,São Paulo,Palmeiras,1,1
+2019,Corinthians,Vasco da Gama,1,0
+2019,Athletico-PR,Palmeiras,1,1
+2019,Vasco da Gama,Internacional,2,1
+2019,EC Bahia,Grêmio,1,0
+2018,Vasco da Gama,Atlético-MG,2,1
+2018,Vasco da Gama,América-MG,4,1
+2018,Vasco da Gama,EC Vitória,2,3
+2018,Vasco da Gama,Paraná,1,0
+2018,Vasco da Gama,Botafogo,1,2
+2018,Vasco da Gama,Sport Recife,3,2
+2018,Vasco da Gama,Fluminense,1,1
+2018,Vasco da Gama,Grêmio,1,0
+2018,Ceará SC,Sport Recife,1,0
+2018,Ceará SC,Santos,1,1
+2018,EC Vitória,Flamengo,2,2
+2018,EC Vitória,Fluminense,1,2
+2018,EC Vitória,Ceará SC,2,1
+2018,EC Vitória,Internacional,2,3
+2018,EC Vitória,Chapecoense,1,0
+2018,EC Vitória,Paraná,1,0
+2018,EC Vitória,Sport Recife,1,0
+2018,EC Vitória,Cruzeiro,1,1
+2018,Corinthians,Fluminense,2,1
+2018,Corinthians,Ceará SC,1,1
+2018,Corinthians,Palmeiras,1,0
+2018,Corinthians,América-MG,1,0
+2018,Corinthians,Santos,1,1
+2018,Corinthians,EC Vitória,0,0
+2018,Corinthians,Botafogo,2,0
+2018,Corinthians,Cruzeiro,2,0
+2018,Corinthians,Athletico-PR,0,0
+2018,Fluminense,Cruzeiro,1,0
+2018,Fluminense,São Paulo,1,1
+2018,Fluminense,Athletico-PR,2,0
+2018,Fluminense,Chapecoense,3,1
+2018,Fluminense,Santos,0,1
+2018,Fluminense,Palmeiras,1,0
+2018,Fluminense,EC Bahia,1,1
+2018,Chapecoense,Vasco da Gama,1,1
+2018,Chapecoense,Paraná,1,1
+2018,Chapecoense,Flamengo,3,2
+2018,Chapecoense,Ceará SC,2,0
+2018,Chapecoense,Cruzeiro,2,0
+2018,Chapecoense,EC Bahia,1,1
+2018,Chapecoense,Santos,0,0
+2018,Chapecoense,Grêmio,1,1
+2018,Sport Recife,Corinthians,1,1
+2018,Palmeiras,Chapecoense,0,0
+2018,Palmeiras,EC Bahia,3,0
+2018,Palmeiras,Sport Recife,2,3
+2018,Palmeiras,São Paulo,3,1
+2018,Palmeiras,Flamengo,1,1
+2018,Palmeiras,Atlético-MG,3,2
+2018,Palmeiras,Paraná,3,0
+2018,Botafogo,Palmeiras,1,1
+2018,Botafogo,Grêmio,2,1
+2018,Botafogo,Fluminense,2,1
+2018,Botafogo,EC Vitória,1,1
+2018,Botafogo,Ceará SC,0,0
+2018,Botafogo,Athletico-PR,2,0
+2018,Botafogo,Chapecoense,1,0
+2018,Botafogo,Santos,0,0
+2018,Santos,Ceará SC,2,0
+2018,Palmeiras,Internacional,1,0
+2018,Santos,Cruzeiro,0,1
+2018,Santos,Palmeiras,1,1
+2018,São Paulo,Paraná,1,0
+2018,São Paulo,Atlético-MG,2,2
+2018,São Paulo,Santos,1,0
+2018,São Paulo,Botafogo,3,2
+2018,São Paulo,Internacional,0,0
+2018,São Paulo,EC Vitória,3,0
+2018,São Paulo,Corinthians,3,1
+2018,São Paulo,Vasco da Gama,2,1
+2018,Paraná,Corinthians,0,4
+2018,Paraná,Sport Recife,1,2
+2018,Paraná,Grêmio,0,0
+2018,Paraná,Athletico-PR,0,0
+2018,Paraná,Fluminense,2,1
+2018,Paraná,EC Bahia,1,0
+2018,Paraná,Cruzeiro,1,1
+2018,Paraná,América-MG,1,0
+2018,Paraná,Ceará SC,0,1
+2018,Grêmio,Athletico-PR,0,0
+2018,Grêmio,Santos,5,1
+2018,Grêmio,Internacional,0,0
+2018,Grêmio,Fluminense,0,0
+2018,Grêmio,Palmeiras,0,2
+2018,Grêmio,América-MG,1,0
+2018,Grêmio,Atlético-MG,2,0
+2018,Grêmio,São Paulo,2,1
+2018,Grêmio,Flamengo,2,0
+2018,Athletico-PR,Chapecoense,5,1
+2018,Athletico-PR,Palmeiras,1,3
+2018,Athletico-PR,Atlético-MG,1,2
+2018,Athletico-PR,Santos,2,0
+2018,Athletico-PR,São Paulo,0,1
+2018,Athletico-PR,Internacional,2,2
+2018,Athletico-PR,EC Vitória,4,0
+2018,Cruzeiro,Grêmio,0,1
+2018,Cruzeiro,Botafogo,1,0
+2018,Cruzeiro,Sport Recife,2,0
+2018,Cruzeiro,Palmeiras,1,0
+2018,Cruzeiro,Vasco da Gama,1,1
+2018,Cruzeiro,América-MG,3,1
+2018,Cruzeiro,Athletico-PR,2,1
+2018,Cruzeiro,São Paulo,0,2
+2018,Cruzeiro,Ceará SC,0,2
+2018,Santos,Paraná,3,1
+2018,Santos,EC Vitória,5,2
+2018,Santos,Internacional,1,2
+2018,Santos,Flamengo,1,1
+2018,Santos,América-MG,0,1
+2018,Ceará SC,São Paulo,0,0
+2018,Ceará SC,Flamengo,0,3
+2018,Ceará SC,América-MG,2,2
+2018,Ceará SC,Grêmio,0,1
+2018,Ceará SC,Cruzeiro,0,1
+2018,Ceará SC,Palmeiras,2,2
+2018,América-MG,Sport Recife,3,0
+2018,América-MG,EC Vitória,2,1
+2018,América-MG,Botafogo,1,0
+2018,América-MG,São Paulo,1,3
+2018,América-MG,Athletico-PR,3,1
+2018,América-MG,Atlético-MG,1,3
+2018,América-MG,Chapecoense,0,0
+2018,América-MG,Internacional,2,1
+2018,América-MG,Palmeiras,0,0
+2018,Sport Recife,Botafogo,1,1
+2018,Sport Recife,EC Bahia,2,0
+2018,Sport Recife,Atlético-MG,3,2
+2018,Sport Recife,Athletico-PR,1,0
+2018,Sport Recife,Grêmio,0,0
+2018,Sport Recife,Fluminense,1,2
+2018,Sport Recife,Chapecoense,1,1
+2018,Internacional,EC Bahia,2,0
+2018,Internacional,Cruzeiro,0,0
+2018,Internacional,Chapecoense,3,0
+2018,Internacional,Corinthians,2,1
+2018,Internacional,Sport Recife,0,0
+2018,Internacional,Vasco da Gama,3,1
+2018,Internacional,Ceará SC,1,0
+2018,Internacional,Botafogo,3,0
+2018,EC Bahia,Santos,1,0
+2018,EC Bahia,Athletico-PR,0,0
+2018,EC Bahia,São Paulo,2,2
+2018,EC Bahia,Vasco da Gama,3,0
+2018,EC Bahia,Grêmio,0,2
+2018,EC Bahia,Botafogo,3,3
+2018,EC Bahia,Corinthians,1,0
+2018,EC Bahia,EC Vitória,4,1
+2018,EC Bahia,Atlético-MG,2,2
+2018,Fluminense,Flamengo,0,2
+2018,Vasco da Gama,Corinthians,1,4
+2018,Ceará SC,Fluminense,1,0
+2018,Atlético-MG,EC Vitória,2,1
+2018,Atlético-MG,Corinthians,1,0
+2018,Atlético-MG,Cruzeiro,1,0
+2018,Atlético-MG,Flamengo,0,1
+2018,Atlético-MG,Chapecoense,3,3
+2018,Atlético-MG,Fluminense,5,2
+2018,Atlético-MG,Ceará SC,2,1
+2018,Atlético-MG,Paraná,2,0
+2018,Atlético-MG,Internacional,0,1
+2018,Flamengo,América-MG,2,0
+2018,Flamengo,Internacional,2,0
+2018,Flamengo,Vasco da Gama,1,1
+2018,Flamengo,EC Bahia,2,0
+2018,Flamengo,Corinthians,1,0
+2018,Flamengo,Paraná,2,0
+2018,Flamengo,São Paulo,0,1
+2018,Flamengo,Botafogo,2,0
+2018,Flamengo,Sport Recife,4,1
+2018,Ceará SC,Athletico-PR,0,0
+2018,EC Vitória,Palmeiras,0,3
+2018,EC Vitória,Vasco da Gama,1,0
+2018,EC Vitória,São Paulo,0,1
+2018,EC Vitória,Grêmio,0,0
+2018,Corinthians,Paraná,1,0
+2018,Corinthians,Flamengo,0,3
+2018,Corinthians,EC Bahia,2,1
+2018,Fluminense,Internacional,0,3
+2018,Fluminense,Corinthians,1,0
+2018,Fluminense,EC Vitória,0,0
+2018,Fluminense,Paraná,4,0
+2018,Fluminense,América-MG,1,0
+2018,Chapecoense,Athletico-PR,2,1
+2018,Chapecoense,Fluminense,1,2
+2018,Chapecoense,EC Vitória,0,1
+2018,Vasco da Gama,Santos,0,3
+2018,Palmeiras,Botafogo,2,0
+2018,Palmeiras,Corinthians,1,0
+2018,Palmeiras,Santos,3,2
+2018,Palmeiras,América-MG,4,0
+2018,Palmeiras,EC Vitória,3,2
+2018,Botafogo,Sport Recife,2,0
+2018,Botafogo,Cruzeiro,1,1
+2018,Botafogo,Vasco da Gama,1,1
+2018,Botafogo,EC Bahia,0,1
+2018,São Paulo,Fluminense,1,1
+2018,São Paulo,América-MG,1,1
+2018,São Paulo,Grêmio,1,1
+2018,Paraná,Santos,0,2
+2018,Grêmio,EC Vitória,4,0
+2018,Grêmio,Cruzeiro,1,1
+2018,Grêmio,Botafogo,4,0
+2018,Grêmio,Paraná,2,0
+2018,Grêmio,Ceará SC,3,2
+2018,Grêmio,EC Bahia,2,2
+2018,Grêmio,Sport Recife,3,4
+2018,Grêmio,Chapecoense,2,0
+2018,Grêmio,Corinthians,1,0
+2018,Athletico-PR,EC Bahia,2,0
+2018,Athletico-PR,Fluminense,3,1
+2018,Athletico-PR,Paraná,3,0
+2018,Athletico-PR,Botafogo,2,1
+2018,Athletico-PR,Corinthians,1,0
+2018,Santos,Grêmio,0,0
+2018,Palmeiras,Grêmio,2,0
+2018,Cruzeiro,Fluminense,2,1
+2018,Cruzeiro,Internacional,0,0
+2018,Cruzeiro,Flamengo,0,2
+2018,Santos,Vasco da Gama,1,1
+2018,Santos,Atlético-MG,3,2
+2018,Ceará SC,Botafogo,0,0
+2018,América-MG,Fluminense,0,0
+2018,América-MG,Flamengo,2,2
+2018,Sport Recife,Palmeiras,0,1
+2018,Sport Recife,Internacional,2,1
+2018,Sport Recife,Vasco da Gama,2,1
+2018,Sport Recife,Flamengo,0,1
+2018,Sport Recife,Santos,2,1
+2018,Internacional,Paraná,1,0
+2018,Internacional,Palmeiras,0,0
+2018,Internacional,Atlético-MG,1,2
+2018,Atlético-MG,Vasco da Gama,0,0
+2018,Atlético-MG,Athletico-PR,3,1
+2018,Atlético-MG,Sport Recife,5,2
+2018,Flamengo,Ceará SC,0,1
+2018,Flamengo,Chapecoense,2,0
+2018,Flamengo,Fluminense,3,0
+2018,Flamengo,Santos,1,0
+2018,Flamengo,Grêmio,2,0
+2018,Flamengo,Athletico-PR,1,2
+2018,Vasco da Gama,Chapecoense,3,1
+2018,Vasco da Gama,EC Bahia,2,1
+2018,Vasco da Gama,Cruzeiro,2,0
+2018,EC Bahia,Paraná,2,0
+2018,Ceará SC,EC Bahia,0,2
+2018,EC Vitória,Santos,0,1
+2018,EC Vitória,Corinthians,2,2
+2018,Corinthians,Sport Recife,2,1
+2018,Corinthians,Internacional,1,1
+2018,Corinthians,Vasco da Gama,1,0
+2018,Corinthians,Chapecoense,0,0
+2018,Fluminense,Botafogo,1,0
+2018,Fluminense,Grêmio,0,1
+2018,Fluminense,Atlético-MG,1,0
+2018,Fluminense,Ceará SC,0,0
+2018,Chapecoense,Corinthians,2,1
+2018,Chapecoense,Atlético-MG,1,0
+2018,Chapecoense,América-MG,1,0
+2018,Chapecoense,Botafogo,0,1
+2018,Chapecoense,Sport Recife,2,1
+2018,Palmeiras,Athletico-PR,2,0
+2018,Botafogo,Corinthians,1,0
+2018,São Paulo,Chapecoense,2,0
+2018,São Paulo,Flamengo,2,2
+2018,São Paulo,Sport Recife,0,0
+2018,Paraná,Chapecoense,1,1
+2018,Paraná,Atlético-MG,0,1
+2018,Grêmio,Vasco da Gama,2,1
+2018,Athletico-PR,Vasco da Gama,1,0
+2018,Athletico-PR,Flamengo,3,0
+2018,Athletico-PR,Sport Recife,4,0
+2018,Athletico-PR,Cruzeiro,2,0
+2018,Athletico-PR,Ceará SC,2,2
+2018,Palmeiras,Cruzeiro,3,1
+2018,Santos,Corinthians,1,0
+2018,Cruzeiro,Atlético-MG,0,0
+2018,Cruzeiro,Santos,2,1
+2018,Santos,Sport Recife,3,0
+2018,Santos,São Paulo,0,0
+2018,Santos,Fluminense,3,0
+2018,Santos,Botafogo,1,1
+2018,Ceará SC,Corinthians,2,1
+2018,Ceará SC,EC Vitória,2,0
+2018,Ceará SC,Internacional,1,1
+2018,Ceará SC,Paraná,1,0
+2018,América-MG,Vasco da Gama,2,1
+2018,América-MG,Ceará SC,0,0
+2018,Cruzeiro,Chapecoense,3,0
+2018,América-MG,Cruzeiro,1,2
+2018,América-MG,Paraná,0,1
+2018,Sport Recife,São Paulo,1,3
+2018,Sport Recife,Ceará SC,1,0
+2018,Internacional,EC Vitória,2,1
+2018,Internacional,Athletico-PR,2,1
+2018,Internacional,Fluminense,2,0
+2018,EC Bahia,América-MG,1,0
+2018,EC Bahia,Internacional,0,1
+2018,EC Bahia,Ceará SC,2,1
+2018,Vasco da Gama,Flamengo,1,1
+2018,Atlético-MG,Santos,3,1
+2018,Flamengo,EC Vitória,1,0
+2018,Flamengo,Atlético-MG,2,1
+2018,Vasco da Gama,Ceará SC,1,1
+2018,Vasco da Gama,Internacional,1,1
+2018,Vasco da Gama,São Paulo,2,0
+2018,Vasco da Gama,Palmeiras,0,1
+2018,EC Vitória,Botafogo,3,4
+2018,Fluminense,Vasco da Gama,0,1
+2018,Fluminense,Sport Recife,0,0
+2018,Chapecoense,Palmeiras,1,2
+2018,Chapecoense,Internacional,2,1
+2018,Chapecoense,São Paulo,1,0
+2018,Palmeiras,Vasco da Gama,1,0
+2018,Botafogo,Atlético-MG,0,3
+2018,Botafogo,São Paulo,2,2
+2018,Botafogo,Flamengo,2,1
+2018,Botafogo,Paraná,2,1
+2018,São Paulo,Ceará SC,1,0
+2018,São Paulo,EC Bahia,1,0
+2018,São Paulo,Athletico-PR,0,0
+2018,Paraná,Botafogo,1,1
+2018,Paraná,Flamengo,0,4
+2018,Paraná,EC Vitória,1,1
+2018,Paraná,Internacional,1,1
+2018,Athletico-PR,Grêmio,2,1
+2018,Palmeiras,Ceará SC,2,1
+2018,Cruzeiro,EC Bahia,1,1
+2018,Cruzeiro,Paraná,3,1
+2018,Cruzeiro,Corinthians,1,0
+2018,Santos,EC Bahia,2,0
+2018,Santos,Athletico-PR,1,0
+2018,Ceará SC,Chapecoense,3,1
+2018,Ceará SC,Atlético-MG,2,1
+2018,América-MG,Grêmio,1,1
+2018,América-MG,Santos,2,1
+2018,América-MG,EC Bahia,1,0
+2018,Sport Recife,América-MG,0,2
+2018,Sport Recife,Cruzeiro,0,0
+2018,Internacional,Flamengo,2,1
+2018,Internacional,Grêmio,1,0
+2018,Internacional,São Paulo,3,1
+2018,Internacional,Santos,2,2
+2018,Internacional,América-MG,2,0
+2018,EC Bahia,Sport Recife,2,0
+2018,EC Bahia,Palmeiras,1,1
+2018,EC Bahia,Flamengo,0,0
+2018,EC Bahia,Fluminense,2,0
+2018,Atlético-MG,São Paulo,1,0
+2018,Atlético-MG,América-MG,0,0
+2018,Atlético-MG,EC Bahia,1,0
+2018,Atlético-MG,Botafogo,1,0
+2018,Flamengo,Cruzeiro,1,0
+2018,Flamengo,Palmeiras,1,1
+2018,EC Bahia,Cruzeiro,0,0
+2018,EC Vitória,América-MG,1,0
+2018,EC Vitória,EC Bahia,2,2
+2018,EC Vitória,Athletico-PR,1,2
+2018,Corinthians,Grêmio,0,1
+2018,Corinthians,Atlético-MG,1,1
+2018,Palmeiras,Fluminense,3,0
+2018,Botafogo,Internacional,1,0
+2018,São Paulo,Palmeiras,0,2
+2018,São Paulo,Cruzeiro,1,0
+2018,Paraná,São Paulo,1,1
+2018,Paraná,Vasco da Gama,1,1
+2018,Athletico-PR,América-MG,4,0
+2018,Santos,Chapecoense,0,1
+2018,Cruzeiro,EC Vitória,3,0
+2018,América-MG,Corinthians,0,0
+2018,Sport Recife,Paraná,1,0
+2018,Sport Recife,EC Vitória,0,0
+2018,Vasco da Gama,Athletico-PR,1,1
+2018,EC Vitória,Atlético-MG,1,0
+2018,Corinthians,São Paulo,1,1
+2018,Botafogo,América-MG,1,0
+2018,Ceará SC,Vasco da Gama,0,0
+2018,EC Bahia,Chapecoense,1,0
+2018,Atlético-MG,Grêmio,0,1
+2018,Atlético-MG,Palmeiras,1,1
+2018,Paraná,Palmeiras,1,1
+2017,Chapecoense,Palmeiras,1,0
+2017,Chapecoense,Avaí FC,2,0
+2017,Chapecoense,Grêmio,3,6
+2017,Chapecoense,Vasco da Gama,2,1
+2017,Chapecoense,Botafogo,0,2
+2017,Chapecoense,Atlético-MG,0,1
+2017,Chapecoense,Athletico-PR,1,1
+2017,Chapecoense,São Paulo,2,0
+2017,Chapecoense,Atlético-GO,1,2
+2017,Chapecoense,EC Bahia,1,1
+2017,Chapecoense,Corinthians,0,1
+2017,Chapecoense,Cruzeiro,1,2
+2017,Chapecoense,Ponte Preta,1,0
+2017,Chapecoense,Flamengo,0,1
+2017,Chapecoense,Fluminense,2,0
+2017,Chapecoense,Sport Recife,1,1
+2017,Chapecoense,Santos,2,0
+2017,Chapecoense,EC Vitória,2,1
+2017,Chapecoense,Coritiba FC,2,1
+2017,Palmeiras,Vasco da Gama,4,0
+2017,Palmeiras,Atlético-MG,0,0
+2017,Palmeiras,Fluminense,3,1
+2017,Palmeiras,Atlético-GO,1,0
+2017,Palmeiras,Corinthians,0,2
+2017,Palmeiras,EC Vitória,4,2
+2017,Palmeiras,Avaí FC,2,0
+2017,Palmeiras,Athletico-PR,0,1
+2017,Palmeiras,Chapecoense,0,2
+2017,Palmeiras,São Paulo,4,2
+2017,Palmeiras,Santos,0,1
+2017,Palmeiras,EC Bahia,2,2
+2017,Palmeiras,Cruzeiro,2,2
+2017,Palmeiras,Flamengo,2,0
+2017,Palmeiras,Sport Recife,5,1
+2017,Palmeiras,Botafogo,2,0
+2017,EC Bahia,Athletico-PR,6,2
+2017,EC Bahia,Atlético-GO,3,0
+2017,EC Bahia,Cruzeiro,1,0
+2017,EC Bahia,Palmeiras,2,4
+2017,EC Bahia,Flamengo,0,1
+2017,EC Bahia,Fluminense,1,1
+2017,EC Bahia,Sport Recife,1,3
+2017,EC Bahia,São Paulo,2,1
+2017,EC Bahia,Vasco da Gama,3,0
+2017,EC Bahia,Botafogo,1,2
+2017,EC Bahia,Grêmio,1,0
+2017,EC Bahia,Coritiba FC,1,1
+2017,EC Bahia,Corinthians,2,0
+2017,EC Bahia,EC Vitória,2,1
+2017,EC Bahia,Ponte Preta,2,0
+2017,EC Bahia,Atlético-MG,2,2
+2017,EC Bahia,Santos,3,1
+2017,EC Bahia,Chapecoense,0,1
+2017,EC Vitória,Corinthians,0,1
+2017,EC Vitória,Coritiba FC,0,1
+2017,Athletico-PR,Grêmio,0,2
+2017,Athletico-PR,Flamengo,1,1
+2017,Athletico-PR,Santos,0,2
+2017,Athletico-PR,São Paulo,1,0
+2017,Athletico-PR,EC Vitória,4,1
+2017,Athletico-PR,Cruzeiro,0,2
+2017,Athletico-PR,Botafogo,0,0
+2017,Athletico-PR,Ponte Preta,0,2
+2017,Athletico-PR,Avaí FC,5,0
+2017,Athletico-PR,EC Bahia,4,1
+2017,Athletico-PR,Coritiba FC,1,1
+2017,Athletico-PR,Fluminense,3,1
+2017,Athletico-PR,Atlético-MG,0,2
+2017,Athletico-PR,Atlético-GO,2,2
+2017,Athletico-PR,Sport Recife,2,1
+2017,Athletico-PR,Chapecoense,0,0
+2017,Athletico-PR,Corinthians,0,1
+2017,Athletico-PR,Vasco da Gama,3,1
+2017,Athletico-PR,Palmeiras,3,0
+2017,Grêmio,Botafogo,2,0
+2017,Grêmio,Vasco da Gama,2,0
+2017,Grêmio,EC Bahia,1,0
+2017,Grêmio,Coritiba FC,2,0
+2017,Grêmio,Corinthians,0,1
+2017,Grêmio,Avaí FC,0,2
+2017,Grêmio,Ponte Preta,3,1
+2017,Grêmio,Santos,1,1
+2017,Grêmio,Atlético-MG,2,0
+2017,Grêmio,Athletico-PR,0,0
+2017,Grêmio,Sport Recife,5,0
+2017,Grêmio,Chapecoense,0,1
+2017,Grêmio,Fluminense,1,0
+2017,Grêmio,Cruzeiro,0,1
+2017,Grêmio,Palmeiras,1,3
+2017,Grêmio,Flamengo,3,1
+2017,Grêmio,São Paulo,1,0
+2017,Grêmio,Atlético-GO,1,1
+2017,Corinthians,Chapecoense,1,1
+2017,Corinthians,Santos,2,0
+2017,Corinthians,São Paulo,3,2
+2017,Corinthians,Cruzeiro,1,0
+2017,Corinthians,EC Bahia,3,0
+2017,Corinthians,Botafogo,1,0
+2017,Corinthians,Ponte Preta,2,0
+2017,Corinthians,Athletico-PR,2,2
+2017,Corinthians,Flamengo,1,1
+2017,Corinthians,Sport Recife,3,1
+2017,Corinthians,EC Vitória,0,1
+2017,Corinthians,Atlético-GO,0,1
+2017,Corinthians,Vasco da Gama,1,0
+2017,Corinthians,Coritiba FC,3,1
+2017,Corinthians,Grêmio,0,0
+2017,Corinthians,Palmeiras,3,2
+2017,Corinthians,Avaí FC,1,0
+2017,Corinthians,Fluminense,3,1
+2017,Corinthians,Atlético-MG,2,2
+2017,Sport Recife,Chapecoense,3,0
+2017,Sport Recife,Palmeiras,0,2
+2017,Atlético-GO,Flamengo,0,3
+2017,Atlético-GO,Corinthians,0,1
+2017,Atlético-GO,EC Vitória,1,2
+2017,Atlético-GO,Cruzeiro,1,2
+2017,Atlético-GO,Vasco da Gama,0,1
+2017,Atlético-GO,São Paulo,0,1
+2017,Grêmio,EC Vitória,1,1
+2017,Vasco da Gama,EC Bahia,2,1
+2017,Vasco da Gama,Fluminense,3,2
+2017,Vasco da Gama,Corinthians,2,5
+2017,Vasco da Gama,Sport Recife,2,1
+2017,Vasco da Gama,Avaí FC,1,0
+2017,Vasco da Gama,Atlético-GO,1,0
+2017,Vasco da Gama,Flamengo,0,1
+2017,Vasco da Gama,Santos,0,0
+2017,Vasco da Gama,Grêmio,1,0
+2017,Vasco da Gama,Chapecoense,1,1
+2017,Vasco da Gama,São Paulo,1,1
+2017,Vasco da Gama,Atlético-MG,1,1
+2017,Vasco da Gama,Ponte Preta,2,1
+2017,Flamengo,Ponte Preta,2,0
+2017,Flamengo,Chapecoense,5,1
+2017,Flamengo,São Paulo,2,0
+2017,Flamengo,Grêmio,0,1
+2017,Flamengo,Palmeiras,2,2
+2017,Flamengo,Coritiba FC,2,1
+2017,Flamengo,EC Vitória,0,2
+2017,Flamengo,Atlético-GO,2,0
+2017,Flamengo,Athletico-PR,2,0
+2017,Flamengo,Sport Recife,2,0
+2017,Flamengo,Avaí FC,1,1
+2017,Flamengo,EC Bahia,4,1
+2017,Flamengo,Cruzeiro,2,0
+2017,Flamengo,Corinthians,3,0
+2017,Flamengo,Santos,1,2
+2017,EC Vitória,Atlético-MG,2,0
+2017,EC Vitória,Botafogo,2,2
+2017,EC Vitória,Santos,0,2
+2017,EC Vitória,EC Bahia,0,0
+2017,EC Vitória,Vasco da Gama,1,4
+2017,EC Vitória,Grêmio,1,3
+2017,EC Vitória,Chapecoense,1,2
+2017,EC Vitória,Ponte Preta,3,1
+2017,EC Vitória,Avaí FC,0,1
+2017,EC Vitória,Fluminense,2,2
+2017,EC Vitória,São Paulo,1,2
+2017,EC Vitória,Sport Recife,1,2
+2017,EC Vitória,Athletico-PR,2,3
+2017,EC Vitória,Atlético-GO,1,1
+2017,EC Vitória,Palmeiras,3,1
+2017,EC Vitória,Cruzeiro,1,1
+2017,EC Vitória,Flamengo,1,2
+2017,Santos,Coritiba FC,1,0
+2017,Santos,Cruzeiro,0,1
+2017,Santos,Palmeiras,1,0
+2017,Santos,Sport Recife,0,1
+2017,Santos,São Paulo,3,2
+2017,Santos,Chapecoense,1,0
+2017,Santos,Corinthians,2,0
+2017,Santos,Athletico-PR,1,0
+2017,Santos,Atlético-GO,1,0
+2017,Santos,Atlético-MG,3,1
+2017,Santos,Vasco da Gama,1,2
+2017,Santos,Grêmio,1,0
+2017,Santos,Avaí FC,1,1
+2017,Fluminense,Chapecoense,3,3
+2017,Fluminense,Cruzeiro,1,1
+2017,Atlético-MG,Fluminense,1,2
+2017,Atlético-MG,Ponte Preta,2,2
+2017,Atlético-MG,Avaí FC,1,0
+2017,Atlético-MG,Athletico-PR,0,1
+2017,Atlético-MG,Sport Recife,2,2
+2017,Atlético-MG,Cruzeiro,3,1
+2017,Atlético-MG,Santos,0,1
+2017,Atlético-MG,EC Bahia,0,2
+2017,Atlético-MG,Vasco da Gama,1,2
+2017,Atlético-MG,Flamengo,2,0
+2017,Atlético-MG,Palmeiras,1,1
+2017,Atlético-MG,EC Vitória,1,3
+2017,Atlético-MG,São Paulo,1,0
+2017,Atlético-MG,Chapecoense,2,3
+2017,Atlético-MG,Botafogo,0,0
+2017,Atlético-MG,Atlético-GO,3,2
+2017,Atlético-MG,Coritiba FC,3,0
+2017,Atlético-MG,Grêmio,4,3
+2017,Ponte Preta,Sport Recife,4,0
+2017,Ponte Preta,São Paulo,1,0
+2017,Ponte Preta,Chapecoense,3,2
+2017,Ponte Preta,Cruzeiro,1,0
+2017,Ponte Preta,Palmeiras,1,2
+2017,Ponte Preta,EC Bahia,0,3
+2017,Ponte Preta,Coritiba FC,4,0
+2017,Ponte Preta,Fluminense,0,0
+2017,Ponte Preta,Vasco da Gama,0,0
+2017,Ponte Preta,Botafogo,2,1
+2017,Ponte Preta,Atlético-MG,1,2
+2017,Ponte Preta,Atlético-GO,1,3
+2017,Ponte Preta,Flamengo,1,0
+2017,Ponte Preta,Santos,1,1
+2017,Ponte Preta,Avaí FC,1,2
+2017,Ponte Preta,Corinthians,1,0
+2017,Ponte Preta,Grêmio,0,1
+2017,Ponte Preta,Athletico-PR,2,1
+2017,Ponte Preta,EC Vitória,2,3
+2017,Avaí FC,EC Vitória,0,0
+2017,Avaí FC,Sport Recife,1,0
+2017,Avaí FC,Flamengo,1,1
+2017,Avaí FC,Fluminense,0,3
+2017,Avaí FC,Ponte Preta,0,0
+2017,Avaí FC,Coritiba FC,1,4
+2017,Avaí FC,Corinthians,0,0
+2017,Avaí FC,Cruzeiro,1,0
+2017,Avaí FC,Santos,0,0
+2017,Avaí FC,São Paulo,1,1
+2017,Avaí FC,Chapecoense,1,0
+2017,Avaí FC,Atlético-MG,1,1
+2017,Avaí FC,Atlético-GO,0,2
+2017,Avaí FC,Vasco da Gama,1,2
+2017,Avaí FC,Botafogo,1,1
+2017,Avaí FC,Grêmio,2,2
+2017,Avaí FC,EC Bahia,1,2
+2017,Avaí FC,Palmeiras,2,1
+2017,Avaí FC,Athletico-PR,1,0
+2017,Coritiba FC,Vasco da Gama,2,2
+2017,Flamengo,Atlético-MG,1,1
+2017,Flamengo,Fluminense,1,1
+2017,Flamengo,Vasco da Gama,0,0
+2017,Fluminense,Santos,3,2
+2017,Fluminense,EC Vitória,2,1
+2017,Fluminense,Athletico-PR,1,1
+2017,Fluminense,Grêmio,0,2
+2017,Fluminense,Flamengo,2,2
+2017,Fluminense,Botafogo,0,1
+2017,Fluminense,Corinthians,0,1
+2017,Fluminense,Atlético-GO,3,1
+2017,Fluminense,Atlético-MG,2,1
+2017,Fluminense,Vasco da Gama,0,1
+2017,Fluminense,Palmeiras,0,1
+2017,Fluminense,Avaí FC,1,0
+2017,Fluminense,São Paulo,3,1
+2017,Fluminense,EC Bahia,1,1
+2017,Fluminense,Coritiba FC,2,2
+2017,Fluminense,Ponte Preta,2,0
+2017,Fluminense,Sport Recife,1,2
+2017,Vasco da Gama,Botafogo,1,0
+2017,Vasco da Gama,Coritiba FC,1,1
+2017,Vasco da Gama,EC Vitória,1,1
+2017,Botafogo,Ponte Preta,2,0
+2017,Botafogo,EC Bahia,1,0
+2017,Botafogo,Coritiba FC,2,2
+2017,Botafogo,Vasco da Gama,3,1
+2017,Botafogo,Avaí FC,0,2
+2017,Botafogo,Atlético-MG,1,1
+2017,Botafogo,Sport Recife,2,1
+2017,Botafogo,São Paulo,3,4
+2017,Botafogo,Palmeiras,1,2
+2017,Botafogo,Grêmio,1,0
+2017,Botafogo,Flamengo,2,0
+2017,Botafogo,Santos,2,0
+2017,Botafogo,EC Vitória,2,3
+2017,Botafogo,Chapecoense,2,1
+2017,Botafogo,Corinthians,2,1
+2017,Botafogo,Fluminense,1,2
+2017,Botafogo,Athletico-PR,0,1
+2017,Botafogo,Atlético-GO,1,2
+2017,Botafogo,Cruzeiro,2,2
+2017,São Paulo,Avaí FC,2,0
+2017,São Paulo,Palmeiras,2,0
+2017,São Paulo,EC Vitória,2,0
+2017,São Paulo,Atlético-MG,1,2
+2017,São Paulo,Fluminense,1,1
+2017,São Paulo,Atlético-GO,2,2
+2017,São Paulo,Vasco da Gama,1,0
+2017,São Paulo,Grêmio,1,1
+2017,São Paulo,Coritiba FC,1,2
+2017,São Paulo,Cruzeiro,3,2
+2017,São Paulo,Ponte Preta,2,2
+2017,São Paulo,Corinthians,1,1
+2017,São Paulo,Sport Recife,1,0
+2017,São Paulo,EC Bahia,1,1
+2017,Sport Recife,Cruzeiro,1,1
+2017,Sport Recife,Grêmio,4,3
+2017,Sport Recife,Flamengo,2,0
+2017,Sport Recife,São Paulo,0,0
+2017,Sport Recife,EC Vitória,1,3
+2017,Sport Recife,Athletico-PR,1,0
+2017,Sport Recife,Atlético-GO,4,0
+2017,Sport Recife,Fluminense,2,2
+2017,Sport Recife,Ponte Preta,0,0
+2017,Sport Recife,Avaí FC,0,1
+2017,Sport Recife,Vasco da Gama,1,1
+2017,Sport Recife,Atlético-MG,1,1
+2017,Sport Recife,Santos,1,1
+2017,Sport Recife,Coritiba FC,3,4
+2017,Sport Recife,Botafogo,1,2
+2017,Sport Recife,EC Bahia,1,0
+2017,Sport Recife,Corinthians,1,0
+2017,EC Bahia,Avaí FC,1,1
+2017,Cruzeiro,São Paulo,1,0
+2017,Cruzeiro,Chapecoense,0,2
+2017,Cruzeiro,Atlético-GO,2,0
+2017,Cruzeiro,Grêmio,3,3
+2017,Cruzeiro,Coritiba FC,2,0
+2017,Cruzeiro,Palmeiras,3,1
+2017,Cruzeiro,Flamengo,1,1
+2017,Cruzeiro,EC Vitória,0,0
+2017,Cruzeiro,Botafogo,0,0
+2017,Cruzeiro,Sport Recife,2,0
+2017,Cruzeiro,Santos,1,1
+2017,Cruzeiro,EC Bahia,1,0
+2017,Cruzeiro,Corinthians,1,1
+2017,Cruzeiro,Ponte Preta,2,1
+2017,Cruzeiro,Atlético-MG,1,3
+2017,Cruzeiro,Athletico-PR,1,0
+2017,Cruzeiro,Fluminense,3,1
+2017,Cruzeiro,Avaí FC,2,2
+2017,Cruzeiro,Vasco da Gama,0,1
+2017,Atlético-MG,Corinthians,0,2
+2017,Coritiba FC,Atlético-GO,4,1
+2017,Coritiba FC,Athletico-PR,1,0
+2017,Coritiba FC,Palmeiras,1,0
+2017,Coritiba FC,EC Bahia,0,0
+2017,Coritiba FC,Corinthians,0,0
+2017,Coritiba FC,Sport Recife,0,3
+2017,Coritiba FC,Fluminense,1,2
+2017,Coritiba FC,Atlético-MG,0,2
+2017,Coritiba FC,Chapecoense,2,0
+2017,Coritiba FC,Santos,0,0
+2017,Coritiba FC,EC Vitória,0,1
+2017,Coritiba FC,Botafogo,2,3
+2017,Coritiba FC,Grêmio,0,1
+2017,Coritiba FC,Cruzeiro,1,0
+2017,Coritiba FC,Avaí FC,4,0
+2017,Coritiba FC,Ponte Preta,1,1
+2017,Coritiba FC,Flamengo,1,0
+2017,Coritiba FC,São Paulo,1,2
+2017,Atlético-GO,Ponte Preta,3,0
+2017,Atlético-GO,Avaí FC,3,1
+2017,Atlético-GO,Athletico-PR,0,1
+2017,Atlético-GO,Santos,1,1
+2017,Atlético-GO,Atlético-MG,1,2
+2017,Atlético-GO,Botafogo,1,1
+2017,Atlético-GO,Grêmio,0,1
+2017,Atlético-GO,Coritiba FC,1,0
+2017,Atlético-GO,EC Bahia,1,1
+2017,Atlético-GO,Palmeiras,1,3
+2017,Atlético-GO,Sport Recife,2,0
+2017,Atlético-GO,Chapecoense,1,1
+2017,Atlético-GO,Fluminense,1,1
+2017,Flamengo,Botafogo,0,0
+2017,Vasco da Gama,Athletico-PR,0,1
+2017,Vasco da Gama,Cruzeiro,0,3
+2017,Vasco da Gama,Palmeiras,1,1
+2017,Palmeiras,Grêmio,1,0
+2017,Palmeiras,Coritiba FC,1,0
+2017,Palmeiras,Ponte Preta,2,0
+2017,Santos,Botafogo,1,0
+2017,Santos,Ponte Preta,0,0
+2017,Santos,EC Bahia,3,0
+2017,Santos,Flamengo,3,2
+2017,Santos,Fluminense,0,0
+2017,Santos,EC Vitória,2,2
+2017,São Paulo,Athletico-PR,2,1
+2017,São Paulo,Flamengo,2,0
+2017,São Paulo,Santos,2,1
+2017,São Paulo,Chapecoense,2,2
+2017,São Paulo,Botafogo,0,0
+2024,Atlético-GO,Flamengo,1,2
+2024,Flamengo,São Paulo,2,1
+2024,Botafogo,Athletico-PR,1,1
+2024,Atlético-GO,Criciúma EC,1,2
+2024,São Paulo,Cuiabá-MT,0,1
+2024,Juventude,Vasco da Gama,2,0
+2024,Fortaleza,Grêmio,1,0
+2024,Internacional,Corinthians,1,0
+2024,Cruzeiro,Fluminense,2,0
+2024,EC Vitória,Atlético-MG,4,2
+2024,Flamengo,EC Bahia,2,1
+2024,Palmeiras,RB Bragantino,2,1
+2024,Criciúma EC,Botafogo,2,1
+2024,Grêmio,Internacional,0,1
+2024,Vasco da Gama,São Paulo,4,1
+2024,Fluminense,Flamengo,0,1
+2024,Athletico-PR,Corinthians,1,1
+2024,EC Bahia,Cruzeiro,4,1
+2024,Palmeiras,Juventude,3,1
+2024,RB Bragantino,EC Vitória,2,1
+2024,Internacional,Flamengo,1,1
+2024,Athletico-PR,Atlético-MG,1,0
+2024,Athletico-PR,Fortaleza,1,1
+2024,Criciúma EC,Athletico-PR,0,0
+2024,Atlético-MG,Internacional,1,3
+2024,RB Bragantino,Botafogo,0,1
+2024,Criciúma EC,São Paulo,1,1
+2024,Cuiabá-MT,Corinthians,0,1
+2024,Vasco da Gama,EC Bahia,3,2
+2024,Fluminense,Grêmio,2,2
+2024,RB Bragantino,Cuiabá-MT,0,0
+2024,Athletico-PR,EC Vitória,1,2
+2024,Juventude,Fortaleza,0,3
+2024,Corinthians,Palmeiras,2,0
+2024,Internacional,Criciúma EC,2,0
+2024,EC Bahia,São Paulo,0,3
+2024,Botafogo,Vasco da Gama,3,0
+2024,Cruzeiro,Flamengo,0,1
+2024,Atlético-GO,Atlético-MG,1,0
+2024,Internacional,Fluminense,2,0
+2024,Palmeiras,Grêmio,1,0
+2024,EC Vitória,Corinthians,1,2
+2024,Botafogo,Cuiabá-MT,0,0
+2024,Cruzeiro,Criciúma EC,2,1
+2024,Fortaleza,Vasco da Gama,3,0
+2024,São Paulo,Athletico-PR,2,1
+2024,Atlético-GO,RB Bragantino,0,0
+2024,Juventude,EC Bahia,2,1
+2024,Flamengo,Atlético-MG,0,0
+2024,Corinthians,Cruzeiro,2,1
+2024,RB Bragantino,São Paulo,1,1
+2024,Athletico-PR,Atlético-GO,2,0
+2024,Criciúma EC,EC Vitória,0,1
+2024,EC Bahia,Palmeiras,1,2
+2024,Grêmio,Juventude,2,2
+2024,Atlético-MG,Botafogo,0,0
+2024,Vasco da Gama,Internacional,0,1
+2024,Fluminense,Fortaleza,2,2
+2024,Botafogo,EC Vitória,1,1
+2024,São Paulo,Atlético-MG,2,2
+2024,Atlético-GO,Palmeiras,0,1
+2024,Juventude,Cuiabá-MT,1,1
+2024,Internacional,RB Bragantino,4,1
+2024,EC Bahia,Athletico-PR,1,1
+2024,Corinthians,Vasco da Gama,3,1
+2024,Fluminense,Criciúma EC,0,0
+2024,Fortaleza,Flamengo,0,0
+2024,Cruzeiro,Grêmio,1,1
+2024,Atlético-MG,Juventude,2,3
+2024,Palmeiras,Botafogo,1,3
+2024,Cuiabá-MT,EC Bahia,1,2
+2024,Criciúma EC,Corinthians,2,4
+2024,Vasco da Gama,Atlético-GO,2,2
+2024,Flamengo,Internacional,3,2
+2024,EC Vitória,Fortaleza,2,0
+2024,RB Bragantino,Cruzeiro,1,1
+2024,Athletico-PR,Fluminense,1,1
+2024,Corinthians,EC Bahia,3,0
+2024,São Paulo,Juventude,1,2
+2024,Vasco da Gama,Atlético-MG,2,0
+2024,EC Vitória,Grêmio,1,1
+2024,Criciúma EC,Flamengo,0,3
+2024,Internacional,Botafogo,0,1
+2024,Cruzeiro,Palmeiras,1,2
+2024,Atlético-GO,Fortaleza,3,1
+2024,Fluminense,Cuiabá-MT,1,0
+2024,Athletico-PR,RB Bragantino,1,2
+2024,Grêmio,Corinthians,0,3
+2024,Atlético-MG,Athletico-PR,1,0
+2024,EC Bahia,Atlético-GO,2,0
+2024,Flamengo,EC Vitória,2,2
+2024,Botafogo,São Paulo,2,1
+2024,Palmeiras,Fluminense,0,1
+2024,RB Bragantino,Criciúma EC,5,1
+2024,Fortaleza,Internacional,3,0
+2024,Cuiabá-MT,Vasco da Gama,1,2
+2024,Juventude,Cruzeiro,0,1
+2025,Sport Recife,Flamengo,1,5
+2025,Palmeiras,Juventude,4,1
+2025,Fluminense,Ceará SC,1,0
+2025,Flamengo,São Paulo,2,0
+2025,Palmeiras,Mirassol,1,1
+2025,Atlético-GO,Sport Recife,3,1
+2025,São Paulo,Sport Recife,0,0
+2025,Fortaleza,Fluminense,2,0
+2025,Juventude,EC Vitória,2,0
+2025,Vasco da Gama,EC Bahia,3,1
+2025,Cruzeiro,Mirassol,2,1
+2025,Atlético-GO,Fortaleza,3,3
+2025,Grêmio,Atlético-GO,2,1
+2025,Flamengo,Internacional,1,1
+2025,Palmeiras,Botafogo,0,0
+2025,Fortaleza,RB Bragantino,3,1
+2025,Vasco da Gama,Santos,2,1
+2025,EC Bahia,Corinthians,1,1
+2025,RB Bragantino,Ceará SC,2,2
+2025,Ceará SC,Grêmio,2,0
+2025,Corinthians,Vasco da Gama,3,0
+2025,Botafogo,Juventude,2,0
+2025,Fluminense,RB Bragantino,2,1
+2025,Atlético-GO,São Paulo,0,0
+2025,Mirassol,Fortaleza,1,1
+2025,EC Vitória,Flamengo,1,2
+2025,Sport Recife,Palmeiras,1,2
+2025,Internacional,Cruzeiro,3,0
+2025,Santos,EC Bahia,2,2
+2025,Juventude,Ceará SC,2,1
+2025,RB Bragantino,Botafogo,1,0
+2025,Palmeiras,Corinthians,2,0
+2025,Vasco da Gama,Sport Recife,3,1
+2025,EC Bahia,Mirassol,1,1
+2025,São Paulo,Cruzeiro,1,1
+2025,Grêmio,Flamengo,0,2
+2025,Fluminense,Santos,1,0
+2025,Fortaleza,Internacional,0,0
+2025,Atlético-GO,EC Vitória,2,2
+2025,Ceará SC,Vasco da Gama,2,1
+2025,Botafogo,São Paulo,2,2
+2025,Sport Recife,RB Bragantino,0,1
+2025,Mirassol,Grêmio,4,1
+2025,Corinthians,Fluminense,0,2
+2025,Internacional,Palmeiras,0,1
+2025,EC Vitória,Fortaleza,2,1
+2025,Santos,Atlético-GO,2,0
+2025,Flamengo,Juventude,6,0
+2025,Cruzeiro,EC Bahia,3,0
+2025,Corinthians,Sport Recife,2,1
+2025,Vasco da Gama,Flamengo,0,0
+2025,Grêmio,Internacional,1,1
+2025,Juventude,Mirassol,2,2
+2025,São Paulo,Santos,2,1
+2025,Atlético-GO,Botafogo,1,0
+2025,Fluminense,EC Vitória,1,1
+2025,Fortaleza,Palmeiras,1,2
+2025,RB Bragantino,Cruzeiro,1,0
+2025,EC Bahia,Ceará SC,1,0
+2025,Internacional,Juventude,3,1
+2025,Ceará SC,São Paulo,1,1
+2025,Mirassol,Atlético-GO,2,2
+2025,Sport Recife,Fortaleza,0,0
+2025,Botafogo,Fluminense,2,0
+2025,Flamengo,Corinthians,4,0
+2025,Palmeiras,EC Bahia,0,1
+2025,EC Vitória,Grêmio,1,1
+2025,Cruzeiro,Vasco da Gama,1,0
+2025,Santos,RB Bragantino,1,2
+2025,São Paulo,Fortaleza,0,0
+2025,Ceará SC,EC Vitória,1,0
+2025,Fluminense,Sport Recife,2,1
+2025,Corinthians,Internacional,4,2
+2025,EC Bahia,Botafogo,1,0
+2025,Grêmio,Santos,1,0
+2025,Vasco da Gama,Palmeiras,0,1
+2025,Cruzeiro,Flamengo,2,1
+2025,RB Bragantino,Mirassol,1,0
+2025,Juventude,Atlético-GO,0,1
+2025,Fortaleza,Juventude,5,0
+2025,Grêmio,RB Bragantino,1,1
+2025,Mirassol,Corinthians,2,1
+2025,EC Vitória,Vasco da Gama,2,1
+2025,Flamengo,EC Bahia,1,0
+2025,Sport Recife,Cruzeiro,0,4
+2025,Palmeiras,São Paulo,1,0
+2025,Atlético-GO,Fluminense,3,2
+2025,Botafogo,Internacional,4,0
+2025,Santos,Ceará SC,0,0
+2025,Ceará SC,Sport Recife,2,0
+2025,Vasco da Gama,Fortaleza,3,0
+2025,São Paulo,Grêmio,2,1
+2025,EC Bahia,EC Vitória,2,1
+2025,Juventude,Fluminense,1,1
+2025,Corinthians,Santos,1,0
+2025,Flamengo,Botafogo,0,0
+2025,RB Bragantino,Palmeiras,1,2
+2025,Cruzeiro,Atlético-GO,0,0
+2025,Internacional,Mirassol,1,1
+2025,São Paulo,Mirassol,0,2
+2025,Fluminense,Vasco da Gama,2,1
+2025,Atlético-GO,Corinthians,0,0
+2025,Grêmio,EC Bahia,1,0
+2025,Palmeiras,Flamengo,0,2
+2025,Sport Recife,Internacional,1,1
+2025,EC Vitória,Santos,0,1
+2025,Fortaleza,Cruzeiro,0,2
+2025,RB Bragantino,Juventude,1,0
+2025,Botafogo,Ceará SC,3,2
+2025,EC Bahia,São Paulo,2,1
+2025,Vasco da Gama,RB Bragantino,0,2
+2025,Mirassol,Sport Recife,1,0
+2025,Juventude,Grêmio,0,2
+2025,Santos,Botafogo,0,1
+2025,Ceará SC,Atlético-GO,0,1
+2025,Corinthians,EC Vitória,0,0
+2025,Flamengo,Fortaleza,5,0
+2025,Cruzeiro,Palmeiras,2,1
+2025,Internacional,Fluminense,0,2
+2025,EC Vitória,Cruzeiro,0,0
+2025,RB Bragantino,EC Bahia,0,3
+2025,Fortaleza,Santos,2,3
+2025,Grêmio,Corinthians,1,1
+2025,Atlético-GO,Internacional,2,0
+2025,São Paulo,Vasco da Gama,1,3
+2025,Botafogo,Mirassol,3,3
+2025,Internacional,EC Vitória,1,0
+2025,Vasco da Gama,Botafogo,0,2
+2025,EC Bahia,Atlético-GO,2,1
+2025,Corinthians,RB Bragantino,1,2
+2025,Fortaleza,Ceará SC,0,1
+2025,Cruzeiro,Grêmio,4,1
+2025,Juventude,Sport Recife,2,0
+2025,Mirassol,Fluminense,2,1
+2025,Santos,Palmeiras,1,0
+2025,Ceará SC,Corinthians,0,1
+2025,Santos,Flamengo,1,0
+2025,Botafogo,EC Vitória,0,0
+2025,RB Bragantino,São Paulo,2,2
+2025,Fluminense,Cruzeiro,0,2
+2025,Grêmio,Fortaleza,2,1
+2025,Juventude,Vasco da Gama,2,0
+2025,EC Bahia,Internacional,1,0
+2025,Fortaleza,EC Bahia,1,1
+2025,Vasco da Gama,Grêmio,1,1
+2025,Mirassol,Santos,3,0
+2025,São Paulo,Corinthians,2,0
+2025,Internacional,Ceará SC,1,0
+2025,EC Vitória,RB Bragantino,1,0
+2025,Cruzeiro,Juventude,4,0
+2025,Palmeiras,Atlético-GO,3,2
+2025,Sport Recife,Botafogo,0,1
+2025,Flamengo,Fluminense,1,0
+2025,Ceará SC,Mirassol,0,2
+2025,Fluminense,Palmeiras,1,2
+2025,Corinthians,Cruzeiro,0,0
+2025,Santos,Internacional,1,2
+2025,RB Bragantino,Flamengo,1,2
+2025,EC Vitória,Sport Recife,2,2
+2025,Juventude,São Paulo,0,1
+2025,Grêmio,Botafogo,1,1
+2025,Botafogo,Corinthians,1,1
+2025,Mirassol,EC Vitória,1,1
+2025,Sport Recife,Santos,2,2
+2025,Palmeiras,Grêmio,1,0
+2025,Cruzeiro,Ceará SC,1,2
+2025,São Paulo,Fluminense,3,1
+2025,EC Bahia,Juventude,3,0
+2025,Internacional,Vasco da Gama,1,1
+2025,Flamengo,Atlético-GO,1,0
+2025,Sport Recife,EC Bahia,0,0
+2025,Mirassol,Vasco da Gama,3,2
+2025,Fluminense,Grêmio,1,0
+2025,Botafogo,Cruzeiro,0,2
+2025,Corinthians,Fortaleza,1,1
+2025,Ceará SC,Flamengo,1,1
+2025,Atlético-GO,RB Bragantino,2,1
+2025,EC Vitória,Palmeiras,2,2
+2025,Internacional,São Paulo,1,2
+2025,Santos,Juventude,3,1
+2025,São Paulo,EC Vitória,2,0
+2025,RB Bragantino,Internacional,1,3
+2025,Flamengo,Mirassol,2,1
+2025,Fortaleza,Botafogo,0,5
+2025,EC Bahia,Fluminense,3,3
+2025,Palmeiras,Ceará SC,2,1
+2025,Vasco da Gama,Atlético-GO,1,1
+2025,Cruzeiro,Santos,1,2
+2025,Grêmio,Sport Recife,0,1
+2025,Juventude,Corinthians,2,1
+2025,Fluminense,Fortaleza,2,1
+2025,Ceará SC,RB Bragantino,1,0
+2025,EC Vitória,Juventude,2,2
+2025,Sport Recife,São Paulo,2,2
+2025,Corinthians,EC Bahia,1,2
+2025,Atlético-GO,Grêmio,1,3
+2025,Santos,Vasco da Gama,0,6
+2025,Internacional,Flamengo,1,3
+2025,Botafogo,Palmeiras,0,1
+2025,Mirassol,Cruzeiro,1,1
+2025,RB Bragantino,Fluminense,4,2
+2025,Cruzeiro,Internacional,2,1
+2025,Grêmio,Ceará SC,0,0
+2025,Vasco da Gama,Corinthians,2,3
+2025,EC Bahia,Santos,2,0
+2025,Juventude,Botafogo,1,3
+2025,Fortaleza,Mirassol,0,1
+2025,São Paulo,Atlético-GO,2,0
+2025,Palmeiras,Sport Recife,3,0
+2025,Flamengo,EC Vitória,8,0
+2025,Ceará SC,Juventude,0,1
+2025,Botafogo,RB Bragantino,4,1
+2025,Cruzeiro,São Paulo,1,0
+2025,Santos,Fluminense,0,0
+2025,Flamengo,Grêmio,1,1
+2025,Corinthians,Palmeiras,1,1
+2025,EC Vitória,Atlético-GO,1,0
+2025,Mirassol,EC Bahia,5,1
+2025,Sport Recife,Vasco da Gama,2,3
+2025,Internacional,Fortaleza,2,1
+2025,Fortaleza,EC Vitória,2,0
+2025,Grêmio,Mirassol,0,1
+2025,Palmeiras,Internacional,4,1
+2025,Fluminense,Corinthians,0,1
+2025,RB Bragantino,Sport Recife,1,1
+2025,Atlético-GO,Santos,1,1
+2025,Juventude,Flamengo,0,2
+2025,São Paulo,Botafogo,1,0
+2025,Vasco da Gama,Ceará SC,2,2
+2025,EC Bahia,Cruzeiro,1,2
+2025,EC Vitória,Fluminense,0,1
+2025,Botafogo,Atlético-GO,1,0
+2025,Ceará SC,EC Bahia,1,1
+2025,Palmeiras,Fortaleza,4,1
+2025,Mirassol,Juventude,2,0
+2025,Flamengo,Vasco da Gama,1,1
+2025,Internacional,Grêmio,2,3
+2025,Sport Recife,Corinthians,1,0
+2025,Santos,São Paulo,1,0
+2025,Cruzeiro,RB Bragantino,2,1
+2025,Fortaleza,Sport Recife,1,0
+2025,Vasco da Gama,Cruzeiro,2,0
+2025,Juventude,Internacional,1,1
+2025,Atlético-GO,Mirassol,1,0
+2025,Grêmio,EC Vitória,3,1
+2025,EC Bahia,Palmeiras,1,0
+2025,Fluminense,Botafogo,2,0
+2025,RB Bragantino,Santos,2,2
+2025,Corinthians,Flamengo,1,2
+2025,São Paulo,Ceará SC,0,1
+2025,Atlético-GO,Juventude,0,0
+2025,Mirassol,RB Bragantino,1,1
+2025,Sport Recife,Fluminense,2,2
+2025,Palmeiras,Vasco da Gama,3,0
+2025,Internacional,Corinthians,1,1
+2025,Santos,Grêmio,1,1
+2025,Botafogo,EC Bahia,2,1
+2025,EC Vitória,Ceará SC,1,0
+2025,Fortaleza,São Paulo,0,2
+2025,Flamengo,Cruzeiro,0,0
+2025,RB Bragantino,Grêmio,1,0
+2025,Internacional,Botafogo,2,0
+2025,Fluminense,Atlético-GO,3,0
+2025,Corinthians,Mirassol,3,0
+2025,Vasco da Gama,EC Vitória,4,3
+2025,São Paulo,Palmeiras,2,3
+2025,Juventude,Fortaleza,1,2
+2025,EC Bahia,Flamengo,1,0
+2025,Cruzeiro,Sport Recife,1,1
+2025,Ceará SC,Santos,3,0
+2025,Palmeiras,RB Bragantino,5,1
+2025,Botafogo,Flamengo,0,3
+2025,Sport Recife,Ceará SC,1,1
+2025,Mirassol,Internacional,3,1
+2025,Santos,Corinthians,3,1
+2025,Atlético-GO,Cruzeiro,1,1
+2025,Fortaleza,Vasco da Gama,0,2
+2025,Grêmio,São Paulo,2,0
+2025,EC Vitória,EC Bahia,2,1
+2025,Fluminense,Juventude,1,0
+2025,Corinthians,Atlético-GO,1,0
+2025,Cruzeiro,Fortaleza,1,0
+2025,Flamengo,Palmeiras,3,2
+2025,Mirassol,São Paulo,3,0
+2025,Ceará SC,Botafogo,0,2
+2025,Internacional,Sport Recife,2,0
+2025,EC Bahia,Grêmio,4,0
+2025,Juventude,RB Bragantino,1,0
+2025,Vasco da Gama,Fluminense,2,0
+2025,Santos,EC Vitória,0,1
+2025,EC Vitória,Corinthians,0,1
+2025,Atlético-GO,Ceará SC,1,0
+2025,Fluminense,Internacional,1,0
+2025,Sport Recife,Mirassol,1,2
+2025,Fortaleza,Flamengo,1,0
+2025,São Paulo,EC Bahia,2,0
+2025,Botafogo,Santos,2,2
+2025,Grêmio,Juventude,3,1
+2025,RB Bragantino,Vasco da Gama,0,3
+2025,Palmeiras,Cruzeiro,0,0
+2025,Santos,Fortaleza,1,1
+2025,Cruzeiro,EC Vitória,3,1
+2025,Mirassol,Botafogo,0,0
+2025,Flamengo,Sport Recife,3,0
+2025,Corinthians,Grêmio,2,0
+2025,Ceará SC,Fluminense,2,0
+2025,EC Bahia,RB Bragantino,2,1
+2025,Internacional,Atlético-GO,0,0
+2025,Juventude,Palmeiras,0,2
+2025,Vasco da Gama,São Paulo,0,2
+2025,Sport Recife,Juventude,0,2
+2025,EC Vitória,Internacional,1,0
+2025,RB Bragantino,Corinthians,2,1
+2025,Botafogo,Vasco da Gama,3,0
+2025,Atlético-GO,EC Bahia,3,0
+2025,Grêmio,Cruzeiro,0,1
+2025,São Paulo,Flamengo,2,2
+2025,Fluminense,Mirassol,1,0
+2025,Ceará SC,Fortaleza,1,1
+2025,Palmeiras,Santos,2,0
+2025,Sport Recife,Atlético-GO,2,4
+2025,Vasco da Gama,Juventude,1,3
+2025,Internacional,EC Bahia,2,2
+2025,São Paulo,RB Bragantino,0,1
+2025,Corinthians,Ceará SC,0,1
+2025,Cruzeiro,Fluminense,0,0
+2025,EC Vitória,Botafogo,0,0
+2025,Flamengo,Santos,3,2
+2025,Fortaleza,Grêmio,2,2
+2025,Mirassol,Palmeiras,2,1
+2025,Botafogo,Sport Recife,3,2
+2025,Fluminense,Flamengo,2,1
+2025,Grêmio,Vasco da Gama,2,0
+2025,Santos,Mirassol,1,1
+2025,Juventude,Cruzeiro,3,3
+2025,EC Bahia,Fortaleza,2,3
+2025,Corinthians,São Paulo,3,1
+2025,Ceará SC,Internacional,1,2
+2025,RB Bragantino,EC Vitória,4,0
+2025,Atlético-GO,Palmeiras,0,3
+2025,Botafogo,Grêmio,3,2
+2025,Flamengo,RB Bragantino,3,0
+2025,Palmeiras,Fluminense,0,0
+2025,EC Bahia,Vasco da Gama,1,0
+2025,São Paulo,Juventude,2,1
+2025,Sport Recife,EC Vitória,1,3
+2025,Cruzeiro,Corinthians,3,0
+2025,Mirassol,Ceará SC,3,0
+2025,Internacional,Santos,1,1
+2025,Fortaleza,Atlético-GO,1,0
+2025,Atlético-GO,Flamengo,1,1
+2025,Grêmio,Palmeiras,3,2
+2025,RB Bragantino,Fortaleza,0,1
+2025,Fluminense,São Paulo,6,0
+2025,Juventude,EC Bahia,1,1
+2025,Vasco da Gama,Internacional,5,1
+2025,Santos,Sport Recife,3,0
+2025,EC Vitória,Mirassol,2,0
+2025,Ceará SC,Cruzeiro,1,1
+2025,Corinthians,Botafogo,2,2
+2025,RB Bragantino,Atlético-GO,2,0
+2025,Palmeiras,EC Vitória,0,0
+2025,Vasco da Gama,Mirassol,0,2
+2025,Grêmio,Fluminense,1,2
+2025,Fortaleza,Corinthians,2,1
+2025,Juventude,Santos,0,3
+2025,EC Bahia,Sport Recife,2,0
+2025,São Paulo,Internacional,3,0
+2025,Flamengo,Ceará SC,1,0
+2025,Cruzeiro,Botafogo,2,2
+2025,Mirassol,Flamengo,3,3
+2025,Botafogo,Fortaleza,4,2
+2025,Atlético-GO,Vasco da Gama,5,0
+2025,Santos,Cruzeiro,3,0
+2025,Internacional,RB Bragantino,3,1
+2025,Fluminense,EC Bahia,2,0
+2025,Corinthians,Juventude,1,1
+2025,Ceará SC,Palmeiras,1,3
+2025,EC Vitória,São Paulo,1,0
+2025,Sport Recife,Grêmio,0,4
+2025,Remo,Chapecoense,1,1
+2025,Cuiabá-MT,Remo,1,3
+2025,Remo,Athletico-PR,2,1
+2025,Remo,Criciúma EC,0,1
+2025,Coritiba FC,Remo,0,0
+2025,Goiás,Remo,1,1
+2025,Chapecoense,Remo,1,1
+2025,Remo,Cuiabá-MT,0,0
+2025,Athletico-PR,Remo,2,1
+2025,Criciúma EC,Remo,1,1
+2025,Remo,Coritiba,1,0
