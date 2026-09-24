@@ -132,11 +132,13 @@ A partir dessa análise a fórmula do peso dos jogos foi alterado para decair de
 
 O número de simulações feitas em cada partida também foi alterada. Foi testado diversos valores até encontrar o número que equilibre aleatoriedade com poda de possibilidades muito pequenas. Quando se executava só 1 vez times com baixíssimas chances (como Austia ou Paraguai) chegavam até a final e conforme aumenta mais os times com maior chance predominam.
 
-# Dados de apostas
+# Dados de palpites
 
 Um segundo projeto está presente na pasta `modelo-por-palpite`, aonde ao invés de usar dados históricos de partidas é usado apenas os palpites feitos pelas pessoas nos jogos da própria copa do mundo. Para tanto a base de treino é outra, usando os palpites feitos em um bolão privado e comparado os resultados com os modelos tradicionais.
 
 Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média, moda e mediana dos palpites serão usadas como placar escolhido pelo modelo. Portanto para esse tipo de avaliação o que foi discutido antes de peso e Elo não se aplica. O modelo usado é muito mais simples por se basear em um conceito muito mais direto e com poucos detalhes.
+
+O arquivo `modelos.py` calcula a média, mediana e moda (nossos 3 modelos) para um determinado jogo. O arquivo `comparacao-boloes.py` compara as diferente base de dados e estuda os efeitos de aumentar o número de palpites no mesmo jogo e de aumentar o número de jogos apostados. O arquivo `unindo-boloes.py` verifica se unir os palpites de todos os bolões aumenta as chances de acertar aquele jogo em específico.
 
 ## Modelos Usados
 
@@ -144,13 +146,51 @@ Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes n
 - **Mediana**: retira a mediana dos gols de cada time, seguindo a mesma suposição de independência da média.
 - **Moda**: usa o palpite mais repetido para dada time.
 
-Esses valores são calculado tanto da lista de palpites do bolão com pouco mais de 30 pessoas participando. Para ter um comparativo do efeito do número de pessoas um segundo modelo será treinado usando uma amostra desse bolão, sorteando 5 palpites do bolão para cada jogo. Assim poderemos comparar a precisão de modelos com poucas e muitas pessoas palpitando.
-
 ## Métrcas dos modelos de palpite
 
 Para avaliar é medido tanto métricas de regressão (para saber o tamanho do erro do palpite) quanto de classificação (para saber se acertou o vencedor). As métricas são as mesmas dos modelos usando histórico.
 
-## Resultados dos modelos de palpite
+## Bases de dados
+
+Foram usados 3 bases de dados diferentes, vindas de 3 bolões diferentes, jogados por quantidade diferentes de pessoas e com regras diferentes. Por isso a comparação entre os mesmos precisa de parcimônia.
+
+Duas das bases de dados tem aproximadamente a mesma quantidade de palpites por jogo (entre 20 e 25), porém uma delas só possui palpites em jogos do grupo do Brasil (6 jogos) enquanto outra tem essa quantidade de palpites em todos os jogos do campeonato (mais de 100 jogos). Comparar essas duas bases nos permite ver o quanto aumentar a quantidade de jogos afeta as métricas.
+
+A terceira base de dados contém apenas 5 palpites por jogo e apenas nos jogos do Brasil. Para facilitar a implementação foi adicionado no mesmo arquivo excel os palpites nesses mesmos jogos de um dos bolões maiores, colocando lado a lado os 5 palpites do bolão pequeno com os 20 palpites do bolão grande para serem processados e comparados.
+
+## Resultados dos modelos por palpite
+
+- Moda e mediana nunca acertam o valor exato se não houver esse resultado entre os palpites da partida. A média tem mais liberdade de acertar o valor exato. Porém contrariando o esperado a moda teve resultado levemente maior que a média e mediana em acertar placares exatos (embora por 1 jogo a mais, uma diferença irrisória).
+- Não houve diferença entre usar média e mediana nem nas métricas de regressão nem nas de classificação.
+
+A seguir apresentamos os resultados econtrados ao comparar cenários específicos.
+
+### Variando a quantidade de partidas
+
+- Comparar MAE e RMSE com quantidade de partidas diferente se mostrou sem sentido. A cada partida temos apenas 1 resultado e ao acumular muitos resultados inevitavelmente geramos mais erro acumulado, aumentando as métricas.
+- Ficamos muito vulneráveis a flutuações com poucas partidas, afetando a capacidade de tirar boas métricas.
+
+### Variando a quantidade de palpites por jogo
+
+- MAE e RMSE caem consideravelmente ao aumentar o número de palpites por jogo (enquanto eles aumentam ao aumentar o nº de jogos).
+  - isso significa que aumentar o nº de palpites aumenta nossa precisão, porém ao tentarmos muitas vezes inevitavelmente erramos mais e a métrica sobe.
+- Com mais palpites a chance de acertar o placar exato também sobe.
+- F1-Score e acurácia não aumentaram com mais palpites (chance de acertar o vencedor é a mesma com poucos ou muitos palpites, só aumenta a chance de acertar o placar)
+
+### Comparando resultados com modelos por histórico
+
+O melhor dos modelos tradicionais, usando o histórico das seleções (com pesos, sem Monte Carlo e sem ranking Elo) foi muito mais preciso em acertar placares exatos (mais que o dobro de placares exatos) e também foi melhor em acertar categorias minoritárias (empate). Por outro lado o modelo por palpites teve um F1-Score e acurácia muito maiores, indicando que esse método é melhor para acertar o vencedor, porém pior para acertar o placar exato.
+
+- Histórico: Acertar placar exato e encontrar categorias minoritárias (empate)
+- Palpite: Acertar categoria (F1-Score e acurácia)
+
+### Melhor modelo
+
+O modelo que mostrou o melhor 
+
+### Curiosidade
+
+Quando temos a mesma quantidade de palpites por jogo e variamos a quantidade de jogos vimos algumas características básicas da probabilidade agindo de forma muito clara. Com poucos jogos podemos ter uma acurácia maior por puro acaso, pois cada partida gera 1 dado de análise e a chance de por puro acaso acertar e gerar uma estatística maior é consideravelmente maior que se repetirmos isso diversas vezes. A acurácia e o F1-score alcançaram 100% de acerto em quem venceria ou empataria para a métrica de moda. Acertar o vencedor nos mais de 100 jogos da base completa seria impensável.
 
 # Extra, Campeonato Brasileiro 2026
 
