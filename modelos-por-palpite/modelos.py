@@ -1,5 +1,6 @@
 import numpy as np
 from scipy import stats
+from collections import Counter
 
 def calc_score(time1, time2, is_df_prm=True):
   time1 = remove_nan_df(time1) if is_df_prm else remove_nan_list(time1)
@@ -11,10 +12,18 @@ def calc_score(time1, time2, is_df_prm=True):
   mediana_val2 = np.median(time2)
   moda_val1 = stats.mode(time1).mode
   moda_val2 = stats.mode(time2).mode
+
+  resp1 = np.random.choice(time1, size=50_000, p=len(time1)*[1/len(time1)])
+  mc_val1 = Counter(resp1).most_common(1)[0][0]
+  resp2 = np.random.choice(time2, size=50_000, p=len(time2)*[1/len(time2)])
+  mc_val2 = Counter(resp2).most_common(1)[0][0]
+
+
   return {
     'media': [media_val1, media_val2], 
     'mediana': [mediana_val1, mediana_val2], 
-    'moda': [moda_val1, moda_val2], 
+    'moda': [moda_val1, moda_val2],
+    'monte-carlo': [mc_val1, mc_val2],
     'num_palpites': len(time1)
   }
 

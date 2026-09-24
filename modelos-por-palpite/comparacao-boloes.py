@@ -11,12 +11,15 @@ for sheet_name, df in bolao2.items():
   previsoes_bolao1.append(result)
   real_scores.append((df.iloc[0, 0], df.iloc[0, 1]))
 
-print('------------ MEDIA')
+print('------------ BOLAO COM APENAS O GRUPO DO BRASIL')
+print(' MEDIA')
 analise(real_scores, [prev['media'] for prev in previsoes_bolao1])
-print('------------ MEDIANA')
+print('MEDIANA')
 analise(real_scores, [prev['mediana'] for prev in previsoes_bolao1])
-print('------------ MODA')
+print('MODA')
 analise(real_scores, [prev['moda'] for prev in previsoes_bolao1])
+print('MONTE CARLO')
+analise(real_scores, [prev['monte-carlo'] for prev in previsoes_bolao1])
 
 #######################
 
@@ -30,12 +33,15 @@ for sheet_name, df in bolao2.items():
     previsoes_bolao1.append(result)
     real_scores.append((df.iloc[0, 2*col_idx], df.iloc[0, 2*col_idx+1]))
 
-print('------------ MEDIA')
+print('\n\n------------ BOLAO COM TODOS OS JOGOS')
+print('MEDIA')
 analise(real_scores, [prev['media'] for prev in previsoes_bolao1])
-print('------------ MEDIANA')
+print('MEDIANA')
 analise(real_scores, [prev['mediana'] for prev in previsoes_bolao1])
-print('------------ MODA')
+print('MODA')
 analise(real_scores, [prev['moda'] for prev in previsoes_bolao1])
+print('MONTE CARLO')
+analise(real_scores, [prev['monte-carlo'] for prev in previsoes_bolao1])
 
 #######################
 
@@ -52,15 +58,22 @@ for col_idx in range(bolao3.shape[1]//4):
   prev_bolao_gran.append(result_gran)
   real_scores.append((bolao3.iloc[0, 4*col_idx], bolao3.iloc[0, 4*col_idx+1]))
 
-print('------------ MEDIA DO GRUPO PEQUENO')
+print('\n\n------------ BOLAO COM POUCOS PALPITES')
+print('MEDIA DO GRUPO PEQUENO')
 analise(real_scores, [prev['media'] for prev in prev_bolao_peq])
-print('------------ MEDIANA DO GRUPO PEQUENO')
+print('MEDIANA DO GRUPO PEQUENO')
 analise(real_scores, [prev['mediana'] for prev in prev_bolao_peq])
-print('------------ MODA DO GRUPO PEQUENO')
+print('MODA DO GRUPO PEQUENO')
 analise(real_scores, [prev['moda'] for prev in prev_bolao_peq])
-print('------------ MEDIA DO GRUPO GRANDE')
+print('MONTE CARLO DO GRUPO PEQUENO')
+analise(real_scores, [prev['monte-carlo'] for prev in prev_bolao_peq])
+
+print('\n\n------------ BOLAO COM MUITOS PALPITES')
+print('MEDIA DO GRUPO GRANDE')
 analise(real_scores, [prev['media'] for prev in prev_bolao_gran])
-print('------------ MEDIANA DO GRUPO GRANDE')
+print('MEDIANA DO GRUPO GRANDE')
 analise(real_scores, [prev['mediana'] for prev in prev_bolao_gran])
-print('------------ MODA DO GRUPO GRANDE')
+print('MODA DO GRUPO GRANDE')
 analise(real_scores, [prev['moda'] for prev in prev_bolao_gran])
+print('MONTE CARLO DO GRUPO GRANDE')
+analise(real_scores, [prev['monte-carlo'] for prev in prev_bolao_gran])

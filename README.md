@@ -138,13 +138,16 @@ Um segundo projeto está presente na pasta `modelo-por-palpite`, aonde ao invés
 
 Aqui não é mais usado a distribuição Dixon-Cole, mas sim a lei dos grandes números. A média, moda e mediana dos palpites serão usadas como placar escolhido pelo modelo. Portanto para esse tipo de avaliação o que foi discutido antes de peso e Elo não se aplica. O modelo usado é muito mais simples por se basear em um conceito muito mais direto e com poucos detalhes.
 
-O arquivo `modelos.py` calcula a média, mediana e moda (nossos 3 modelos) para um determinado jogo. O arquivo `comparacao-boloes.py` compara as diferente base de dados e estuda os efeitos de aumentar o número de palpites no mesmo jogo e de aumentar o número de jogos apostados. O arquivo `unindo-boloes.py` verifica se unir os palpites de todos os bolões aumenta as chances de acertar aquele jogo em específico.
+O arquivo `modelos.py` calcula a média, mediana e moda (nossos 3 modelos) para um determinado jogo. Os arquivos main, que iniciam a execução, são `comparacao-boloes.py` e `unindo-boloes.py`. Cada um faz uma parte diferente da análise.
+
+O arquivo `comparacao-boloes.py` compara as diferente base de dados e estuda os efeitos de aumentar o número de palpites no mesmo jogo e de aumentar o número de jogos apostados. O arquivo `unindo-boloes.py` verifica se unir os palpites de todos os bolões aumenta as chances de acertar aquele jogo em específico.
 
 ## Modelos Usados
 
 - **Média**: retira a média dos gols para cada time independentemente em cada partida. Portanto no jogo AxB os palpites de gols feitos por A não interferem no cálculo da média de gols palpitados para o time B. A média é arredondada para cima a partir de $\ge 0.5$.
 - **Mediana**: retira a mediana dos gols de cada time, seguindo a mesma suposição de independência da média.
 - **Moda**: usa o palpite mais repetido para dada time.
+- **Monte Carlo**: escolhe aleatoriamente um dos palpites do jogo 50 mil vezes e fica com o mais selecionado.
 
 ## Métrcas dos modelos de palpite
 
@@ -162,6 +165,7 @@ A terceira base de dados contém apenas 5 palpites por jogo e apenas nos jogos d
 
 - Moda e mediana nunca acertam o valor exato se não houver esse resultado entre os palpites da partida. A média tem mais liberdade de acertar o valor exato. Porém contrariando o esperado a moda teve resultado levemente maior que a média e mediana em acertar placares exatos (embora por 1 jogo a mais, uma diferença irrisória).
 - Não houve diferença entre usar média e mediana nem nas métricas de regressão nem nas de classificação.
+- Monte Carlo deu resultados levemente piores que a média e a mediana.
 
 A seguir apresentamos os resultados econtrados ao comparar cenários específicos.
 
@@ -183,10 +187,6 @@ O melhor dos modelos tradicionais, usando o histórico das seleções (com pesos
 
 - Histórico: Acertar placar exato e encontrar categorias minoritárias (empate)
 - Palpite: Acertar categoria (F1-Score e acurácia)
-
-### Melhor modelo
-
-O modelo que mostrou o melhor 
 
 ### Curiosidade
 
