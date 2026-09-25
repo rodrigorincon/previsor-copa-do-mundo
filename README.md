@@ -33,7 +33,7 @@ Os dados de treino são todo o histórico de jogos até antes da copa do mundo d
 
 Para facilitar a legibilidade do código e permitir o reuso dentre os diferentes modelos, sua lógica foi dividida em alguns arquivos. Cada arquivo na pasta raiz é responsável por uma parte específica do projeto. `Load_history` carrega os dados de teste e faz o processamento inicial dos mesmos, `world_cup_groups` define os times e grupos, `metrics` calcula as métricas para cada modelo, etc.
 
-> Comece pelo arquivo `run.py` que é onde o sistema começa.
+> Comece pelo arquivo `run.py` que é onde o sistema é executado.
 
 ### Métricas
 
@@ -87,11 +87,13 @@ Para quem nunca usou a biblioteca ou fez previsões esportivas, a pasta `exemplo
 ## Fase de grupos
 
 - **MAE, RMSE e Pontuação de precisão** quase não mudaram entre os modelos treinados com o histórico. Todos erravam quantos gols cada time faria mais ou menos na mesma quantidade.
-- **F1-Score e Acurácia** pouco mudaram ao variar K. Porém ao desligar os pesos tivemos uma melhora tímida e ao desligar o Elo as métricas subiram um pouco mais.
-  - O pricipal motivo dos valores baixos é a dificuldade do modelo em prever empates, sendo a categoria com menor precisão e por uma larga vantagem. Mais especificamente o campo recall que fica próximo de 0 na maioria dos modelos. Isso ocorre porque o modelo quase nunca define um empate.
+- **F1-Score e Acurácia** pouco mudaram ao variar K. Porém ao desligar os pesos tivemos uma melhora tímida e ao desligar o Elo as métricas subiram ainda mais.
+  - O pricipal motivo dos valores baixos é a dificuldade do modelo em prever empates, sendo a categoria com menor precisão e por uma larga vantagem. Mais especificamente o campo recall que fica próximo de 0 na maioria dos modelos. Isso ocorre porque o modelo quase nunca define um empate por se tratar de uma categoria mais rara.
 - **Placares exatos**: cai conforme aumenta K e alcança seus maiores valores ao desligar o Elo
 
 Com isso foi visto que dentre os modelos de DixonColes **o melhor modelo encontrado foi o com pesos nos dados históricos e sem ranking Elo**. Usar o método de **Monte Carlo não alterou significativamente as métricas**. O MAE, RMSE e pontuação de precisão tiveram mudanças mínimas enquanto os demais em nada mudaram. Também foi visto que Monte Carlo escolhia o resultado mais provável em certa de 99% das partidas. No modelo com melhor resultado (com peso e sem ranking Elo) a simulação de Monte Carlo deu exatamente 100% de mesmos resultados que o método tradicional. Portanto seguimos com a opção sem ela por ser mais rápida e ter mesmo poder preditivo.
+
+> O melhor modelo conseguiu uma precisão em acertar o vencedor ou empate de 62% com F1-Score pouco maior (64%) e acerta o placar exato em 18% dos jogos.
 
 ## Fase eliminatória
 
@@ -105,16 +107,19 @@ Seguindo as maiores probabilidades de cada grupo e eliminando os já selecionado
 - 2º lugar: Brasil (10,7%)
 - 3º lugar: Argentina (57,6%)
 - 4º lugar: França (52%)
+- Melhor colocado dentre os demais: Inglaterra
+
+> Com exceção do Brasil o sistema preveu com sucesso as melhores seleções, colocando as 4 melhores seleções entre as 5 com melhores resultados. A campeã Espanha foi a melhor nas simulações tanto como camepeã como a que mais chegou à final. A vice-campeã Argentina foi a 3ª melhor nas simulações (tanto em vencer o cameponato como em chegar à final). As terceira e quarta colocadas (Inglaterra e França) também foram as 4ª e 5ª que mais chegaram à final, que mais ganharam a simulação e as que mais chegaram até as semi-final.
 
 |País      | Campeão     | Vice | Terceiro ou Quarto|
 |:--       | :--         | :--  | :--               |
 |Espanha   | 4229 (42,3%)|3763  | 1230 |
 |Brasil    | 4124 (41,2%)|2263  | 1917 |
 |Argentina | 1016 (10,1%)|1606  | 5643 |
-|Inglaterra| 315 (3,1%)  |725   | 963 |
-|França    | 296 (3%)    |1199  | 5264 |
-|Portugal  | 11 (0,11%)  |114   | 983 |
-|Holanda   | 5 (<0,1%)   |145   | 1929 |
+|Inglaterra| 315 (3,1%)  |725   | 1643 |
+|França    | 296 (3%)    |1199  | 4864 |
+|Portugal  | 11 (0,11%)  |114   | 903 |
+|Holanda   | 5 (<0,1%)   |145   | 1429 |
 |Alemanha  | 2 (<0,1%)   |72    |953  |
 |Belgica   | 1 (<0,1%)   |46    |324  |
 |Colômbia  | 1 (<0,1%)   |59    |603  |
@@ -163,7 +168,7 @@ A terceira base de dados contém apenas 5 palpites por jogo e apenas nos jogos d
 
 ## Resultados dos modelos por palpite
 
-- Moda e mediana nunca acertam o valor exato se não houver esse resultado entre os palpites da partida. A média tem mais liberdade de acertar o valor exato. Porém contrariando o esperado a moda teve resultado levemente maior que a média e mediana em acertar placares exatos (embora por 1 jogo a mais, uma diferença irrisória).
+- Moda e mediana nunca acertam o valor exato se não houver esse resultado entre os palpites da partida. A média tem mais liberdade de acertar o valor exato. Porém contrariando o esperado a **moda teve resultado levemente maior** que a média e mediana em acertar placares exatos (embora por 1 jogo a mais, uma diferença irrisória).
 - Não houve diferença entre usar média e mediana nem nas métricas de regressão nem nas de classificação.
 - Monte Carlo deu resultados levemente piores que a média e a mediana.
 
@@ -181,6 +186,10 @@ A seguir apresentamos os resultados econtrados ao comparar cenários específico
 - Com mais palpites a chance de acertar o placar exato também sobe.
 - F1-Score e acurácia não aumentaram com mais palpites (chance de acertar o vencedor é a mesma com poucos ou muitos palpites, só aumenta a chance de acertar o placar)
 
+### Considerações finais
+
+> Melhor modelo é a moda e conseguir mais palpites aumenta suas métricas de regressão. As métricas de categoria estabilizam com uma baixa quantidade de palpites. A moda acerta o vencedor ou empate em 65% do jogos e tem F1-Score de 59% e acerta o placar exato em 13,5% do jogos.
+
 ### Comparando resultados com modelos por histórico
 
 O melhor dos modelos tradicionais, usando o histórico das seleções (com pesos, sem Monte Carlo e sem ranking Elo) foi muito mais preciso em acertar placares exatos (mais que o dobro de placares exatos) e também foi melhor em acertar categorias minoritárias (empate). Por outro lado o modelo por palpites teve um F1-Score e acurácia muito maiores, indicando que esse método é melhor para acertar o vencedor, porém pior para acertar o placar exato.
@@ -194,6 +203,6 @@ Quando temos a mesma quantidade de palpites por jogo e variamos a quantidade de 
 
 # Extra, Campeonato Brasileiro 2026
 
-Os mesmos modelos foram reaproveitados para testar seu funcionamento para o campeonato brasileiro (especificamente a série A). ALg uns parâmetros nos pesos foram alterados buscando maior assertividade, além das mudanças nos dados exigir algumas mudanças pontuais no código. Os arquivos que testam para o campeonato brasileiro estão na pasta `brasileirao`.
+Os mesmos modelos foram reaproveitados para testar seu funcionamento para o campeonato brasileiro (especificamente a série A). Alguns parâmetros nos pesos foram alterados buscando maior assertividade, além das mudanças nos dados exigir algumas mudanças pontuais no código. Os arquivos que testam para o campeonato brasileiro estão na pasta `brasileirao`.
 
-O teste com o histórico dos últimos 10 anos de campeonato encontrou que o melhor modelo é o **com peso, sem Monte Carlo e sem Elo**.
+O treino com o histórico dos últimos 10 anos de campeonato e teste com os jogos que já ocorreram no ano atual (2026) encontrou que o melhor modelo é o **com peso, sem Monte Carlo e sem Elo**, acertando o vencedor ou empate em 45% dos jogos, F1-Score de 39% e acertando o placar exato em 12% dos jogos.
